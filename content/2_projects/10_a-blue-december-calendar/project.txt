@@ -1,0 +1,85 @@
+Title: A Blue December Calendar
+
+----
+
+Matter: [{"attrs":[],"columns":[{"blocks":[{"content":{"media":["file://Dqb2QvK3ZEb3SOX4","file://lpV7CEmxOHtTF95v","file://1jwRxYLBAkPDzMV8"]},"id":"a09cb08b-222c-478d-abe6-2a1009069636","isHidden":false,"type":"slider"}],"id":"3138abc2-5b53-4836-bcdf-660506c883ae","width":"1/1"},{"blocks":[{"content":{"text":"<p>Trouble December Calendar</p><p>Following the release of their acclaimed new album \"Longing Fever\" under <a href=\"https://www.mouthwateringrecords.com\">Mouthwatering Records</a>, <a href=\"https://www.evelinntrouble.com\">Evelinn Trouble</a> made a significant return to the beloved annual event, A Blue December Calendar. This unique musical event, initiated in 2018, celebrates the festive season by unveiling a new one-minute track each day from December 1st to Christmas Eve. The tracks feature a mix of well-known artists and fresh, undiscovered talent, creating a diverse and engaging musical journey throughout December.</p><p>Produced in collaboration with <a href=\"https://www.instagram.com/blaublaurecords\">BlauBlau Records</a>, the calendar emphasizes Swiss musical talent, many of whom are promoted by Swiss Music Export. This includes notable artists such as Melissa Kassab, Camilla Sparksss, Dino Brandão + Mel, Domi Chansorn, Nadja Zela, Erika Stucky, Odd Beholder, and Crimer, who performed a duet with Evelinn Trouble herself.</p><p>Building on the success of previous years, the <a href=\"https://2021.trouble.christmas\">2021 edition of Trouble December Calendar</a> featured 31 unique 3D satellite models created by the talented artist André Rothfuchs. Each day from December 1st to 31st, a new satellite model was revealed on our dedicated website. The integration of Three.js allowed users to interact with and explore these models in a dynamic, immersive environment.</p>"},"id":"209c2712-7f92-4968-b589-a463bca206fe","isHidden":false,"type":"text"}],"id":"737dbdaa-f3c9-4ff5-97f9-336287720858","width":"2/3"},{"blocks":[],"id":"24b26034-7f5d-43c3-b03b-06e01a9393eb","width":"1/3"}],"id":"2824e241-ee5f-47ab-9622-1e72310e88fc"},{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://gvyMLP0foBEbxvYm"],"src":"","alt":"","caption":"Feeling lonely as a musician during the pandemic.","link":"","ratio":"","crop":"false"},"id":"9ffcb987-2933-4959-a9f8-8e67499b7ec8","isHidden":false,"type":"image"}],"id":"a668d439-05da-4ad3-9b8f-d8671c0e2eb1","width":"1/4"},{"blocks":[{"content":{"location":"kirby","image":["file://bUv6YZjHEoSuogFz"],"src":"","alt":"","caption":"The 3D satellite models were not just static images but fully interactive elements. Users could rotate, zoom, and play with each satellite, uncovering intricate details and unique designs.","link":"","ratio":"","crop":"false"},"id":"1d21c1bc-00f0-4098-b1e6-bc3c0d931b56","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file://NQbF1bNSAavQECHb"],"src":"","alt":"","caption":"Kirby CMS in the Back","link":"","ratio":"","crop":"false"},"id":"1fee0221-bb0d-43bd-9d0c-35c5664334e5","isHidden":false,"type":"image"}],"id":"f43efcce-69da-4aa4-b54f-ee6c27dc2c82","width":"1/4"},{"blocks":[{"content":{"location":"kirby","image":["file://JoKLV9Jl6e44ng6h"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"0d804237-2a1b-40b2-bd39-d158a5776ef4","isHidden":false,"type":"image"}],"id":"5fa37c11-1a88-4814-bd66-223e59d759fb","width":"1/4"},{"blocks":[{"content":{"location":"kirby","image":["file://vO5QC2W6GJI2Afmd"],"src":"","alt":"","caption":"We have created 31 satellites for each day of December, discover them all <a href=\"https://2021.trouble.christmas\">here</a>.","link":"","ratio":"","crop":"false"},"id":"76313423-9354-474e-938a-e11c1e68ef14","isHidden":false,"type":"image"}],"id":"39082b8b-b7f2-40a2-87c2-536e18a67a11","width":"1/4"}],"id":"fd07d87b-2cdc-46f8-9e2d-c822865309a4"},{"attrs":[],"columns":[{"blocks":[],"id":"b575bf93-e496-4c00-9759-428668471e11","width":"1/2"},{"blocks":[{"content":{"location":"kirby","image":["file://vrahaCeJcGn71fjY"],"src":"","alt":"","caption":"Trouble December Calendar 2021 exemplifies the fusion of art, technology, and music. By introducing interactive 3D models and extending the calendar's duration, we created a richer, more engaging experience for our audience. This project highlights our commitment to innovation and creativity, setting a new standard for future editions of Trouble December Calendar.","link":"","ratio":"","crop":"false"},"id":"f508635c-806a-4c01-923f-1eee4638c1bd","isHidden":false,"type":"image"}],"id":"48df6e70-7780-4a3e-a0a9-22bc572c585a","width":"1/2"}],"id":"867cc2ad-7c10-4a6d-9652-d86c7610f527"}]
+
+----
+
+Published: 2024-06-18
+
+----
+
+Tags: Website
+
+----
+
+Cover: - file://1jwRxYLBAkPDzMV8
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: XV99sz8wpviGULgG

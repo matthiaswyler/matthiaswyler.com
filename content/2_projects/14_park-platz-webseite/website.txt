@@ -1,0 +1,81 @@
+Title: Park Platz Webseite
+
+----
+
+Matter: [{"attrs":{"class":"website","id":""},"columns":[{"blocks":[{"content":{"text":"<p>Webdevelopement, Webdesign and Hosting</p>"},"id":"dc881762-0c7f-4406-b697-30db9a9d94f8","isHidden":false,"type":"text"}],"id":"251bf1c5-40f3-43ec-a1fa-13d41629eadf","width":"1/4"},{"blocks":[{"content":{"text":"<p><a href=\"https://park-platz.org\">Park Platz</a></p>"},"id":"7a7c627e-09b6-4382-bf0d-6d4418070496","isHidden":false,"type":"text"}],"id":"bc1d98a0-2350-47f1-9d12-f123f90ff473","width":"3/4"}],"id":"96e4fa9e-13b8-49bd-b26b-855b8fb1ce50"}]
+
+----
+
+Published: 2024-06-24
+
+----
+
+Tags: Website
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: 0B3Y3MOIDSNBh0Id

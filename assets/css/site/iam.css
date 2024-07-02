@@ -1,0 +1,83 @@
+@font-face {
+	font-family: "IAM";
+	src: url("/assets/fonts/dharmagothic.woff2") format("woff2");
+}
+
+@keyframes border-pulsate {
+	0% {
+		border-color: rgba(0, 0, 0, 1);
+	}
+	49% {
+		border-color: rgba(0, 0, 0, 1);
+	}
+	50% {
+		border-color: rgba(0, 0, 0, 0);
+	}
+	100% {
+		border-color: rgba(0, 0, 0, 0);
+	}
+}
+
+.infoBox {
+	position: absolute;
+	bottom: 0;
+
+	padding-top: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+#image {
+	width: 100%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-position: center center;
+	background-size: auto;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0px;
+}
+
+#godText {
+	position: absolute;
+	font-family: "IAM";
+	font-size: 30vh;
+	animation: border-pulsate 1s infinite;
+	border-right: 2px solid;
+	line-height: 0.8;
+	white-space: nowrap;
+}
+
+#godForm {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	display: none;
+}
+
+#godTextInput {
+	width: 100%;
+	height: 100%;
+	top: 0px;
+}
+
+@media only screen and (max-width: 700px) {
+	#godForm {
+		display: block;
+	}
+
+	#godText {
+		font-size: 50vh;
+		padding-left: 35px;
+	}
+	#image {
+		background-size: contain;
+	}
+	.infoBox {
+		line-height: 1.2;
+		font-size: 15px;
+	}
+}

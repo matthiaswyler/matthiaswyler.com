@@ -1,0 +1,81 @@
+Title: A Blue December Calendar Webseite
+
+----
+
+Matter: [{"attrs":{"class":"website","id":""},"columns":[{"blocks":[{"content":{"text":"<p>Webdevelopement, Webdesign</p>"},"id":"d43a6be7-026a-4961-9565-ee8148b93bb8","isHidden":false,"type":"text"}],"id":"af7071b9-ea25-4e1f-bb62-ebb738d247fd","width":"1/4"},{"blocks":[{"content":{"text":"<p><a href=\"https://2021.trouble.christmas\">Trouble December Calendar</a></p>"},"id":"0e0b297e-7520-446b-97f6-4c3996a778eb","isHidden":false,"type":"text"}],"id":"7bba0de4-c9f0-44cb-a065-477c0d1b4f99","width":"3/4"}],"id":"ddb65a5f-eea3-40a1-a316-a8d19523e91c"}]
+
+----
+
+Published: 2024-06-24
+
+----
+
+Tags: Website
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: LOYySskU0GbicUrK

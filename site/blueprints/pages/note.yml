@@ -1,0 +1,41 @@
+title: Note
+num: date
+icon: note
+
+status:
+  draft:
+    label: Draft
+    text: The note is still in draft mode. It can only be seen by editors with panel access.
+  listed:
+    label: Published
+    text: The note is online and listed in the blog
+
+columns:
+  - width: 2/3
+    fields:
+      text:
+        type: textarea
+        size: large
+
+  - width: 1/3
+    sections:
+      meta:
+        type: fields
+        fields:
+          date:
+            type: date
+            time: true
+            default: now
+          cover:
+            type: files
+            max: 1
+            image:
+              cover: true
+            template: cover
+      gallery:
+        headline:
+          en: All Images
+          de: Alle Dateien
+        type: files
+        info: "{{ file.dimensions }}"
+        help: Click on image and setup ALT and caption, think about your website SEO.

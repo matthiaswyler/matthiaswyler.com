@@ -1,0 +1,11 @@
+type: pages
+headline:
+  de: Now
+  en: Now
+parent: kirby.page("now")
+info: "{{ page.intendedTemplate }}"
+layout: list
+templates:
+  - now
+empty: No pages yet
+image: false

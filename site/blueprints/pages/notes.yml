@@ -1,0 +1,17 @@
+title: Notes
+icon: notes
+
+columns:
+  - width: 1/2
+    sections:
+      drafts:
+        extends: sections/notes
+        headline: Drafts
+        status: draft
+        limit: 50
+  - width: 1/2
+    sections:
+      listed:
+        extends: sections/notes
+        headline: Published
+        status: listed

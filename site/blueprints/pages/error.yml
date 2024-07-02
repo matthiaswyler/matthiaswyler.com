@@ -1,0 +1,10 @@
+title: Error
+icon: bug
+
+preset: page
+pages: false
+files: false
+fields:
+  text:
+    label: Error message
+    type: text

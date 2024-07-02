@@ -1,0 +1,21 @@
+.video-container {
+	position: relative;
+	width: 100%;
+	padding-top: 56.25%; /* 16:9 aspect ratio */
+	overflow: hidden;
+	margin-bottom: var(--spacing-3);
+}
+
+.video-container video {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100%;
+	transform: translate(-50%, -50%);
+	object-fit: cover;
+}
+
+.video-container figcaption {
+	position: relative;
+	margin-top: var(--spacing-8);
+}

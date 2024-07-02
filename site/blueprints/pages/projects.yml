@@ -1,0 +1,66 @@
+title: Projects
+icon: folder
+
+create:
+  - project
+  - website
+
+tabs:
+  content:
+    icon: document
+    columns:
+      main:
+        sections:
+          tags:
+            type: fields
+            fields:
+              tags:
+                label:
+                  en: Tags
+                  de: Schlagwörter
+                  fr: Mots-clés
+                type: tags
+          projects:
+            headline:
+              en: Projects
+              de: Projekte
+              fr: Projets
+            type: pages
+            parent: site.find('projects')
+            template:
+              - project
+              - website
+            image:
+              cover: true
+              ratio: 1/1
+            layout: table
+            search: true
+            columns:
+              tags:
+                width: 1/4
+                value: "{{ page.tags }}"
+              files:
+                width: 1/8
+                value: "{{ page.images.count }}"
+              date:
+                value: "{{ page.published.toDate('d.m.Y') }}"
+                width: 1/8
+                align: right
+
+  media:
+    icon: images
+    fields:
+      gallery:
+        label:
+          en: Gallery
+          de: Galerie
+          fr: Galerie
+        type: files
+        multiple: true
+        layout: cards
+        info: "{{ file.dimensions }}"
+        help:
+          en: Click on image and setup ALT and caption, think about your website SEO.
+          de: Klicke auf das Bild und füge ALT und Bildunterschrift hinzu, denke an die SEO deiner Website.
+
+  seo: seo/page

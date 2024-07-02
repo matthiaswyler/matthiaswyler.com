@@ -1,0 +1,85 @@
+Title: Park Platz
+
+----
+
+Matter: [{"attrs":[],"columns":[{"blocks":[{"content":{"media":["file://vDDjbGLCPMenDgIz","file://3wvfHXGf9r0oFg78","file://6BTrU9K9P81hikhi","file://DsxEa7nt5lGrEqeQ","file://0JmXlXscoFVflB5E"]},"id":"aa79fd14-f6b7-4766-b97e-f345236acea1","isHidden":false,"type":"slider"}],"id":"69833672-75a7-4dcf-ac05-ddb3314572af","width":"1/1"},{"blocks":[{"content":{"text":"<p>Park Platz<br><br>Park Platz is a vibrant community space situated on an approximately 1400 square meter area next to the old Letten station. This unique site serves as a meeting point and open platform for a wide variety of projects. It is a small oasis between upper and lower Letten where creativity and dedication come together, inviting everyone to participate or simply enjoy the atmosphere.</p><p>The essence of Park Platz is its role as a community hub. It invites individuals from all walks of life to engage, collaborate, and contribute to the vibrant ecosystem. Whether participating in a project or enjoying the serene environment, everyone finds a place in this inclusive setting. Park Platz thrives on the active involvement of its community, making it a true reflection of collective effort and shared vision.</p><p>To enhance the identity of Park Platz, we designed a dedicated website and developed a custom typeface specifically for the project. The website serves as an informative and interactive platform, showcasing the diverse range of activities and projects hosted at Park Platz. The custom typeface adds a distinctive visual element to the branding, ensuring that all communications and promotional materials are unique and cohesive.</p>"},"id":"b261a188-a6b7-4f3a-a76b-eeffe6a795fa","isHidden":false,"type":"text"}],"id":"bb9817b3-39c9-4707-aa0e-3d07e9753eec","width":"2/3"},{"blocks":[],"id":"9028b4ac-1c35-40dc-96d2-88d53567c25e","width":"1/3"}],"id":"cfdd8546-b117-4039-8dbe-f98c38e9a185"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Park Platz stands as a testament to the power of community and collaboration. By offering a space where people can come together to share ideas, create, and engage in meaningful projects, it embodies the spirit of togetherness and collective effort.</p>"},"id":"d054e4b3-3b4f-44ba-b2fa-51cb6670127b","isHidden":false,"type":"text"}],"id":"e6cf64b4-8f66-4912-996e-24e6a9617f60","width":"1/4"},{"blocks":[{"content":{"location":"kirby","image":["file://iKkpKZthtIRbVAGV"],"src":"","alt":"","caption":"Creating space for what could be possible.","link":"","ratio":"","crop":"false"},"id":"9e220449-9216-458c-8c54-4ab0a87f20b7","isHidden":false,"type":"image"}],"id":"2e4c4df5-5479-4fa7-843f-3d86b975e882","width":"1/4"},{"blocks":[{"content":{"location":"kirby","image":["file://LNH6GpBoXYWHwDYx"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"692001f6-6235-471c-9e0f-82caa276d2cf","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file://7pxwN1jT2VneUACi"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"67a3307d-5949-4394-a47f-c227a92e1715","isHidden":false,"type":"image"}],"id":"5928c643-9c8a-4a57-80d0-bfa9bd8d8ebd","width":"1/4"},{"blocks":[{"content":{"location":"kirby","image":["file://ZfrBpAhJTw70HAJZ"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"b75f5560-2feb-403d-a681-1ff0804e94b9","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file://7gJWJ9bxaFPMR4S4"],"src":"","alt":"","caption":"The Park Platz typeface origin by <a href=\"https://www.rothfuchs.studio\">André Rothfuchs</a> and <a href=\"https://studio-fuser.ch\">Jan Reimann</a>, extended new Version here.","link":"","ratio":"","crop":"false"},"id":"6858efe4-5469-41c6-8f1a-4568b0eb9cff","isHidden":false,"type":"image"}],"id":"1c817efb-1b45-4723-a0b0-7e8efd324998","width":"1/4"}],"id":"3c85b9ad-0aea-4f6c-bcc0-b3e5d557183e"}]
+
+----
+
+Published: 2024-06-18
+
+----
+
+Tags: Identity
+
+----
+
+Cover: - file://vDDjbGLCPMenDgIz
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: WyWUbZ26fG4BrKpg

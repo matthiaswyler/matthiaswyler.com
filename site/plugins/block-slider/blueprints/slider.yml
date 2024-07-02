@@ -1,0 +1,9 @@
+name: Slider
+icon: images
+preview: slider
+
+fields:
+  media:
+    label: Files
+    query: page.files.sortBy('date', 'desc')
+    type: files

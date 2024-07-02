@@ -1,0 +1,51 @@
+#mc_embed_signup {
+  padding: 12px;
+}
+
+#mc_embed_signup .signup-grid {
+  display: grid;
+}
+
+#mc_embed_signup_scroll > div > label {
+  grid-column: 1/4;
+  padding-bottom: var(--spacing-2);
+}
+
+#mce-EMAIL {
+  grid-column: 1/3;
+  grid-row: 2/2;
+}
+
+#mc-embedded-subscribe {
+  width: 100%;
+  grid-column: 3/4;
+  grid-row: 2/2;
+}
+
+#mc_embed_signup div.mce_inline_error {
+  background-color: var(--color-highlight) !important;
+  color: inherit !important;
+}
+
+#mce-success-response {
+  font-weight: bold;
+}
+
+#mc_embed_signup .button {
+  margin-right: 4px;
+  padding: 4px 6px;
+  background-color: var(--color-highlight);
+  color: var(--color-gray-100);
+}
+
+#mc_embed_signup .button:hover {
+  background-color: transparent;
+}
+
+.formLabel {
+  padding-bottom: 5px;
+}
+
+tr td input.button {
+  margin-top: 10px;
+}

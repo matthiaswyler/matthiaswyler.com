@@ -1,0 +1,17 @@
+.text,
+.text p,
+p {
+	font-size: var(--text-base);
+	letter-spacing: 1px;
+	line-height: var(--leading-snug);
+
+	margin-bottom: var(--spacing-3);
+}
+
+figcaption {
+	font-size: var(--text-sm);
+	letter-spacing: 1px;
+	line-height: var(--leading-snug);
+
+	margin-bottom: var(--spacing-3);
+}

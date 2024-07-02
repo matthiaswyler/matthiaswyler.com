@@ -1,0 +1,7 @@
+.life .block.image {
+	filter: grayscale(1);
+	-webkit-filter: grayscale(100%);
+	position: relative;
+	overflow: hidden;
+	/* margin-bottom: var(--spacing-4); */
+}

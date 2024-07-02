@@ -1,0 +1,23 @@
+title: Manifesto
+icon: list-bullet
+
+tabs:
+  content:
+    label:
+      en: Content
+      de: Inhalt
+      fr: Contenu
+    icon: document
+    columns:
+      main:
+        width: 3/4
+        fields:
+          library:
+            label:
+              en: Library
+              de: Bibliothek
+              fr: Bibliothèque
+            type: files
+            layout: table
+
+  seo: seo/page

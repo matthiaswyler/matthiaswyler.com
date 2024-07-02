@@ -1,0 +1,105 @@
+Title: Manifesto Library
+
+----
+
+Library:
+
+- file://XUOMXwHbwc7lRdg3
+- file://cnxP6amI6qTvAMX4
+- file://wYGYViuLC1VVNoNu
+- file://Rnbo6fMNpuGz1GA8
+- file://v1mQ0MqkyDp7OFv7
+- file://rvoLHU4NRzFMpMtH
+- file://bCgMjRtlMHtM2x4J
+- file://8c0VszaTcFFUtgha
+- file://18vBpi795Ci6ki66
+- file://MyXGjHRhBMOqOZAW
+- file://Np1hE7YruBImIIgq
+- file://GTvQkWgU9hhKO7wp
+- file://YJ948srn7B93YgpX
+- file://8frIbMhNF9ckH3Qg
+- file://37xN0XsKbNyLju6c
+- file://ocGP0CJBYU9sroVI
+- file://3deADdheT0j1FTmM
+- file://YoOsfawzAnKuq0Jq
+- file://gHEFqvIQlNmydh09
+- file://1ClWTkREpoCYhQiz
+- file://vlnDZAUuEe42MPas
+- file://atytrTRJTCpaEsu3
+- file://RVZmYfch6Ymx8L2b
+- file://Dlxed3c9OQcqpJrv
+- file://yvZhaQwy8IwkSNjL
+- file://uG4nFb5JsktBcJ7b
+- file://hhDxiPoCB7h4jdBO
+- file://UMMvjJCLEpK5Nojd
+- file://rBQL5eAshfgZ5D28
+- file://PmNbcFeGdfyqYnO5
+- file://s4dzxzopt7X3t7tl
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: gkcDuXNlOvBFIkPH

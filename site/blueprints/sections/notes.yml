@@ -1,0 +1,11 @@
+type: pages
+headline:
+  de: Neuigkeiten
+  en: Notes
+parent: kirby.page("notes")
+info: "{{ page.date.toDate('d.m.Y') }}"
+template: note
+empty: No notes yet
+sortBy: date desc
+limit: 8
+status: listed

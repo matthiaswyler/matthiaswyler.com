@@ -1,0 +1,10 @@
+type: pages
+headline:
+  de: Infos
+  en: Infos
+parent: kirby.page("infos")
+info: "{{ page.date.toDate('d.m.Y') }}"
+template: info
+empty: No info notes yet
+sortBy: date desc
+image: false

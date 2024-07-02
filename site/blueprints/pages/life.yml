@@ -1,0 +1,48 @@
+title: Life
+icon: globe
+
+tabs:
+  content:
+    label:
+      en: Content
+      de: Inhalt
+      fr: Contenu
+    icon: document
+    columns:
+      main:
+        width: 3/4
+        fields:
+          matter:
+            label:
+              en: Content
+              de: Inhalt
+            type: layout
+            layouts:
+              - "1/1"
+              - "1/2, 1/2"
+              - "1/3, 1/3, 1/3"
+            fieldsets:
+              - text
+              - image
+              - slider
+              - gallery
+              - video
+              - line
+
+  media:
+    icon: images
+    sections:
+      images:
+        label: Images
+        type: files
+        multiple: true
+        layout: table
+        columns:
+          caption:
+            value: "{{ file.caption }}"
+          dimensions:
+            vslue: "{{ file.dimensions }}"
+          alt:
+            value: "{{ file.alt }}"
+
+  seo: seo/page

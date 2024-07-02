@@ -1,0 +1,68 @@
+title: Website
+icon: code
+
+status:
+  draft:
+    label:
+      en: Draft
+      de: Entwurf
+      fr: Brouillon
+    text:
+      en: The project is still in draft mode. It can only be viewed by editors with Panel access.
+      de: Das Projekt ist noch im Entwurf. Es kann nur von Redakteuren mit Panel-Zugriff eingesehen werden.
+      fr: Le projet est encore en mode brouillon. Il ne peut être consulté que par les éditeurs ayant accès au panneau.
+  listed:
+    label:
+      en: Published
+      de: Veröffentlicht
+      fr: Publié
+    text:
+      en: The project is online and listed on the homepage.
+      de: Das Projekt ist online und auf der Homepage aufgeführt.
+      fr: Le projet est en ligne et répertorié sur la page d'accueil.
+
+tabs:
+  content:
+    label:
+      en: Content
+      de: Inhalt
+      fr: Contenu
+    icon: document
+    columns:
+      main:
+        width: 3/4
+        fields:
+          matter:
+            label:
+              en: Content
+              de: Inhalt
+            type: layout
+            layouts:
+              - "1/4, 3/4"
+            fieldsets:
+              - text
+            settings:
+              fields:
+                class:
+                  type: text
+                  width: 1/2
+                id:
+                  type: text
+                  width: 1/2
+      sidebar:
+        width: 1/4
+        fields:
+          published:
+            label:
+              en: Published on
+              de: Veröffentlicht am
+            type: date
+            default: now
+          tags:
+            type: tags
+            accept: options
+            options: query
+            query:
+              fetch: site.find('projects').tags.split
+
+  seo: seo/page

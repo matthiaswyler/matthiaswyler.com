@@ -1,0 +1,112 @@
+Title: Matthias Wyler
+
+----
+
+Metatemplate: Studio Matthias Wyler – Visual practice
+
+----
+
+Metadescription: The object of the company is the planning and execution of visual design, art direction, typography and type design, the publication of graphic products as well as the acquisition, sale and distribution of licences and all related services.
+
+----
+
+Ogtemplate: 
+
+----
+
+Ogdescription: 
+
+----
+
+Ogsitename: 
+
+----
+
+Ogimage: - file://y8DtYGG0pVOcl3xf
+
+----
+
+Twittercardtype: summary_large_image
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Socialmediaaccounts:
+
+twitter: ""
+facebook: ""
+instagram: https://www.instagram.com/matthiaswyler
+youtube: ""
+linkedin: >
+  https://www.linkedin.com/in/matthias-david-wyler-743a12205/
+
+----
+
+Meta-description: Matthias David Wyler is an independent graphic designer based in Zurich, who aims to work in close collaboration with enthusiastic people, artists, publishers and institutions.   With a rigorous and typographic approach, his practice ranges from book design to visual identities, websites and other printed matter.   Since 2014, he co-foundend (link: https://studiosirup.ch text: Studio Sirup target:_blank) with André Rothfuchs. In 2017, he launched the publishing house Sugus together with him.  Please (email: mail@matthiaswyler.ch text: get in touch) for more information, new projects, commissions or collaborations. And please click anywhere to play the sound.
+
+----
+
+Meta-title-separator: 
+
+----
+
+Meta-website-owner: person
+
+----
+
+Meta-org-name: 
+
+----
+
+Meta-org-logo: 
+
+----
+
+Meta-person: - user://s4ekupSq
+
+----
+
+Og-site-name: 
+
+----
+
+Og-image: - file://y8DtYGG0pVOcl3xf
+
+----
+
+Robots-index: 
+
+----
+
+Robots-follow: 
+
+----
+
+Robots-archive: 
+
+----
+
+Robots-imageindex: 
+
+----
+
+Robots-snippet: 

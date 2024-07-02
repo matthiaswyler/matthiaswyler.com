@@ -1,0 +1,17 @@
+Title: Startseite
+
+----
+
+Text:
+
+Based in Zurich, I am an designer dedicated to collaborating with enthusiastic individuals, artists, publishers, and institutions.
+
+My practice is defined by a rigorous, typographic approach, encompassing book design, visual identities, websites, and other printed materials. In 2014, I co-founded Studio Sirup with André Rothfuchs, and together we launched the publishing house (link: https://sugus.press text:Sugus Press).
+
+Please (email:mail@matthiaswyler.com text:contact me) for more information, new projects, commissions, or collaborations.
+
+Also, click anywhere to play the sound.
+
+----
+
+Uuid: OXqt8lLfrLTli2Rf

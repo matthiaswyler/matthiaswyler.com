@@ -1,0 +1,81 @@
+Title: LAB Junges Theater Zürich Webseite
+
+----
+
+Matter: [{"attrs":{"class":"website","id":""},"columns":[{"blocks":[{"content":{"text":"<p>Webdevelopement, Webdesign and Hosting</p>"},"id":"7f4ca9eb-d50d-4c5c-9728-d6bad4bcfbe4","isHidden":false,"type":"text"}],"id":"eae441f8-1964-430c-a27c-b1246bd95501","width":"1/4"},{"blocks":[{"content":{"text":"<p><a href=\"https://labzuerich.ch/\">LAB Junges Theater Zürich</a></p>"},"id":"245d25f9-ed4d-494a-8894-d7d4da9d0e30","isHidden":false,"type":"text"}],"id":"1da43628-9f42-4e07-bc80-e3928c54c354","width":"3/4"}],"id":"4722e219-b3c2-442f-88f2-d73d456b8338"}]
+
+----
+
+Published: 2024-06-24
+
+----
+
+Tags: Website
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: HvxSuuaXEuqRArmY

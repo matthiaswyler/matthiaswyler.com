@@ -1,0 +1,81 @@
+Title: Binzschwach
+
+----
+
+Matter: [{"attrs":{"class":"website","id":""},"columns":[{"blocks":[{"content":{"text":"<p>Webdevelopement, Webdesign and Hosting</p>"},"id":"14eb0ce3-79f5-46be-9199-bbe9d84ff7e3","isHidden":false,"type":"text"}],"id":"cee613d0-ca0e-4c2c-99ea-998f70af371a","width":"1/4"},{"blocks":[{"content":{"text":"<p><a href=\"https://binzschwach.ch\">Binzschwach</a></p>"},"id":"fb8fc784-056e-427d-87ad-bb1f79b79125","isHidden":false,"type":"text"}],"id":"6b46e22e-e699-4510-abda-1e0d43d133b2","width":"3/4"}],"id":"4268ff71-73e9-4922-a908-abe9a3757e33"}]
+
+----
+
+Published: 2024-07-02
+
+----
+
+Tags: Website
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: 5CIS89oZIYyZpGiK

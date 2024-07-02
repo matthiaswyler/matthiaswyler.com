@@ -1,0 +1,52 @@
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+
+	z-index: 3000;
+
+	.logo {
+		position: relative;
+
+		width: var(--logo-size);
+		padding: var(--spacing-3);
+		padding-left: 30px;
+	}
+
+	.text {
+		margin-top: calc(var(--logo-size) / 4);
+	}
+
+	.info {
+		display: none;
+	}
+}
+
+@media (max-width: 45rem) {
+	header {
+		margin-bottom: 1rem !important;
+
+		.logo {
+			--span-sm: 1;
+			--logo-size: 5rem;
+			padding-left: var(--spacing-4);
+		}
+
+		.text {
+			display: none;
+		}
+
+		.info {
+			position: fixed;
+			display: block;
+			margin-top: calc(var(--logo-size) / 4);
+			right: var(--spacing-4);
+			cursor: pointer;
+		}
+
+		.info p {
+			margin-bottom: 0;
+		}
+	}
+}

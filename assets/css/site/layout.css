@@ -1,0 +1,66 @@
+main {
+	padding: 0 var(--spacing-3);
+}
+
+.home.columns {
+	height: 100vh;
+	overflow: hidden;
+}
+
+.home.columns > * {
+	--span-sm: 4;
+}
+
+.projects,
+.life {
+	max-height: 100vh;
+	overflow-y: auto;
+}
+
+.life {
+	padding: var(--spacing-3);
+	background-color: rgba(254, 255, 92, 0.9);
+}
+
+@supports (backdrop-filter: blur(10px)) {
+	.life {
+		background-color: var(--color-highlight);
+		backdrop-filter: blur(10px);
+	}
+}
+
+section.projects,
+section.life {
+	position: relative;
+	top: var(--spacing-24);
+}
+
+canvas {
+	display: block;
+	height: 100vh;
+	width: 100vw;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+
+	z-index: -1;
+}
+
+@media (max-width: 45rem) {
+	.life {
+		display: none;
+	}
+
+	.life.show {
+		display: block;
+		position: absolute;
+	}
+
+	.project.columns [style="--span:3"],
+	.project.columns [style="--span:9"] {
+		--span-sm: 2;
+	}
+}

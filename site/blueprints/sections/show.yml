@@ -1,0 +1,12 @@
+type: pages
+headline:
+  de: Schaukasten
+  en: Showcase
+parent: kirby.page("show")
+info: "{{ page.intendedTemplate }}"
+layout: list
+templates:
+  - slider
+empty: No slides yet
+image: false
+status: all

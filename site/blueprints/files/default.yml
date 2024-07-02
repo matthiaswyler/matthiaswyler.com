@@ -1,0 +1,49 @@
+title: File
+
+columns:
+  - width: 1/2
+    sections:
+      content:
+        type: fields
+        fields:
+          caption:
+            label:
+              en: Caption
+              de: Bildbeschriftung
+            type: writer
+  - width: 1/2
+    sections:
+      meta:
+        type: fields
+        fields:
+          alt:
+            label:
+              en: Alternative Text
+              de: Alternativer Text
+            type: text
+            help:
+              en: This is where descriptive text for the blind goes.
+              de: Hier platzieren Sie beschreibenden Text für blinde Personen.
+              fr: C'est ici que le texte descriptif pour les aveugles est placé.
+          photographer:
+            label:
+              en: Photographer
+              de: Fotograf:in
+              fr: Photographe
+            type: text
+            width: 2/3
+          license:
+            label:
+              en: License
+              de: Lizenz
+            type: select
+            width: 1/3
+            options:
+              - Unsplash
+              - CC BY 4.0
+              - CC BY-SA 4.0
+              - CC BY-NC 4.0
+              - CC BY-ND 4.0
+          link:
+            label: Link
+            type: url

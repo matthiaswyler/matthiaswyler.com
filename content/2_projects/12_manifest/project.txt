@@ -1,0 +1,85 @@
+Title: Manifest
+
+----
+
+Matter: [{"attrs":[],"columns":[{"blocks":[{"content":{"media":["file://r1s7klAnksiLMmy9"]},"id":"22efb736-e1bb-4903-bd4c-7448917d7c4e","isHidden":false,"type":"slider"}],"id":"a116af1e-5b8c-4e20-9db0-1530d7661117","width":"1/1"},{"blocks":[{"content":{"text":"<p>Manifest</p><p>The artist collective Köbi3000 (André Rothfuchs, Alex Sigrist and Matthias Wyler) presents an exhibition that delves into the concepts of 'mission', 'vision', and 'purpose'. Through a series of interactive installations, the exhibition invites visitors to explore these fundamental questions and their implications in various contexts.<br><br>The exhibition also highlights the process of creating manifestos and constitutions, drawing parallels to significant real-world events such as the ongoing constitution reform in Chile. Visitors gain insights into the complexities and challenges involved in drafting these foundational documents.</p><p>In the <a href=\"/@/page/gkcDuXNlOvBFIkPH\">Manifesto Library</a>, the exhibition offers a unique comparison of different constitutions from around the world. This section artistically transports these documents into the future, providing a visionary perspective on how constitutions can evolve. Visitors are encouraged to reflect on and contribute to this artistic reinterpretation.</p>"},"id":"fa262c25-0c87-422c-a46e-089a1c7abacd","isHidden":false,"type":"text"}],"id":"54fe57d9-2327-47a5-9483-1bd258ad87e5","width":"2/3"},{"blocks":[],"id":"218f1f48-46e2-4b6f-9ac8-bf5735a17e9f","width":"1/3"}],"id":"c6ae4404-5280-4ac5-acdd-55fcdd6dbe2b"},{"attrs":[],"columns":[{"blocks":[{"content":[],"id":"ef9df911-1f6a-4153-a1cd-4ab635177b88","isHidden":false,"type":"line"}],"id":"41a1dd6a-16a7-4509-8bde-bf3d92242847","width":"1/1"}],"id":"a1afc2a8-1632-4734-9ad7-cc96a6a8e10b"},{"attrs":[],"columns":[{"blocks":[],"id":"26196ae4-58a3-4d54-afbb-baba1d66ff03","width":"1/4"},{"blocks":[{"content":{"location":"kirby","image":["file://BPS68qiheutR1txt"],"src":"","alt":"","caption":"This metaphor highlights the fundamental role of a constitution in defining the structure and function of a state, much like a floor plan outlines the design and layout of a building.","link":"","ratio":"","crop":"false"},"id":"ee738725-0650-4349-9e67-7182654ec1a7","isHidden":false,"type":"image"}],"id":"fc3cfbd5-2da1-4458-aacb-cd17361ef0db","width":"1/4"},{"blocks":[{"content":{"text":"<p>Throughout the exhibition, we used the typeface <a href=\"https://www.redaction.us\" rel=\"noreferrer\">Redaction</a>, a bespoke font commissioned for <a href=\"https://www.kapharstudio.com\" rel=\"noreferrer\">Titus Kaphar</a> and <a href=\"https://www.dwaynebetts.com\" rel=\"noreferrer\">Reginald Dwayne Betts</a>' exhibition \"The Redaction\" at MoMA PS1. This typeface is part of a timely conversation at the intersection of history, law, and social justice. The fonts are available for free personal use, aligning with our commitment to accessibility and public engagement.</p>"},"id":"63b2b46c-1c0d-48bb-ad4b-ab2753b64c99","isHidden":false,"type":"text"}],"id":"4f89a2d5-29c1-4660-8d3d-7412d57b525d","width":"1/4"},{"blocks":[{"content":{"location":"kirby","image":["file://Ea8q3f9p98tbcxln"],"src":"","alt":"","caption":"Find the Cyberpunk's Manifesto in the <a href=\"/@/page/gkcDuXNlOvBFIkPH\">Manifesto Library</a>.","link":"","ratio":"","crop":"false"},"id":"e90b5e88-8ce4-49db-9907-a1b732738f7e","isHidden":false,"type":"image"}],"id":"6a75b036-eccc-482c-a5d4-28cd1a5e40ba","width":"1/4"}],"id":"6341dc90-ba52-4cd1-bd1b-d11b3247833e"},{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://GUNOV5sqUWIvlLVP"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"e4b0c99a-78b6-48ef-82d8-b0342b809764","isHidden":false,"type":"image"}],"id":"03134dc2-02c3-475b-92af-7d151f98e4d8","width":"1/3"},{"blocks":[{"content":{"location":"kirby","image":["file://QlPkgAG9dkLsxQiN"],"src":"","alt":"","caption":"Mapping experiments I","link":"","ratio":"","crop":"false"},"id":"ba386ab0-7e86-450a-9478-7a0b057ff1ed","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file://YWnFJP09gkg2xzQ2"],"src":"","alt":"","caption":"Mapping experiments II","link":"","ratio":"","crop":"false"},"id":"e978af13-a7e7-4ae6-824b-be2e529cfa2a","isHidden":false,"type":"image"}],"id":"1ce93da9-4f10-4492-9e0d-a8e4b5017840","width":"1/3"},{"blocks":[{"content":{"location":"kirby","image":["file://s56G9JnMN8S9aADB"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"dff5a180-fc53-4b33-a9fd-3ff2a8904f50","isHidden":false,"type":"image"}],"id":"6954d1a5-3bf5-425d-961a-3bd2c09cc1ac","width":"1/3"}],"id":"7eadfcfd-e719-4a7f-a8dd-bfe1c009051d"}]
+
+----
+
+Published: 2024-06-18
+
+----
+
+Tags: Exhibition, Self-initiated
+
+----
+
+Cover: - file://bakFEnRrzYi2MynC
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: lpqClBf5S0BdwsP1

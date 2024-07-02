@@ -1,0 +1,287 @@
+Title: Links
+
+----
+
+Text:
+
+This is a loose collection of links, some are useful, some fun, some inspirational. It serves as a resource for my students mainly and is updated irregularly. Hope you find it useful!
+
+**Coding**
+
+(link: https://github.com/EbookFoundation/free-programming-books  text: Free Programming Books)
+A huge collection of free programming books on github
+
+(link: https://www.freecodecamp.org/ text: Free Code Camp)
+Learn to code for free in a Camp
+
+(link: https://www.codecademy.com/ text: Codecademy)
+Learn to code interactively, also free
+
+(link: https://developer.mozilla.org/en-US/docs/Learn text: Mozilla Developer Network)
+A good start for complete Beginners
+
+(link: https://www.kevinpowell.co text: Kevin Powell | CSS is Awesome)
+Don't let you fool by the Bio-Image, Kevin is a great teacher
+
+(link: https://getkirby.com text: Kirby CMS)
+A file-based CMS that is easy to use and to learn
+
+(link: https://readings.design/PDF/Design-Interface.pdf text: Design Interface)
+A book about design and code by Mikaella Clements and Matej Latin
+
+
+**Foundries**
+
+(link: https://typefoundry.directory/ text: Directory of Typefoundries)
+This is very useful collection of many many typefoundries with some extra info about licensing 
+
+(link: https://type-foundries-archive.com/ text: Typefoundries Archive)
+Another and maybe the most complete collection of foundries worldwide
+
+(link: https://www.typotheque.com/ text: Typotheque)
+Based in the Netherlands, extreme ranges and always a good resource for reading
+
+(link: https://commercialtype.com/ text: Commercialtype)
+US american home to some of the most beautiful typefaces
+
+(link: https://www.205.tf/ text: 205TF)
+French foundry with a very nice range of designerns and designs
+
+(link: https://boldmonday.com/ text: Bold Monday)
+Solid Dutch type design
+
+(link: https://www.colophon-foundry.org/ text: Colophon)
+British custom and retail type design
+
+(link: https://schick-toikka.com/ text: Schick Toikka)
+German Finnish duo, go to place for super nice stuff
+
+(link: https://www.fatype.com/ text: Fatype)
+My favourite small boutique for fresh Swiss Estonian type design
+
+(link: https://www.typemates.com/ text: Typemates)
+German foundry working on retail and custom designs
+
+(link: https://www.grillitype.com/ text: Grilli Type)
+Twisted Swiss type design
+
+(link: https://abcdinamo.com/ text: Dinamo)
+Swiss type design and funk with the best webfonts testsite
+
+(link: https://www.29lt.com/ text: 29Letters)
+Spain based foundry with my favourite Arabic typefaces
+
+(link: https://klim.co.nz/ text: Klim Type)
+Beautiful type design from New Zealand
+
+(link: https://ohnotype.co text: Oh No Type)
+If you're looking for fun display type, this is the place, based in the US
+
+(link: https://coppersandbrasses.com text: Coppers and Brasses)
+Canada based foundry with nice and fun designs
+
+
+
+**Fontplatforms**
+
+(link: https://www.futurefonts.xyz/ text: Future Fonts)
+Collection of foundries with typefaces in the making
+
+(link: https://fontstand.com/ text: Fontstand)
+Find, try, rent or buy fonts by independent foundries 
+
+
+**Inspiration**
+
+(link: https://oa.letterformarchive.org/ text: Letterform Archive)
+THE letterform Archive, a true treasure
+
+(link: https://archives.design/ text: Archives Design)
+Collection of graphic design items that are available online
+
+(link: http://www.tm-research-archive.ch/ text: Typografische Monatsblätter Research Archive)
+TM from 1960-90
+
+(link: https://www.hoverstat.es/ text: Hoverstates)
+Archive of neat webdesign samples
+
+(link: https://typographica.org/ text: Typografica)
+Articles on typefaces, books etc.
+
+(link: https://fonts.ilovetypography.com/ text: I love Typography)
+Typography Blog plus typeface shop
+
+(link: https://fontsinuse.com/ text: Fonts In Use)
+Extensive collection of fonts in use : )
+
+(link: https://forgotten-shapes.com/ text: Forgotten Shapes)
+This is a mix of somewhat lost type shapes and a small shop
+
+
+**Typedesign / Typetech**
+
+(link: http://learn.scannerlicker.net/2014/04/16/bezier-curves-and-type-design-a-tutorial/ text: Bezier Curves)
+Technical explanation about the curves we draw 
+
+(link: https://articles.c-a-s-t.com/punctuation-1-the-linguistic-side-9ba8eb11fbf2 text: Punctuation)
+Linguistic background and more info about the small items in the set
+
+(link: https://v-fonts.com/ text: Variable Fonts)
+Nice site gathering info around this new fontformat
+
+(link: https://caniuse.com/ text: Can I use)
+What works where why, up-to-date browser support tables
+
+(link: https://pixelambacht.nl/chromacheck/ text: Chroma Check)
+Perfectly simple check for support of colorfonts tables in browsers
+
+(link: https://www.underware.nl/latin_plus/info/ text: Characterset Latin Plus)
+Underware's thourough research and definition and checking tool
+
+(link: https://www.setuptype.com/x/cod/ text: Context of Diacritics)
+Wonderful database to see what needs to be known about diacritics and their neighbours
+
+(link: https://www.typography.com/blog/text-for-proofing-fonts text: Compact Proofing)
+Article about the process of proofing and a very useful proofing text 
+
+(link: https://justanotherfoundry.com/generator text: Sample Text Generator)
+For all possible checking possibilities
+
+(link: https://decodeunicode.org/ text: Unicode made understandable)
+Fun way to understand and explore the wonderful world of Unicode
+
+(link: https://addons.mozilla.org/de/firefox/addon/zjm-whatfont/ text: What Font)
+Small addon for Firefox to check typefaces used on a website
+
+(link: http://typecooker.com/ text: Typecooker)
+Parameterbased receipes randomly produced to trigger (im)possible new typesketches
+
+(link: https://www.diacritics.club/family-steps text: Weight Distribution Models)
+If you wonder how your weights should be distributed on your weight axis
+
+(link: https://dinamodarkroom.com/gauntlet/ text: Type Test Site)
+Fontgauntlet by Dinamo lets you test your fonts (static and variable) on the web
+
+(link: https://ilovetypography.com/OpenType/opentype-features.html text: Opentype Features)
+A little older yet good explanation of what they can do and how they work (with illustrations! in color!)
+
+(link: https://opentypecookbook.com/ text: Opentype Cookbook)
+Brilliant resource by Tal Lemming if you're ready to get your hands dirty
+
+(link: https://docs.microsoft.com/en-us/typography/opentype/spec/featurelist text: Registered feature list)
+This is the official reference for opentype feature tags, very dry, very useful
+
+(link: https://typemedia.org/noordzij/ text: About Gerrit Noordzij)
+All resources collected in one place
+
+(link: https://namecheck.fontdata.com/ text: Check typeface names)
+Designing a typeface and wondering if the name is already taken, a good place to check
+
+
+
+**Identity**
+
+(link: https://brandingstyleguides.com/ text: Branding Styleguides)
+A vast and broad collection
+
+
+
+**Publishers**
+
+(link: http://booooooks.scrgb.co/ text: Overview of independent publishers)
+Not much else to add
+
+(link: https://www.uniteditions.com/ text: Unit Editions)
+Nice graphic design related books from the UK
+
+(link: https://www.lars-mueller-publishers.com/ text: Lars Müller Publishers)
+More books about architecture, graphic design and such, swiss based
+
+(link: https://www.niggli.ch/ text: Niggli)
+All the classics, swiss based
+
+(link: https://www.counter-print.co.uk/ text: Counter Print)
+Nice books, all kind of categories, UK
+
+(link: https://hyphenpress.co.uk/ text: Hyphenpress)
+Books on design, in the largest sense of the word, based in the UK
+
+
+
+**Magazines**
+
+(link: http://www.idea-mag.com/en/ text: Idea Magazine)
+Quarterly graphic design magazine from Tokyo
+
+(link: https://worksthatwork.com/ text: Works That Work)
+Essays about the impact of creative work in everyday life
+
+(link: http://www.eyemagazine.com/ text: Eye Magazine)
+Quarterly graphic design magazine from London
+
+(link: https://lapolice.ch/publications/ text: Footnotes Magazine)
+Periodical type design magazine by La Police
+
+
+
+**Read**
+
+(link: https://readings.design/ text: Readings Design)
+A collection of essays and articles about design
+
+(link: https://letterror.com/articles/bad-type.html text: Bad Type)
+Article on defining quality criteria for all type by Erik van Blokland
+
+(link: https://fontstand.com/news/knowledge/evaluating-the-quality-of-a-typeface/ text: Typeface Quality)
+Good article with some handy criteria of how to evaluate typefaces by Indra Kupferschmid
+
+(link: http://kupferschrift.de/cms/2012/03/on-classifications/ text: Critical View on Font Classification)
+The boring topic of type classification with a historical context seen in a critical light by Indra Kupferschmid
+
+(link: https://klim.co.nz/blog/signifier-design-information/ text: Design Process of Signifier)
+Indepth documentation about the design process by Kris Sowersby, check also his other articles
+
+
+
+**Listen**
+
+(link: http://www.typeradio.org/ text: Type Radio)
+"Type is speech on paper. Typeradio is speech on type." 
+
+(link: https://99percentinvisible.org/ text: 99% Invisible)
+About things we don't think about, design in the broadest sense
+
+
+
+
+**Watch**
+
+(link: https://vimeo.com/channels/1364477 text: Herb Lubalin Lecture series)
+Part of the Type@Cooper program
+
+(link: https://www.youtube.com/channel/UC3TabHJUsa2BkEkN_xSpMvQ text: ATypeI)
+Archived talks of AtypI conference
+
+(link: https://vimeo.com/showcase/letterform-lectures text: Letterform Lectures)
+Complementing series to the Type West type design program
+
+(link: https://vimeo.com/istype text: IS Type)
+Archived talks of IS Type conference
+
+(link: https://mnemosyne.esad-amiens.fr/ text: Esad Amiens)
+The school's archival material from past programmes
+
+(link: http://printingfilms.com/ text: Printing Films)
+Collection of vintage films that showcase the technologies and processes of printing
+
+
+**Manifesto**
+
+(link: https://conditionaldesign.org/manifesto/ text: Conditional Design Manifesto)
+A manifesto for artists and designers
+
+
+
+----
+
+Uuid: 89RSbiUgGUXeEGUX

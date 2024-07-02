@@ -1,0 +1,15 @@
+.block {
+	margin-bottom: var(--spacing-3);
+}
+
+.block.line {
+	margin-bottom: var(--spacing-24);
+}
+
+.life .block.line {
+	margin-bottom: var(--spacing-6);
+}
+
+.block.text p {
+	margin-bottom: var(--spacing-3);
+}

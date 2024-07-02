@@ -1,0 +1,14 @@
+{
+	"name": "wym/block-slider",
+	"description": "The ultimate Slider for Kirby",
+	"version": "1.0.0",
+	"type": "kirby-plugin",
+	"license": "MIT",
+	"homepage": "https://matthiaswyler.com",
+	"authors": [
+		{
+			"name": "Matthias Wyler",
+			"email": "mail@matthiaswyler.com"
+		}
+	]
+}

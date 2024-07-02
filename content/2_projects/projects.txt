@@ -1,0 +1,77 @@
+Title: Projekte
+
+----
+
+Tags: Animation, Book, Concept, Editorial, Exhibition, Hybrid, Identity, Magazine, Merchandise, Poster, Product, Self-initiated, Signage, Spatial, Text, Theory, Typography, Website
+
+----
+
+Gallery: 
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: XaBQ7jX0BT9EfQff
