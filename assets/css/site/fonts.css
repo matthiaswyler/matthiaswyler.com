@@ -1,9 +1,0 @@
-@font-face {
-	font-family: "Rational";
-	src: url("../../fonts/Rational-Light.woff") format("woff"),
-		url("../../fonts/Rational-Light.woff2") format("woff2"),
-		url("../../fonts/Rational-Light.otf") format("opentype");
-	font-style: normal;
-	font-weight: 200;
-	font-display: swap;
-}
