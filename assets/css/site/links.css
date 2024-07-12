@@ -11,3 +11,8 @@ a,
 a:hover {
 	background: var(--color-highlight);
 }
+
+/* a[href^="http"]:not(header a, .projects a)::after {
+	content: url("/assets/files/external-link.svg");
+	margin-left: 0.25em;
+} */

@@ -1,5 +1,7 @@
 #paper {
 	mix-blend-mode: exclusion;
+
+	z-index: -1;
 }
 
 .control-wrapper {

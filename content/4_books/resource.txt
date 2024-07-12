@@ -6,136 +6,52 @@ Text:
 
 These are books I enjoyed reading, own or use as reference, somewhat sorted after topic. Collected as a resource for my students, mainly. Enjoy!
 
-**TYPEDESIGN:**
-**Theory of Type Design**
-by Gerard Unger
+**Coding:**
 
-**Gerard Unger, life in letters**
-by Christopher Burke
+The nature of code
+By Daniel Shiffman
 
-**Roger Excoffon et la fonderie Olive**
-by Sandra Chamaret, Julien Gineste and Sébastien Morlighem
-
-**Herb Lubalin: American Graphic Designer 1918 - 1981**
-by Adrian Shaughnessy
-
-**Bram de Does, typographer and type designer**
-by Mathieu Lommen
-
-**Paul Renner: The Art of Typography**
-by Christopher Burke
-
-**Adrian Frutiger – Typefaces: The Complete Works**
-by Heidrun Osterer and Philipp Stamm
-
-**Letterletter: An Inconsistent Collection of Tentative Theories**
-That Do Not Claim Any Other Authority Than That of Common Sense
-by Gerrit Noordzij
-
-**The Stroke: Theory of Writing**
-by Gerrit Noordzij
-
-**Size-specific adjustments to type designs**
-by Tim Ahrends
-
-**Counterpunch: making type in the sixteenth century,
-designing typefaces now**
-by Fred Smeijers
-
-**TYPOGRAPHY:**
-**Modern typography: an essay in critical history**
-by Robin Kinross
-
-**Unjustified texts: perspectives on typography**
-by Robin Kinross
-
-**Das Detail in der Typografie**
-by Jost Hochuli
-
-**Typography**
-by Emil Ruder
-
-**Idea Magazine - Ruder typography Ruder philosophy**
-by Helmut Schmid
-
-**Grid systems in Graphic Design**
-by Josef Müller-Brokmann
-
-**Designing Programmes: Programme as Typeface, Typography, Picture, Method**
-by Karl Gerstner
-
-**Max Bill: Typography, Advertising, Book**
-by Gerd Fleischmann, Hans R Bosshard and Christoph Bignens 
-
-**Design, Typography etc.: A Handbook**
-by Damien and Claire Gautier
-
-**Detailtypografie (German)**
-by Ralf de Jong and Friedrich Forssman	
-
-**Lesetypographie (German)**
-by Friedrich Forssman and Hans Peter Willberg	
-
-**Emigre No. 70 the Look Back Issue**
-Selections from Emigre Magazine 1-69. Celebrating 25 Years of Graphic Design
-by Rudy VanderLans	
-
-**30 Years of Swiss Typographic Discourse in the Typografische Monatsblätter**
-TM RSI SGM 1960–90
-by Louise Paradis with Roland Früh and François Rappo
-
-**Letraset: The DIY Typography Revolution**
-by Tony Brook and Adrian Shaughnessy
-
-**IDENTITY:**
-**Corporate Diversity
-Swiss Graphic Design and Advertising by Geigy 1940–1970**
-by Andres Janser, Barbara Junod
-
-**Anton Stankowski - Free and Applied: 1925–1995**
-by Stephan von Wiese
-
-**Lufthansa und Graphic Design**
-by Jens Müller and Karen Weiland
-
-**Manuals 1: Design + Identity Guidelines**
-by Adrian Shaughnessy and Tony Brook
-
-**Manuals 2: Design + Identity Guidelines**
-by Adrian Shaughnessy and Tony Brook
-
-**TD 63–73**
-by Tony Brook and Adrian Shaughnessy
-
-**DESIGN:**
-**Designing Design**
-by Kenya Hara
-
-**Super Normal**
-by Naoto Fukasawa and Jasper Morrison
-
-**Design as Art**
-by Bruno Munari
-
-**Dieter Rams: As Little Design as Possible**
-by Sophie Lovell
-
-**Works that work 1-10**
-by Peter Bilak
-
-**Blind Maps and Blue Dots**
-The Blurring of the Producer-User Divide in the Production of Visual Information
-by Joost Grootens
-
-**CODING:**
-**Graphic design in the Post-Digital Age**
+Graphic design in the Post-Digital Age
 by Demian Conrad, Rob van Leijsen, David Bennewith, Max Bruinsma, Ian Lynam, David Cabianca, and others
 
-**Internet Freedom and Political Space**
+Internet Freedom and Political Space
 by by Olesya Tkacheva, Lowell H. Schwartz, Martin C. Libicki, Julie E. Taylor, Jeffrey Martini, Caroline Baxter, and others
 
-**Designing Interactions (Extracts)**
+Designing Interactions (Extracts)
 by Bill Moggridge
+
+**Identity:**
+
+Corporate Diversity
+Swiss Graphic Design and Advertising by Geigy 1940–1970
+by Andres Janser, Barbara Junod
+
+Manuals 1: Design + Identity Guidelines
+by Adrian Shaughnessy and Tony Brook
+
+Manuals 2: Design + Identity Guidelines
+by Adrian Shaughnessy and Tony Brook
+
+TD 63–73
+by Tony Brook and Adrian Shaughnessy
+
+**Design:**
+
+Designing Design
+by Kenya Hara
+
+Super Normal
+by Naoto Fukasawa and Jasper Morrison
+
+Dieter Rams: As Little Design as Possible
+by Sophie Lovell
+
+Works that work 1-10
+by Peter Bilak
+
+Blind Maps and Blue Dots
+The Blurring of the Producer-User Divide in the Production of Visual Information
+by Joost Grootens
 
 ----
 

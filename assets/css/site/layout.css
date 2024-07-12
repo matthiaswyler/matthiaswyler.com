@@ -50,13 +50,20 @@ footer {
 }
 
 @media (max-width: 45rem) {
-	.life {
+	main .life {
+		padding: 0;
+	}
+
+	.life,
+	.projects {
 		display: none;
 	}
 
-	.life.show {
+	.life.show,
+	.projects.show {
 		display: block;
 		position: absolute;
+		padding: var(--spacing-3);
 	}
 
 	.project.columns [style="--span:3"],
