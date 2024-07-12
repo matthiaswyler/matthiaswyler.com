@@ -13,5 +13,5 @@ figcaption {
 	letter-spacing: 1px;
 	line-height: var(--leading-snug);
 
-	margin-bottom: var(--spacing-3);
+	margin-block: var(--spacing-1);
 }

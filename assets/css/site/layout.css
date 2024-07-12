@@ -50,7 +50,7 @@ footer {
 }
 
 @media (max-width: 45rem) {
-	main .life {
+	main {
 		padding: 0;
 	}
 
