@@ -4,12 +4,13 @@ document.addEventListener("DOMContentLoaded", function () {
 	const lifeSection = document.querySelector(".life");
 	const projectsSection = document.querySelector(".projects");
 
-	// Check if the current page is "links" or "books"
 	const path = window.location.pathname;
-	const isLinksOrBooks = path.includes("links") || path.includes("books");
+	const isLinksOrBooks =
+		path.includes("links") ||
+		path.includes("books") ||
+		path.includes("manifesto-library");
 
 	if (isLinksOrBooks) {
-		// Initially show the .life section on "links" and "books" pages
 		lifeSection.classList.add("show");
 		buttonText.textContent = "Close";
 		projectsSection.classList.remove("show");
