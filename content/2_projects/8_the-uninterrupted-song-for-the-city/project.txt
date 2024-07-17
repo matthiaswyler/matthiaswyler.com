@@ -1,0 +1,85 @@
+Title: The Uninterrupted Song for the City
+
+----
+
+Matter: [{"attrs":[],"columns":[{"blocks":[{"content":{"media":["file://0FleAqf3mxRz2D8Q"]},"id":"d75ea5ed-d46f-4b7f-80d5-ae37906eca15","isHidden":false,"type":"slider"}],"id":"e4939f4f-aa1b-4c56-86d9-83b77e3308f6","width":"1/1"}],"id":"6eeca382-814a-4702-95ce-5e2835364375"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>\"The Uninterrupted Song for the City\" <br><br>is a thought-provoking project led by Sinzo Aanza in collaboration with guerillaclassics. This initiative challenges conventional narratives and ethics surrounding museums and their colonial-era collections. The project, positioned as part of the broader \"The Improbable Memorial\" series, aims to reconstruct dreams, possibilities, and awareness within the music industry and beyond.</p><p>The project explores the ethical implications of museums archiving relics acquired through colonial expeditions. It raises critical questions about the role of museums in preserving the heritage of those whose ancestors were imperiled by colonialism. Through innovative methods of knowledge production and potential history-telling, the project delves into the complexities of these archival practices.</p>"},"id":"d432cbd2-6b12-4765-9453-6d212ff3a66e","isHidden":false,"type":"text"}],"id":"243c4ab2-ce2b-4bde-89ab-4a36fd2726b1","width":"1/2"},{"blocks":[],"id":"029c9330-95f5-43ae-8f9b-1a8a34928681","width":"1/2"}],"id":"7aa35517-e302-47e9-a63a-d0ac64176856"},{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://3oqauVhiiWVrhQ0v"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"f0fc84b3-6d52-4f5a-a995-04c62f96f38b","isHidden":false,"type":"image"}],"id":"bc8a1a80-4965-4b97-8edb-bbdc0580a1e8","width":"1/4"},{"blocks":[{"content":{"location":"kirby","image":["file://vK31UyZGzvORPhFe"],"src":"","alt":"","caption":"Using the soundscape of Kinshasa as a musical instrument, the project incorporates sounds from street hawkers, offbeat melodies from carpenters, churches, and parties. These urban soundscapes serve as references for the sonic mashup that forms the core of the project. The collaboration with artists such as Vincent Glanzmann, Huguette Tolinga, Eden Sekulović, Vladimir Petrov, Hiromi Gut, Philippe Kocher, Andreas Brüll, Rokia Bamba, and Valentine Michaud brings together a diverse range of talents to extract and reimagine sounds from pre-colonial archives.","link":"","ratio":"","crop":"false"},"id":"41530dc1-0e6e-47e1-923b-6bbaf13e8f84","isHidden":false,"type":"image"}],"id":"a9bf69d3-eddc-496e-acf0-202717f703b2","width":"1/4"},{"blocks":[{"content":{"location":"kirby","image":["file://61TUuMLwTKYWyAsY"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"24e02b46-e41c-4f3b-bd61-ee401c1f970b","isHidden":false,"type":"image"}],"id":"465d3104-aedd-484d-a1e5-8adb275e682f","width":"1/4"},{"blocks":[{"content":{"location":"kirby","image":["file://aU8Nk35rFPO8UBLN"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"04189a15-9729-4c1b-98a8-a65c66a4725a","isHidden":false,"type":"image"}],"id":"361402c9-e8c4-4557-af16-ce59bba2be21","width":"1/4"}],"id":"abb9d5a5-a794-42ee-b823-ac8d3baeea5b"},{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://AHgGSCTWDPBjYCPc"],"src":"","alt":"","caption":"The project is not just an external exploration but also an internal journey into the embedded sounds within digital structures compiled by artificial intelligence. It highlights the presence of diasporic soundscapes, making the traces of black sounds audible and their existence tangible. These sonic encounters are presented in a week-long program in front of the Rietberg Museum, inviting the public to engage with the sounds released by the archive machine.","link":"","ratio":"","crop":"false"},"id":"690af055-abf8-4cf4-8311-dffee01da4f6","isHidden":false,"type":"image"}],"id":"42d8358c-2f47-4b9d-ab8a-efa7ef969717","width":"1/2"},{"blocks":[{"content":{"location":"kirby","image":["file://yBJPLCRJdC3gq97U"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"56409dcf-0c52-4da0-ae00-8098d1892d2b","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file://ff2wWz50f0TeybPk"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"445f778d-d70f-4291-babd-78bc00cc7db0","isHidden":false,"type":"image"}],"id":"f2970c6c-2535-4487-ab2e-06d1cf9c4cb9","width":"1/2"}],"id":"91b33b23-f385-49a6-a629-0fb40647599a"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>\"The Uninterrupted Song for the City\" has been praised for its innovative approach to addressing the ethics of colonial-era archives and its use of sound to create a powerful narrative. The project has sensitized participants and listeners to the omnipresence of colonized bodies and their cultural contributions, offering a new perspective on historical and contemporary soundscapes.</p><p>\"The Uninterrupted Song for the City\" exemplifies the intersection of art, ethics, and history. By reimagining archival sounds and engaging the public in a dialogue about colonialism and its legacies, the project offers a transformative experience that challenges and expands our understanding of cultural heritage. This case study highlights the importance of innovative and inclusive approaches to contemporary art and historical inquiry.</p>"},"id":"72afce38-23fb-49f2-ab2f-6b053b030e0a","isHidden":false,"type":"text"}],"id":"fbd49462-95f1-46d0-8e6d-64396ea2748e","width":"1/2"},{"blocks":[],"id":"907e05a6-8b4b-4291-8a7f-65355b65926c","width":"1/2"}],"id":"eb5657a2-9075-4a4f-bbf7-da2fec42aa28"}]
+
+----
+
+Published: 2024-07-17
+
+----
+
+Tags: Poster, Identity
+
+----
+
+Cover: - file://iebEPfCV8ox2d80K
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: RpBirMmczEVrJFdD
