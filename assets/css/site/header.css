@@ -38,7 +38,7 @@ header {
 		}
 
 		.info {
-			position: fixed;
+			position: absolute;
 			display: block;
 			margin-top: calc(var(--logo-size) / 4);
 			right: var(--spacing-4);

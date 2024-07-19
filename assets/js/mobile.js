@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	const isLinksOrBooks =
 		path.includes("links") ||
 		path.includes("books") ||
+		path.includes("newsletters") ||
 		path.includes("manifesto-library");
 
 	if (isLinksOrBooks) {
