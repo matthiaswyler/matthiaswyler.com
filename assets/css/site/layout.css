@@ -67,6 +67,14 @@ canvas {
 		--span-sm: 2;
 	}
 
+	.footer {
+		--span-sm: 1;
+	}
+
+	.footer:last-child {
+		grid-area: 1 / col4-start / last-line / 5;
+	}
+
 	.footer p {
 		font-size: var(--text-xs);
 	}
