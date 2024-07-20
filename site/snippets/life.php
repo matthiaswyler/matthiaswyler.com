@@ -11,5 +11,3 @@
     <?php endforeach ?>
   <?php endforeach ?>
 </div>
-
-<?php snippet('footer') ?>

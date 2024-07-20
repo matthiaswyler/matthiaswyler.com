@@ -1,0 +1,85 @@
+Title: Footer
+
+----
+
+Matter: [{"attrs":{"class":"footer"},"columns":[{"blocks":[{"content":{"text":"<p>legal notice</p>"},"id":"eb4d4ed4-eb5a-4108-9bb2-42077c7c1d52","isHidden":false,"type":"text"}],"id":"05169cc6-6c0c-4cb6-bf60-411cc3c0b6c1","width":"1/4"},{"blocks":[{"content":{"text":"<p><a href=\"https://github.com/matthiaswyler/matthiaswyler.com\">source</a></p>"},"id":"b6a2cf04-fe8e-4274-b6cc-88a617b13ed3","isHidden":false,"type":"text"}],"id":"28c19c2d-c412-4413-831b-0dc5a25aa8c6","width":"1/4"},{"blocks":[{"content":{"text":"<p><a href=\"https://www.instagram.com/matthiaswyler/\" title=\"Instagram\">@matthiaswyler</a></p>"},"id":"e98d33b2-6990-4795-ba4c-46a7a58f84dc","isHidden":false,"type":"text"}],"id":"8ea0999c-f598-4e90-919b-e86e70ded876","width":"1/4"},{"blocks":[{"content":{"text":"<p><a href=\"mailto:mail@matthiaswyler.com\">email</a></p>"},"id":"1c65a62c-9798-4127-9577-2051466d97df","isHidden":false,"type":"text"}],"id":"8da8ca58-ee3d-4586-bc81-3c940388b899","width":"1/4"}],"id":"c162a4be-0b46-408b-b99d-fe9fa33f77ac"}]
+
+----
+
+Published: 2024-01-01
+
+----
+
+Tags: 
+
+----
+
+Cover: 
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: 00BKldS5VIVQJr51

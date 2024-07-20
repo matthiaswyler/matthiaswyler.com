@@ -41,12 +41,8 @@ canvas {
 	width: 100vw;
 }
 
-footer {
-	position: fixed;
-	bottom: 0;
-	left: 0;
-
-	z-index: -1;
+.footer p {
+	font-size: var(--text-sm);
 }
 
 @media (max-width: 45rem) {
@@ -69,5 +65,9 @@ footer {
 	.project.columns [style="--span:3"],
 	.project.columns [style="--span:9"] {
 		--span-sm: 2;
+	}
+
+	.footer p {
+		font-size: var(--text-xs);
 	}
 }

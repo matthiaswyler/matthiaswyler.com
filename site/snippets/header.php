@@ -13,7 +13,7 @@
     <a href="https://oeff.space">öff.space</a>
   </div>
   <div class="text" style="--span: 1;">
-    <a href="mailto:mail@matthiaswyler.ch">email</a>
+    <a href="mailto:mail@matthiaswyler.com">email</a>
   </div>
 
   <a class="info">

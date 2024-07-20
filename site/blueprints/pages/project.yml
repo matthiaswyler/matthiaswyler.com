@@ -50,6 +50,11 @@ tabs:
               - gallery
               - video
               - line
+            settings:
+              fields:
+                class:
+                  type: text
+                  width: 1/2
       sidebar:
         width: 1/4
         fields:

@@ -27,14 +27,16 @@
 
 <body>
     <?php snippet('header') ?>
+    <div class="content-wrapper">
 
-    <main>
-        <div class="home columns">
-            <?= $slot ?>
-        </div>
-    </main>
+        <main>
+            <div class="home columns">
+                <?= $slot ?>
+            </div>
+        </main>
 
-    <?php snippet('footer') ?>
+        <?php snippet('footer') ?>
+    </div>
 </body>
 
 <?= js([

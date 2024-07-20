@@ -23,6 +23,18 @@ header {
 	}
 }
 
+@media (max-width: 65rem) {
+	header {
+		.logo {
+			--span: 7 !important;
+		}
+		.text:nth-child(2),
+		.text:nth-child(3) {
+			--span: 2 !important;
+		}
+	}
+}
+
 @media (max-width: 45rem) {
 	header {
 		margin-bottom: 1rem !important;
