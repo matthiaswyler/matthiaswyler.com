@@ -41,7 +41,7 @@ const resizeCanvas = () => {
 	paper.height = newHeight;
 	paper.style.width = `${newWidth}px`;
 	paper.style.height = `${newHeight}px`;
-	paper.style.position = "absolute";
+	paper.style.position = "fixed";
 	paper.style.left = `${(width - newWidth) / 2}px`;
 	paper.style.top = `${(height - newHeight) / 2}px`;
 };

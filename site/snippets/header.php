@@ -1,5 +1,5 @@
 <header class="columns">
-  <div class="logo" style="--span: 9;">
+  <div class="logo" style="--span: 8;">
     <a href="<?= $site->url() ?>">
       <?php if ($image = asset('/assets/files/bose.svg')) : ?>
         <img src="<?= $image->url() ?>" alt="Matthias Wyler – Visual Practices">
