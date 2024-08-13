@@ -30,7 +30,7 @@
 
 <body>
     <?php snippet('header') ?>
-    <div id="canvas-container"></div>
+    <!-- <div id="canvas-container"></div> -->
     <main>
         <div class="home columns">
             <?= $slot ?>

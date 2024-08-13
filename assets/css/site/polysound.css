@@ -56,9 +56,9 @@
 }
 
 @media screen and (any-pointer: fine) {
-	.toggle:hover,
-	:focus,
-	:focus-visible {
+	.control-wrapper .toggle:hover,
+	.control-wrapper .toggle:focus,
+	.control-wrapper .toggle:focus-visible {
 		opacity: 1;
 		transform: scale(1.2);
 		border: none;
