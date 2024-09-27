@@ -1,4 +1,5 @@
 title: Site
+icon: globe
 
 tabs:
   content:
@@ -25,11 +26,11 @@ tabs:
         sections:
           pages:
             label:
-              en: All Pages
-              de: Alle Seiten
-              fr: Toutes les pages
+              en: All published Pages
+              de: Alle veröffentlichten Seiten
+              fr: Toutes les pages publiées
             type: pages
-            status: listed, unlisted
+            status: listed
             template:
               - life
               - resource
@@ -40,6 +41,13 @@ tabs:
               - imprint
               - privacy
             image: icon
+          unpublished:
+            label:
+              en: Unpublished Pages
+              de: Unveröffentlichte Seiten
+              fr: Pages non publiées
+            type: pages
+            status: unlisted
           work:
             label:
               en: Work

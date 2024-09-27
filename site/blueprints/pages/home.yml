@@ -22,10 +22,12 @@ tabs:
         sections:
           outlines:
             headline:
-              en: Outlines
-              de: Skizzen
+              en: Life
+              de: Leben
             type: pages
-            parent: site.find('outlines')
+            parent: site.find('life')
+            template:
+              - life
   media:
     icon: images
     fields:
@@ -41,4 +43,4 @@ tabs:
           en: Click on image and setup ALT and caption, think about your website SEO.
           de: Klicke auf das Bild und füge ALT und Bildunterschrift hinzu, denke an die SEO deiner Website.
 
-  meta: tabs/meta/page
+  seo: seo/page

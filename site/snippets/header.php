@@ -7,7 +7,7 @@
     </a>
   </div>
   <div class="text" style="--span: 1;">
-    <a href="https://sugus.press">sugu.press</a>
+    <a href="https://sugus.press">sugus.press</a>
   </div>
   <div class="text" style="--span: 1;">
     <a href="https://oeff.space">öff.space</a>

@@ -4,6 +4,16 @@ return [
 
   'updates' => true,
 
+  'panel' => [
+    'menu' => [
+      'site',
+      'users',
+      'system',
+      '-',
+      'plausible',
+    ]
+  ],
+
   'thumbs' => [
     'format' => 'webp',
     'quality' => 80,
