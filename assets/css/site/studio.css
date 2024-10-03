@@ -1,0 +1,27 @@
+.studio {
+	display: flex;
+	width: 100%;
+}
+
+.studio p {
+	display: inline-block;
+	width: 100%;
+	font-family: var(--font-studio);
+	font-size: clamp(1rem, 4vw, 6rem);
+	text-align: justify;
+
+	color: var(--color-gray-200);
+}
+
+.studio p::after {
+	content: "";
+	display: inline-block;
+	width: 100%;
+	height: 0;
+}
+
+@media screen and (min-width: 768px) {
+	.studio p {
+		margin-bottom: -5rem;
+	}
+}

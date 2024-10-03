@@ -1,8 +1,3 @@
-@font-face {
-	font-family: "IAM";
-	src: url("/assets/fonts/dharmagothic.woff2") format("woff2");
-}
-
 @keyframes border-pulsate {
 	0% {
 		border-color: rgba(0, 0, 0, 1);

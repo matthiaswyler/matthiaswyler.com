@@ -17,7 +17,9 @@
 
 <script>
   document.querySelectorAll('.project').forEach(project => {
-    if (!project.querySelector('.website')) {
+    if (project.querySelector('.studio')) {
+      project.classList.add('mb-2');
+    } else if (!project.querySelector('.website')) {
       project.classList.add('mb-24');
     }
   });

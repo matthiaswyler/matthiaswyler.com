@@ -10,12 +10,19 @@ header {
 		position: relative;
 
 		width: var(--logo-size);
-		padding: var(--spacing-3);
-		padding-left: 30px;
+		padding-left: var(--spacing-4);
+	}
+
+	a:has(img.logo) {
+		border-bottom: none;
 	}
 
 	.text {
 		margin-top: calc(var(--logo-size) / 4);
+	}
+
+	.logo-text {
+		margin-left: -1rem;
 	}
 
 	.info {
@@ -28,10 +35,10 @@ header {
 		.logo {
 			--span: 7 !important;
 		}
-		.text:nth-child(2),
+		/* .text:nth-child(2),
 		.text:nth-child(3) {
 			--span: 2 !important;
-		}
+		} */
 	}
 }
 
@@ -41,8 +48,12 @@ header {
 
 		.logo {
 			--span-sm: 1;
-			--logo-size: 5rem;
+			/* --logo-size: 5rem; */
 			padding-left: var(--spacing-4);
+		}
+
+		.text.logo-text {
+			display: block;
 		}
 
 		.text {

@@ -3,7 +3,7 @@ main {
 }
 
 .home.columns {
-	height: 100vh;
+	/* height: 100vh; */
 	overflow: hidden;
 }
 
@@ -19,7 +19,7 @@ main {
 
 .life {
 	padding: var(--spacing-3);
-	background-color: rgba(254, 255, 92, 0.9);
+	background-color: var(--color-highlight);
 }
 
 /* @supports (backdrop-filter: blur(10px)) {
@@ -32,13 +32,13 @@ main {
 section.projects,
 section.life {
 	position: relative;
-	top: var(--spacing-24);
+	top: var(--spacing-16);
 }
 
 canvas {
 	display: block;
-	height: 100vh;
-	width: 100vw;
+	height: 100%;
+	width: 100%;
 }
 
 .footer p {

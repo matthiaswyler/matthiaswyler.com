@@ -51,6 +51,7 @@ tabs:
               - gallery
               - video
               - line
+              - studio
             settings:
               fields:
                 class:

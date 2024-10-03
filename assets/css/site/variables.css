@@ -1,6 +1,7 @@
 :root {
 	/* Brand Colors */
-	--color-highlight: rgba(254, 255, 92, 0.8);
+	--color-yellow: rgba(254, 255, 92, 0.9);
+	--color-highlight: var(--color-gray-400);
 	--color-light: var(--color-gray-200);
 	--global-bg-color: #fdfdfe;
 	--global-font-color: #333333;
@@ -26,10 +27,11 @@
 	--columns: 14;
 	--container-padding: var(--spacing-4);
 	--container: 60rem;
-	--logo-size: 100px;
+	--logo-size: 72px;
 
 	/* Fonts */
 	--font-sans: helvetica neue, sans-serif;
+	--font-studio: "Studio", helvetica neue, sans-serif;
 	--font-thin: 300;
 	--font-thin: 300;
 	--font-normal: 400;
@@ -117,10 +119,6 @@
 	--text-5xl: 4rem;
 	--text-6xl: 5rem;
 	--text-h1: 2rem;
-
-	/* Selection */
-	--selection_color: var(--color-gray-100);
-	--selection_background_color: var(--color-gray-900);
 }
 
 ::selection,

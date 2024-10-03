@@ -4,6 +4,7 @@
 @import "framework/splide.min.css";
 @import "framework/grid.css";
 
+@import "site/fonts.css";
 @import "site/text.css";
 @import "site/links.css";
 @import "site/life.css";
@@ -16,4 +17,4 @@
 @import "site/video.css";
 @import "site/layout.css";
 @import "site/blocks.css";
-@import "site/woodlog.css";
+@import "site/studio.css";

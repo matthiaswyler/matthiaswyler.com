@@ -1,11 +1,16 @@
 <header class="columns">
-  <div class="logo" style="--span: 8;">
+
+  <div class="flex" style="--span: 8;">
     <a href="<?= $site->url() ?>">
       <?php if ($image = asset('/assets/files/bose.svg')) : ?>
-        <img src="<?= $image->url() ?>" alt="Matthias Wyler – Visual Practices">
+        <img class="logo" src="<?= $image->url() ?>" alt="Matthias Wyler – Visual Practices">
       <?php endif ?>
     </a>
+    <div class="text logo-text">
+      Studio Matthias Wyler
+    </div>
   </div>
+
   <div class="text" style="--span: 1;">
     <a href="https://sugus.press">sugus.press</a>
   </div>

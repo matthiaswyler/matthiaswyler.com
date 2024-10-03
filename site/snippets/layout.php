@@ -22,15 +22,11 @@
 
     <?= css(['assets/css/index.css']) ?>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
-
     <?php snippet('plausible'); ?>
 </head>
 
 <body>
     <?php snippet('header') ?>
-    <!-- <div id="canvas-container"></div> -->
     <main>
         <div class="home columns">
             <?= $slot ?>
@@ -42,7 +38,6 @@
     'assets/js/mobile.js',
     'assets/js/splide.min.js',
     'assets/js/sliders.js',
-    'assets/js/woodlog.js',
 ]) ?>
 
 <?php snippet('seo/schemas'); ?>
