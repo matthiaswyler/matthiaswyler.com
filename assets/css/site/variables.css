@@ -1,7 +1,7 @@
 :root {
 	/* Brand Colors */
 	--color-yellow: rgba(254, 255, 92, 0.9);
-	--color-highlight: var(--color-gray-400);
+	--color-highlight: var(--color-gray-300);
 	--color-light: var(--color-gray-200);
 	--global-bg-color: #fdfdfe;
 	--global-font-color: #333333;

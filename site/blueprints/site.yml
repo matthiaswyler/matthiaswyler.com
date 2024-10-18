@@ -20,7 +20,7 @@ tabs:
             theme: none
             text:
               en: "This Website is designed and built by (link:https://matthiaswyler.com text: Matthias Wyler). For help don't hesitate and write an (email: mail@matthiaswyler.com text: email). Please double-check the licenses and sources of all images before you upload them to the website."
-              de: "Diese Website wurde von (link:https://matthiaswyler.com  text: Matthias Wyler) entworfen und programmiert. Für Hilfe zögere nicht und schreib mir ein (email: mail@matthiaswyler.com text: E-Mail. Bitte überprüf die Lizenzen und Quellen aller Bilder, bevor du sie auf die Website hochladen."
+              de: "Diese Website wurde von (link:https://matthiaswyler.com  text: Matthias Wyler) entworfen und programmiert. Für Hilfe zögere nicht und schreib mir ein (email: mail@matthiaswyler.com text: E-Mail). Bitte überprüf die Lizenzen und Quellen aller Bilder, bevor du sie auf die Website hochladen."
               fr: "Ce site Web a été conçu et construit par (link:https://matthiaswyler.com text: Matthias Wyler). Pour obtenir de l'aide, n'hésitez pas à écrire un (email: mail@matthiaswyler.com). Veuillez vérifier les licences et les sources de toutes les images avant de les télécharger sur le site Web."
       - width: 2/3
         sections:
@@ -40,6 +40,7 @@ tabs:
               - error
               - imprint
               - privacy
+              - newsletter
             image: icon
           unpublished:
             label:

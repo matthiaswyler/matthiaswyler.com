@@ -1,0 +1,98 @@
+Title: Newsletter Archive
+
+----
+
+Matter: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p><strong>Studio Matthias Wyler:</strong></p><p>09/10/2024<br><a href=\"https://mailchi.mp/45175bb8a80b/its-on-17283858\">Webseite als Raum, Typographie als Bild</a></p><p>06/27/2024<br><a href=\"http://eepurl.com/iO6Bx-/\" target=\"_blank\" title=\"🚨 Breaking changes and Summer Love.\">Breaking changes and Summer Love.</a></p><p><strong>Studio Sirup:</strong></p><p>04/30/2024<br><a href=\"http://eepurl.com/iLwO52\" target=\"_blank\" title=\"Houskeeping, New Sugus, wip\">Houskeeping, New Sugus, wip</a></p><p>12/07/2023<br><a href=\"http://eepurl.com/iz55hY\" target=\"_blank\" title=\"Curating art digital\">Curating art digital</a></p><p>09/20/2023<br><a href=\"http://eepurl.com/izUXFw\" target=\"_blank\" title=\"Eine Trennung, ein Umzug, ein Unterrichten 🌝\">Eine Trennung, ein Umzug, ein Unterrichten</a></p><p>09/05/2023<br><a href=\"http://eepurl.com/iwBJkg\" target=\"_blank\" title=\"André verabschiedet sich von SIRUP\">André verabschiedet sich von SIRUP</a></p><p>03/10/2023<br><a href=\"http://eepurl.com/ig_yI1\" target=\"_blank\" title=\"We do the makeover&nbsp;✨\">We do the makeover</a></p><p>11/09/2022<br><a href=\"http://eepurl.com/idbfuT\" target=\"_blank\" title=\"Richt es nur komisch oder lebt es noch?\">Richt es nur komisch oder lebt es noch?</a></p><p>08/22/2022<br><a href=\"http://eepurl.com/h2fd75\" target=\"_blank\" title=\"Sommerliebe, Frischfleisch und K-Pop-Punk&nbsp;🌟\">Sommerliebe, Frischfleisch und K-Pop-Punk</a></p><p>01/11/2022<br><a href=\"http://eepurl.com/hRJa-L\" target=\"_blank\" title=\"Forschung, Satelliten und Architektur\">Forschung, Satelliten und Architektur</a></p><p>11/08/2021<br><a href=\"http://eepurl.com/hMHpx5\" target=\"_blank\" title=\"hej sirup könnt ihr mir weiter helfen? 🧠\">hej sirup könnt ihr mir weiter helfen?</a></p><p>08/09/2021<br><a href=\"http://eepurl.com/hFsxR1\" target=\"_blank\" title=\"Wie schreibe ich divers?&nbsp;👀\">Wie schreibe ich divers?</a></p><p>04/21/2021<br><a href=\"http://eepurl.com/hwsPCr\" target=\"_blank\" title=\"St.Jakobstrasse 54, 8004 Zürich\">St.Jakobstrasse 54, 8004 Zürich</a></p><p>12/16/2020<br><a href=\"http://eepurl.com/hlQ3YT\" target=\"_blank\" title=\"Gestalten für eine sozial distanzierte Welt  💫\">Gestalten für eine sozial distanzierte Welt</a></p><p>11/16/2020<br><a href=\"http://eepurl.com/hc4EpH\" target=\"_blank\" title=\"💥&nbsp;Big studio Update&nbsp;💥\">Big studio Update</a></p><p>04/29/2020<br><a href=\"http://eepurl.com/g0nOn9\" target=\"_blank\" title=\"Ach ja, der Mensch! Was will er nur vom Lenze?\">Ach ja, der Mensch! Was will er nur vom Lenze?</a></p><p>02/17/2020<br><a href=\"http://eepurl.com/gS49-D\" target=\"_blank\" title=\"Sugus Magazin Nr. 10\">Sugus Magazin Nr. 10</a></p><p>11/05/2019<br><a href=\"http://eepurl.com/gIDYD5\" target=\"_blank\" title=\"Wir nehmen am DEMO Festival teil...\">Wir nehmen am DEMO Festival teil...</a></p><p>09/04/2019<br><a href=\"http://eepurl.com/gAjFTP\" target=\"_blank\" title=\"Wir füllen deine Agenda\">Wir füllen deine Agenda</a></p><p>06/12/2019<br><a href=\"http://eepurl.com/gpxeY9\" target=\"_blank\" title=\"Sun is shining, weather is sweet\">Sun is shining, weather is sweet</a></p>"},"id":"5776bfaf-7fb4-417a-a6da-cccd99b63aba","isHidden":false,"type":"text"}],"id":"aa69e1eb-1a44-4a7e-a73d-cdb9f4780272","width":"1/1"}],"id":"02efc5ea-fa23-4efd-aa00-81d120c6c18e"},{"attrs":[],"columns":[{"blocks":[{"content":[],"id":"73769377-2db3-4b23-befe-aab369a52b94","isHidden":false,"type":"signup"}],"id":"11ff40bf-bb8b-4dea-84b4-ef020ba9c13f","width":"1/1"}],"id":"e68b60d4-01b3-4424-afc4-cc412407cad9"}]
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: BHXtMc096HGjZAvn
+
+----
+
+Text:
+
+07/17/2024 - 40 Einladung
+    06/27/2024 - 🚨 Breaking changes and Summer Love.
+    04/30/2024 - Houskeeping, New Sugus, wip
+    12/07/2023 - Curating art digital
+    09/20/2023 - Eine Trennung, ein Umzug, ein Unterrichten 🌝
+    09/05/2023 - André verabschiedet sich von SIRUP
+    03/10/2023 - We do the makeover ✨
+    11/09/2022 - Richt es nur komisch oder lebt es noch?
+    08/22/2022 - Sommerliebe, Frischfleisch und K-Pop-Punk 🌟
+    01/11/2022 - Forschung, Satelliten und Architektur
+    11/08/2021 - hej sirup könnt ihr mir weiter helfen? 🧠
+    08/09/2021 - Wie schreibe ich divers? 👀
+    04/21/2021 - St.Jakobstrasse 54, 8004 Zürich
+    12/16/2020 - Gestalten für eine sozial distanzierte Welt 💫
+    11/16/2020 - 💥 Big studio Update 💥
+    04/29/2020 - Ach ja, der Mensch! Was will er nur vom Lenze?
+    02/17/2020 - Sugus Magazin Nr. 10
+    11/05/2019 - Wir nehmen am DEMO Festival teil...
+    09/04/2019 - Wir füllen deine Agenda
+    06/12/2019 - Sun is shining, weather is sweet

@@ -17,6 +17,10 @@ header {
 		border-bottom: none;
 	}
 
+	a:has(img.logo):hover {
+		background: none;
+	}
+
 	.text {
 		margin-top: calc(var(--logo-size) / 4);
 	}

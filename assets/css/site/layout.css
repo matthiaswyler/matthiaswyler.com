@@ -3,7 +3,7 @@ main {
 }
 
 .home.columns {
-	/* height: 100vh; */
+	height: 100dvh;
 	overflow: hidden;
 }
 

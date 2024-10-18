@@ -35,6 +35,7 @@ tabs:
               ratio: 1/1
             layout: table
             search: true
+            limit: 50
             columns:
               tags:
                 width: 1/4
