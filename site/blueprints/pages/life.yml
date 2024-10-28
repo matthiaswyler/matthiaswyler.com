@@ -42,7 +42,7 @@ tabs:
           caption:
             value: "{{ file.caption }}"
           dimensions:
-            vslue: "{{ file.dimensions }}"
+            value: "{{ file.dimensions }}"
           alt:
             value: "{{ file.alt }}"
 

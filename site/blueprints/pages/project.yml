@@ -89,16 +89,21 @@ tabs:
     icon: images
     sections:
       images:
-        label: Images
+        label:
+          en: Files
+          de: Dateien
+          fr: Fichiers
         type: files
         multiple: true
         layout: table
         columns:
           caption:
             value: "{{ file.caption }}"
-          dimensions:
-            vslue: "{{ file.dimensions }}"
           alt:
             value: "{{ file.alt }}"
+          dimensions:
+            value: "{{ file.dimensions }}"
+            width: 1/6
+            align: right
 
   seo: seo/page
