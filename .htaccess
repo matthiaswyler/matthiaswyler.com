@@ -1,5 +1,5 @@
 # Kirby .htaccess
-# revision 2020-06-15
+# revision 2023-07-22
 
 # rewrite rules
 <IfModule mod_rewrite.c>
@@ -15,7 +15,7 @@ RewriteEngine on
 # If your homepage is http://yourdomain.com/mysite,
 # set the RewriteBase to:
 #
-# RewriteBase /dailydrawings
+# RewriteBase /mysite
 
 # In some environments it's necessary to
 # set the RewriteBase to:
@@ -25,6 +25,9 @@ RewriteEngine on
 # block files and folders beginning with a dot, such as .git
 # except for the .well-known folder, which is used for Let's Encrypt and security.txt
 RewriteRule (^|/)\.(?!well-known\/) index.php [L]
+
+# Allow robots.txt access
+RewriteRule ^robots\.txt$ - [L]
 
 # block all files in the content folder from being accessed directly
 RewriteRule ^content/(.*) index.php [L]
@@ -43,7 +46,7 @@ RewriteRule ^(.*) index.php [L]
 </IfModule>
 
 # pass the Authorization header to PHP
-SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1
+SetEnvIf Authorization "(.+)" HTTP_AUTHORIZATION=$1
 
 # compress text file responses
 <IfModule mod_deflate.c>
@@ -54,4 +57,14 @@ AddOutputFilterByType DEFLATE text/javascript
 AddOutputFilterByType DEFLATE application/json
 AddOutputFilterByType DEFLATE application/javascript
 AddOutputFilterByType DEFLATE application/x-javascript
+</IfModule>
+
+# set security headers in all responses
+<IfModule mod_headers.c>
+
+# serve files as plain text if the actual content type is not known
+# (hardens against attacks from malicious file uploads)
+Header set Content-Type "text/plain" "expr=-z %{CONTENT_TYPE}"
+Header set X-Content-Type-Options "nosniff"
+
 </IfModule>
