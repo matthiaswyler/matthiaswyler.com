@@ -8,7 +8,7 @@ header {
 
 	.logo {
 		position: relative;
-
+		transform: translateY(-0.2rem);
 		width: var(--logo-size);
 		padding-left: var(--spacing-4);
 	}
@@ -39,10 +39,6 @@ header {
 		.logo {
 			--span: 7 !important;
 		}
-		/* .text:nth-child(2),
-		.text:nth-child(3) {
-			--span: 2 !important;
-		} */
 	}
 }
 
@@ -52,7 +48,6 @@ header {
 
 		.logo {
 			--span-sm: 1;
-			/* --logo-size: 5rem; */
 			padding-left: var(--spacing-4);
 		}
 

@@ -23,7 +23,7 @@
     <div>
       <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Join">
     </div>
-    <p>
+    <p class="newsletter-archive">
       <a href="/newsletters">Archive</a>
     </p>
   </form>

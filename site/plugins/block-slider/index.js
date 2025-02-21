@@ -1,4 +1,4 @@
-panel.plugin("wym/block-slider", {
+panel.plugin("matthiaswyler/block-slider", {
 	blocks: {
 		slider: {
 			computed: {

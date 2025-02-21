@@ -11,15 +11,6 @@ tabs:
     columns:
       main:
         sections:
-          tags:
-            type: fields
-            fields:
-              tags:
-                label:
-                  en: Tags
-                  de: Schlagwörter
-                  fr: Mots-clés
-                type: tags
           projects:
             headline:
               en: Projects
@@ -31,6 +22,7 @@ tabs:
               - project
               - website
             image:
+              query: page.cover.toFile
               cover: true
               ratio: 1/1
             layout: table
@@ -47,21 +39,13 @@ tabs:
                 value: "{{ page.published.toDate('d.m.Y') }}"
                 width: 1/8
                 align: right
-
-  media:
-    icon: images
+  settings:
+    icon: settings
     fields:
-      gallery:
+      tags:
+        type: tags
         label:
-          en: Gallery
-          de: Galerie
-          fr: Galerie
-        type: files
-        multiple: true
-        layout: cards
-        info: "{{ file.dimensions }}"
-        help:
-          en: Click on image and setup ALT and caption, think about your website SEO.
-          de: Klicke auf das Bild und füge ALT und Bildunterschrift hinzu, denke an die SEO deiner Website.
-
+          en: Products
+          de: Produkte
+          fr: Produits
   seo: seo/page

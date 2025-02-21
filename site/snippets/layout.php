@@ -17,7 +17,6 @@
 
     <link rel="shortcut icon" type="image/x-icon" href="<?= url('/assets/files/favicon.ico') ?>">
     <link rel="icon" type="image/png" href="<?= url('/assets/files/favicon.png') ?>">
-    <link rel="icon" type="image/svg+xml" href="<?= url('/assets/files/favicon.svg') ?>">
     <link rel="mask-icon" href="<?= url('/assets/files/safari-mask-icon.svg') ?>" color="#000">
 
     <?= css(['assets/css/index.css']) ?>
@@ -25,7 +24,7 @@
     <?php snippet('plausible'); ?>
 </head>
 
-<body>
+<body data-url="/<?= $page->uri() ?>">
     <?php snippet('header') ?>
     <main>
         <div class="home columns">

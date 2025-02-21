@@ -1,5 +1,13 @@
 User-agent: *
 Allow: /
+Disallow: /panel/
+Disallow: /kirby/
+Disallow: /site/
+
+# Prevent access to media files with these extensions
+Disallow: /*.json$
+Disallow: /*.txt$
+Disallow: /*.yml$
 
 # Sitemap: 
 https://matthiaswyler.com/sitemap.xml
