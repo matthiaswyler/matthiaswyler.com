@@ -8,6 +8,7 @@ return [
     'menu' => [
       'site',
       'users',
+      'retour',
       'system',
       '-',
       'plausible',

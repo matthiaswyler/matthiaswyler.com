@@ -13,7 +13,11 @@
 
     <?php snippet('seo/head'); ?>
 
-    <link rel="preload" href="<?= url('/assets/css/index.css') ?>" as="style">
+    <link rel="preload" href="<?= url('/assets/css/index.css') ?>" as="style" fetchpriority="high">
+    <link rel="preload" href="<?= url('/assets/js/mobile.js') ?>" as="script" fetchpriority="high">
+    <link rel="preload" href="<?= url('/assets/js/splide.min.js') ?>" as="script" fetchpriority="high">
+    <link rel="preload" href="<?= url('/assets/js/sliders.js') ?>" as="script" fetchpriority="high">
+
 
     <link rel="shortcut icon" type="image/x-icon" href="<?= url('/assets/files/favicon.ico') ?>">
     <link rel="icon" type="image/png" href="<?= url('/assets/files/favicon.png') ?>">
