@@ -38,7 +38,7 @@ Library:
 
 ----
 
-Metatitle: 
+Metatitle: Manifesto Library
 
 ----
 

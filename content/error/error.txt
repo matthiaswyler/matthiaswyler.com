@@ -2,4 +2,19 @@ Title: Error
 
 ----
 
+Text:
+
+You've ventured into an undefined space. While our studio specializes in crossing boundaries, it seems we haven't yet developed this particular conceptual territory.
+
+**Where to from here?**
+
+Consider this unexpected encounter as an opportunity for a new negotiation process:
+
+(link: page://OXqt8lLfrLTli2Rf text: Explore our portfolio)
+(email: mail@matthiaswyler.com text: Initiate a collaboration)
+
+Or simply pause and reflect on this momentary disruption in your journey through our digital landscape.
+
+----
+
 Uuid: ZQ3UW9HhJrp9rh2F

@@ -7,4 +7,5 @@ files: false
 fields:
   text:
     label: Error message
-    type: text
+    type: textarea
+    size: medium

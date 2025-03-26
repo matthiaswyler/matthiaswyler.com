@@ -28,19 +28,4 @@ tabs:
             parent: site.find('life')
             template:
               - life
-  media:
-    icon: images
-    fields:
-      gallery:
-        label:
-          en: Gallery
-          de: Galerie
-        type: files
-        multiple: true
-        layout: cards
-        info: "{{ file.dimensions }}"
-        help:
-          en: Click on image and setup ALT and caption, think about your website SEO.
-          de: Klicke auf das Bild und füge ALT und Bildunterschrift hinzu, denke an die SEO deiner Website.
-
   seo: seo/page

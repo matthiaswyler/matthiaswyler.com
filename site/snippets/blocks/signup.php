@@ -5,17 +5,9 @@
     <input type="text" placeholder="Surname" name="NAME" id="mce-NAME" value="" required="">
     <input type="text" placeholder="Name" name="LASTNAME" id="mce-LASTNAME" value="" required="">
     <input type="email" placeholder="Email" autocapitalize="off" autocorrect="off" name="EMAIL" id="mce-EMAIL" value="" required="">
-    <div id="merge-interests-100-12302">
-      <ul class="interestgroup_field checkbox-group">
-        <li>
-          <div class="flex" for="group_2">
-            <input type="checkbox" data-dojo-type="dijit/form/CheckBox" id="group_2" name="group[12302][2]" value="1" class="av-checkbox" required="">
-            <label for="group_2">
-              <p>I want to receive emails.</p>
-            </label>
-          </div>
-        </li>
-      </ul>
+    <div class="gdpr-group">
+      <input type="checkbox" id="gdpr_consent" name="gdpr[12302]" value="Y" required>
+      <label for="gdpr_consent">I agree to receive emails</label>
     </div>
     <div aria-hidden="true" style="position: absolute; left: -5000px;">
       <input type="text" name="b_2c2cee0f76a6a750f25583bed_4ec3cbc01b" tabindex="-1" value="">

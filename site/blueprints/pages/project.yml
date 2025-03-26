@@ -84,7 +84,6 @@ tabs:
               ratio: 1/1
             layout: cards
             info: "{{ file.dimensions }}"
-
   media:
     icon: images
     sections:
@@ -97,13 +96,10 @@ tabs:
         multiple: true
         layout: table
         columns:
-          caption:
-            value: "{{ file.caption }}"
           alt:
             value: "{{ file.alt }}"
           dimensions:
             value: "{{ file.dimensions }}"
             width: 1/6
             align: right
-
   seo: seo/page
