@@ -1,6 +1,6 @@
 <?php
 return [
-  'debug'  => false,
+  'debug'  => true,
 
   'updates' => true,
 
@@ -28,6 +28,7 @@ return [
   'tobimori.seo.canonicalBase' => 'https://matthiaswyler.com',
   'tobimori.seo.robots.indicator' => false,
   'tobimori.seo.robots.pageSettings' => true,
+  'tobimori.seo.sitemap.active' => true,
   'tobimori.seo.robots' => [
     'active' => true,
     'content' => [

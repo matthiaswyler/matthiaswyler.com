@@ -45,51 +45,110 @@ document.documentElement.style.setProperty("--right-cursor", rightCursor);
 document.addEventListener("DOMContentLoaded", function () {
 	const splides = document.querySelectorAll(".splide");
 
-	if (splides.length) {
-		splides.forEach((splideElement) => {
-			const splideDefaultOptions = {
-				type: "loop",
-				autoplay: false,
-				lazyLoad: "nearby",
-				keyboard: true,
-				arrows: false,
-				pagination: false,
+	if (!splides.length) return;
+
+	// Shared options for all sliders
+	const splideDefaultOptions = {
+		type: "loop",
+		autoplay: false,
+		lazyLoad: "nearby",
+		keyboard: true,
+		arrows: false,
+		pagination: false,
+		// Accessibility improvements
+		a11y: {
+			container: "carousel",
+			prev: "Previous slide",
+			next: "Next slide",
+			pagination: "Select a slide to show",
+			slide: "slide",
+			slideLabel: "Slide %s of %s",
+		},
+		// Performance improvements
+		preloadPages: 1,
+		updateOnMove: true,
+		throttle: 100, // Throttle resize events
+		waitForTransition: true,
+		// Touch/swipe improvements
+		dragMinThreshold: {
+			mouse: 5,
+			touch: 25,
+		},
+		flickMaxPages: 1,
+		flickPower: 500,
+	};
+
+	splides.forEach((splideElement) => {
+		const sliderId = splideElement.getAttribute("data-slider");
+		const splide = new Splide(splideElement, splideDefaultOptions);
+
+		// Performance: Destroy slider if it becomes hidden
+		const observer = new IntersectionObserver((entries) => {
+			entries.forEach((entry) => {
+				if (!entry.isIntersecting && splide.state.is(Splide.STATES.MOUNTED)) {
+					splide.destroy();
+				} else if (
+					entry.isIntersecting &&
+					splide.state.is(Splide.STATES.DESTROYED)
+				) {
+					splide.mount();
+				}
+			});
+		});
+		observer.observe(splideElement);
+
+		// Accessibility: Add keyboard navigation
+		splide.on("mounted", () => {
+			const slides = splideElement.querySelectorAll(".splide__slide");
+			slides.forEach((slide, index) => {
+				slide.setAttribute("role", "group");
+				slide.setAttribute("aria-roledescription", "slide");
+				slide.setAttribute(
+					"aria-label",
+					`Slide ${index + 1} of ${slides.length}`
+				);
+			});
+		});
+
+		// Click zones with improved touch handling
+		const leftZone = splideElement.querySelector(
+			`.left-zone[data-slider="${sliderId}"]`
+		);
+		const rightZone = splideElement.querySelector(
+			`.right-zone[data-slider="${sliderId}"]`
+		);
+
+		if (leftZone) {
+			leftZone.addEventListener("click", (e) => {
+				if (e.pointerType === "touch") return; // Prevent double triggers on touch
+				splide.go("<");
+			});
+		}
+
+		if (rightZone) {
+			rightZone.addEventListener("click", (e) => {
+				if (e.pointerType === "touch") return;
+				splide.go(">");
+			});
+		}
+
+		// Performance: Optimized counter updates
+		const slideCounter = splideElement.querySelector(
+			`.slide-counter[data-slider="${sliderId}"]`
+		);
+		if (slideCounter) {
+			let lastIndex = -1;
+			const updateCounter = () => {
+				const newIndex = splide.index;
+				if (lastIndex !== newIndex) {
+					slideCounter.textContent = `${newIndex + 1} / ${splide.length}`;
+					lastIndex = newIndex;
+				}
 			};
 
-			const splide = new Splide(splideElement, splideDefaultOptions);
-			splide.mount();
+			splide.on("mounted move", updateCounter);
+		}
 
-			const sliderId = splideElement.getAttribute("data-slider");
-			const leftZone = splideElement.querySelector(
-				`.left-zone[data-slider="${sliderId}"]`
-			);
-			const rightZone = splideElement.querySelector(
-				`.right-zone[data-slider="${sliderId}"]`
-			);
-
-			if (leftZone) {
-				leftZone.addEventListener("click", () => {
-					splide.go("<");
-				});
-			}
-
-			if (rightZone) {
-				rightZone.addEventListener("click", () => {
-					splide.go(">");
-				});
-			}
-
-			const slideCounter = splideElement.querySelector(
-				`.slide-counter[data-slider="${sliderId}"]`
-			);
-			if (slideCounter) {
-				const updateCounter = () => {
-					slideCounter.textContent = `${splide.index + 1} / ${splide.length}`;
-				};
-
-				splide.on("mounted move", updateCounter);
-				updateCounter();
-			}
-		});
-	}
+		splide.mount();
+	});
 });

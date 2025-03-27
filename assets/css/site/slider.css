@@ -97,3 +97,29 @@
 		height: 360px;
 	}
 }
+
+.splide__slide:focus {
+	outline: 2px solid #007bff;
+	outline-offset: -2px;
+}
+
+.splide__slide:focus-visible {
+	outline: 2px solid #007bff;
+	outline-offset: -2px;
+}
+
+.splide__slide:focus:not(:focus-visible) {
+	outline: none;
+}
+
+.left-zone,
+.right-zone {
+	min-height: 44px;
+	min-width: 44px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.splide__slide {
+		transition: none !important;
+	}
+}

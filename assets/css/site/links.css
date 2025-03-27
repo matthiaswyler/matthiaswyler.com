@@ -11,6 +11,12 @@ a:hover {
 	background: var(--color-yellow);
 }
 
+a:focus {
+	background: var(--color-yellow);
+	outline: 2px solid var(--color-yellow);
+	outline-offset: 2px;
+}
+
 /* a[href^="http"]:not(header a, .projects a)::after {
 	content: url("/assets/files/external-link.svg");
 	margin-left: 0.25em;
