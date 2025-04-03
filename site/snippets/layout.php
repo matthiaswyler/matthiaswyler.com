@@ -29,6 +29,7 @@
 </head>
 
 <body data-url="/<?= $page->uri() ?>">
+    <canvas id="trail"></canvas>
     <?php snippet('header') ?>
     <main>
         <div class="home columns">
@@ -41,6 +42,7 @@
     'assets/js/mobile.js',
     'assets/js/splide.min.js',
     'assets/js/sliders.js',
+    'assets/js/trail.js',
 ]) ?>
 
 <?php snippet('seo/schemas'); ?>

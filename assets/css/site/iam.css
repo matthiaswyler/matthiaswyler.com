@@ -61,15 +61,47 @@
 @media only screen and (max-width: 700px) {
 	#godForm {
 		display: block;
+		opacity: 1;
+		width: 100%;
+		height: 100%;
+		z-index: 1000;
+	}
+
+	#godTextInput {
+		width: 100%;
+		height: 100%;
+		opacity: 0.1;
+		font-size: 50vh;
+		text-align: center;
+		background: transparent;
+		border: none;
+		outline: none;
+		-webkit-appearance: none;
+		appearance: none;
+		color: transparent;
+		-webkit-text-fill-color: transparent;
 	}
 
 	#godText {
-		font-size: 50vh;
+		font-size: 20vh;
 		padding-left: var(--spacing-3);
+		position: fixed;
+		top: var(--spacing-3);
+		left: var(--spacing-3);
+		transform: none;
+		pointer-events: none;
 	}
+
 	#image {
 		background-size: contain;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
 	}
+
 	.infoBox {
 		line-height: 1.2;
 		font-size: 15px;

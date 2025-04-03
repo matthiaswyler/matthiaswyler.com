@@ -12,33 +12,24 @@ document.addEventListener("DOMContentLoaded", function () {
 		const parentWidth = parent.offsetWidth;
 
 		if (width > parentWidth) {
-			let newFontSize = maxFontSize * (parentWidth / width);
-			if (newFontSize < 1) newFontSize = 1;
+			const newFontSize = Math.max(1, maxFontSize * (parentWidth / width));
 			godText.style.fontSize = newFontSize + "vh";
 		}
-
-		console.log("New font size:", godText.style.fontSize);
 	}
 
 	function tryLoadImage() {
-		let str = godText.textContent
+		const str = godText.textContent
 			.replace(/\u00a0/g, "_")
-			.replace("Ä", "AE")
-			.replace("Ö", "OE")
-			.replace("Ü", "UE")
+			.replace(/[ÄÖÜ]/g, (m) => ({ Ä: "AE", Ö: "OE", Ü: "UE" }[m]))
 			.substring(5);
+
 		godText.style.color = str;
 		const url = encodeURI("/assets/files/iam/" + str + ".png");
 
 		fetch(url, { cache: "reload" })
 			.then((response) => {
-				if (response.ok) {
-					imageElement.style.backgroundImage = `url("${url}")`;
-					imageElement.style.display = "block";
-				} else {
-					imageElement.style.backgroundImage = "";
-					imageElement.style.display = "block";
-				}
+				imageElement.style.backgroundImage = response.ok ? `url("${url}")` : "";
+				imageElement.style.display = "block";
 				resizeText();
 			})
 			.catch(() => {
@@ -53,28 +44,31 @@ document.addEventListener("DOMContentLoaded", function () {
 	}
 
 	if (isMobile()) {
-		godTextInput.addEventListener("keyup", function () {
-			let textValue = this.value.toUpperCase().replace(/ /g, "&nbsp;");
-			godText.innerHTML =
-				"<span class='small-start'>I&nbsp;AM&nbsp;</span>" + textValue;
+		document.addEventListener("touchstart", () => godTextInput.focus(), false);
+
+		godTextInput.addEventListener("input", function () {
+			const textValue = this.value.toUpperCase().replace(/ /g, "&nbsp;");
+			godText.innerHTML = "I&nbsp;AM&nbsp;" + textValue;
 			resizeText();
 			tryLoadImage();
 		});
 
-		godForm.onsubmit = function () {
-			return false;
-		};
+		godForm.onsubmit = () => false;
+
+		godTextInput.addEventListener("keydown", (e) => {
+			if (e.key === "Enter") e.preventDefault();
+		});
 	} else {
 		document.addEventListener("keydown", function (e) {
 			if (e.keyCode === 8) {
-				let str = godText.textContent
+				const str = godText.textContent
 					.substring(0, godText.textContent.length - 1)
 					.replace(/ /g, "\u00a0");
 				if (str.length > 4) {
 					godText.innerHTML = str;
+					resizeText();
+					tryLoadImage();
 				}
-				resizeText();
-				tryLoadImage();
 				e.preventDefault();
 			} else if (e.keyCode === 46) {
 				godText.innerHTML = "I&nbsp;AM&nbsp;";
@@ -91,15 +85,13 @@ document.addEventListener("DOMContentLoaded", function () {
 				return;
 			}
 
-			let char = String.fromCharCode(e.which).toUpperCase();
-			if (char === " ") char = "&nbsp;";
-			godText.innerHTML += char;
+			const char = String.fromCharCode(e.which).toUpperCase();
+			godText.innerHTML += char === " " ? "&nbsp;" : char;
 			resizeText();
 			tryLoadImage();
 		});
 
 		window.addEventListener("resize", resizeText);
-
 		resizeText();
 	}
 });

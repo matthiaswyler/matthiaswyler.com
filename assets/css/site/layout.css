@@ -60,6 +60,8 @@ canvas {
 		display: block;
 		position: absolute;
 		padding: var(--spacing-3);
+		width: 100%;
+		top: var(--spacing-16);
 	}
 
 	.project.columns [style="--span:3"],
