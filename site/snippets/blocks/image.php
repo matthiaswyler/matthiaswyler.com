@@ -26,21 +26,31 @@ if ($block->location() == 'web') {
       <?php endif ?>
 
       <?php if ($image): ?>
-        <img src="<?= $src ?>"
-          alt="<?= $alt->esc() ?>"
-          loading="lazy"
-          decoding="async"
-          srcset="<?= $image->srcset([
-                    '300w'  => ['width' => 300],
-                    '600w'  => ['width' => 600],
-                    '900w'  => ['width' => 900],
-                    '1200w' => ['width' => 1200],
-                    '1600w' => ['width' => 1600]
-                  ]) ?>"
-          sizes="(min-width: 1200px) 1200px, 100vw"
-          width="<?= $image->width() ?>"
-          height="<?= $image->height() ?>"
-          <?php if ($crop): ?>style="object-fit: cover" <?php endif ?>>
+        <?php if ($image->extension() === 'gif' || $image->extension() === 'webp'): ?>
+          <img src="<?= $src ?>"
+            alt="<?= $alt->esc() ?>"
+            loading="lazy"
+            decoding="async"
+            width="<?= $image->width() ?>"
+            height="<?= $image->height() ?>"
+            <?php if ($crop): ?>style="object-fit: cover" <?php endif ?>>
+        <?php else: ?>
+          <img src="<?= $src ?>"
+            alt="<?= $alt->esc() ?>"
+            loading="lazy"
+            decoding="async"
+            srcset="<?= $image->srcset([
+                      '300w'  => ['width' => 300],
+                      '600w'  => ['width' => 600],
+                      '900w'  => ['width' => 900],
+                      '1200w' => ['width' => 1200],
+                      '1600w' => ['width' => 1600]
+                    ]) ?>"
+            sizes="(min-width: 1200px) 1200px, 100vw"
+            width="<?= $image->width() ?>"
+            height="<?= $image->height() ?>"
+            <?php if ($crop): ?>style="object-fit: cover" <?php endif ?>>
+        <?php endif ?>
       <?php else: ?>
         <img src="<?= $src ?>"
           alt="<?= $alt->esc() ?>"
