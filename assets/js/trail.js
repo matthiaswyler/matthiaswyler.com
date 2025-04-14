@@ -4,6 +4,13 @@ document.addEventListener("DOMContentLoaded", () => {
 		console.error("Cursor trail canvas not found.");
 		return;
 	}
+
+	// Only initialize trail on home page
+	if (window.location.pathname !== "/") {
+		canvas.style.display = "none";
+		return;
+	}
+
 	const ctx = canvas.getContext("2d");
 	let lastX = null;
 	let lastY = null;

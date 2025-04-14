@@ -2,7 +2,7 @@ Title: The Garden of the XXI Centrury Zürich
 
 ----
 
-Matter: [{"attrs":{"class":"website","id":""},"columns":[{"blocks":[{"content":{"text":"<p>Webdevelopement, Webdesign</p>"},"id":"61af12dc-dd4a-4004-9189-67030a102899","isHidden":false,"type":"text"}],"id":"6021a053-5662-495d-a352-f22cd4b92966","width":"1/4"},{"blocks":[{"content":{"text":"<p><a href=\"https://thegarden-zurich.arch.ethz.ch/\" title=\"The Garden of the XXI Century\">The Garden of the XXI Century – Zürich</a></p>"},"id":"ee2c3973-f6de-485f-8e34-772af4e1e086","isHidden":false,"type":"text"}],"id":"55610584-af72-4d9e-88ec-d19362ca3795","width":"3/4"}],"id":"7dcb16db-a57a-461a-bf89-16c9f9deca17"}]
+Matter: [{"attrs":{"class":"website","id":""},"columns":[{"blocks":[{"content":{"text":"<p>Webdevelopement, Webdesign</p>"},"id":"61af12dc-dd4a-4004-9189-67030a102899","isHidden":false,"type":"text"}],"id":"6021a053-5662-495d-a352-f22cd4b92966","width":"1/4"},{"blocks":[{"content":{"text":"<p><a href=\"https://thegarden-zurich.arch.ethz.ch/\" title=\"The Garden of the XXI Century\">The Garden of the XXI Century – Zürich</a> </p>"},"id":"ee2c3973-f6de-485f-8e34-772af4e1e086","isHidden":false,"type":"text"}],"id":"55610584-af72-4d9e-88ec-d19362ca3795","width":"3/4"}],"id":"7dcb16db-a57a-461a-bf89-16c9f9deca17"}]
 
 ----
 

@@ -15,7 +15,7 @@ $manifests = $page->library()->files()->toFiles();
       <?php foreach ($manifests as $file) : ?>
         <li>
           <a href="<?= $file->url() ?>" target="_blank">
-            <p class="link"><?= $file->title()->or($file->filename()) ?></p>
+            <p class="link manifesto"><?= $file->title()->or($file->filename()) ?></p>
           </a>
         </li>
       <?php endforeach ?>
