@@ -25,7 +25,7 @@
 	direction: ltr;
 }
 
-@media screen and (min-width: 40rem) {
+@media screen and (min-width: 64rem) {
 	.columns {
 		--columns-md: var(--columns);
 		grid-template-columns: repeat(var(--columns-md), 1fr);
