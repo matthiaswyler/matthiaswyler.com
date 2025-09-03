@@ -1,6 +1,6 @@
 <?php
 return [
-  'debug'  => true,
+  'debug'  => false,
 
   'updates' => true,
 
@@ -18,7 +18,6 @@ return [
   'thumbs' => [
     'format' => 'webp',
     'quality' => 80,
-    'driver' => 'im',
   ],
 
   'floriankarsten.plausible' => [

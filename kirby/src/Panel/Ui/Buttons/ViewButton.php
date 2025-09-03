@@ -20,7 +20,6 @@ use Kirby\Toolkit\Controller;
  * @copyright Bastian Allgeier
  * @license   https://getkirby.com/license
  * @since     5.0.0
- * @internal
  */
 class ViewButton extends Button
 {
@@ -57,12 +56,18 @@ class ViewButton extends Button
 	 * and resolving to proper instance
 	 */
 	public static function factory(
-		string|array|Closure|true $button = true,
+		string|array|Closure|bool $button = true,
 		string|int|null $name = null,
 		string|null $view = null,
 		ModelWithContent|Language|null $model = null,
 		array $data = []
 	): static|null {
+		// if referenced by name (`name: false`),
+		// don't render anything
+		if ($button === false) {
+			return null;
+		}
+
 		// transform `- name` notation to `name: true`
 		if (
 			is_string($name) === false &&
@@ -106,13 +111,17 @@ class ViewButton extends Button
 	/**
 	 * Finds a view button by name
 	 * among the defined buttons from all areas
+	 * @unstable
 	 */
 	public static function find(
 		string $name,
 		string|null $view = null
 	): array|Closure {
-		// collect all buttons from areas
-		$buttons = Panel::buttons();
+		// collect all buttons from areas and config
+		$buttons = [
+			...Panel::buttons(),
+			...App::instance()->option('panel.viewButtons.' . $view, [])
+		];
 
 		// try to find by full name (view-prefixed)
 		if ($view && $button = $buttons[$view . '.' . $name] ?? null) {
@@ -131,7 +140,7 @@ class ViewButton extends Button
 	/**
 	 * Transforms an array to be used as
 	 * named arguments in the constructor
-	 * @internal
+	 * @unstable
 	 */
 	public static function normalize(array $button): array
 	{
@@ -176,7 +185,6 @@ class ViewButton extends Button
 	/**
 	 * Transforms a closure to the actual view button
 	 * by calling it with the provided arguments
-	 * @internal
 	 */
 	public static function resolve(
 		Closure $button,

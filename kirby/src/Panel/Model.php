@@ -4,9 +4,10 @@ namespace Kirby\Panel;
 
 use Closure;
 use Kirby\Cms\File as CmsFile;
+use Kirby\Cms\Language;
 use Kirby\Cms\ModelWithContent;
 use Kirby\Filesystem\Asset;
-use Kirby\Form\Form;
+use Kirby\Form\Fields;
 use Kirby\Http\Uri;
 use Kirby\Toolkit\A;
 
@@ -34,24 +35,12 @@ abstract class Model
 
 	/**
 	 * Get the content values for the model
+	 *
+	 * @deprecated 5.0.0 Use `self::versions()` instead
 	 */
 	public function content(): array
 	{
-		$version = $this->model->version('changes');
-		$changes = [];
-
-		if ($version->exists('current') === true) {
-			$changes = $version->content('current')->toArray();
-		}
-
-		// create a form which will collect the latest values for the model,
-		// but also pass along unpublished changes as overwrites
-		return Form::for(
-			model: $this->model,
-			props: [
-				'values' => $changes
-			]
-		)->values();
+		return $this->versions()['changes'];
 	}
 
 	/**
@@ -111,7 +100,6 @@ abstract class Model
 
 	/**
 	 * Returns the Panel image definition
-	 * @internal
 	 */
 	public function image(
 		string|array|false|null $settings = [],
@@ -197,7 +185,6 @@ abstract class Model
 
 	/**
 	 * Data URI placeholder string for Panel image
-	 * @internal
 	 */
 	public static function imagePlaceholder(): string
 	{
@@ -206,7 +193,6 @@ abstract class Model
 
 	/**
 	 * Returns the image file object based on provided query
-	 * @internal
 	 */
 	protected function imageSource(
 		string|null $query = null
@@ -227,7 +213,6 @@ abstract class Model
 	/**
 	 * Provides the correct srcset string based on
 	 * the layout and settings
-	 * @internal
 	 */
 	protected function imageSrcset(
 		CmsFile|Asset $image,
@@ -250,8 +235,12 @@ abstract class Model
 		// for card layouts with `cover: true` provide
 		// crops based on the card ratio
 		if ($layout === 'cards') {
-			$ratio = explode('/', $settings['ratio'] ?? '1/1');
-			$ratio = $ratio[0] / $ratio[1];
+			$ratio = $settings['ratio'] ?? '1/1';
+
+			if (is_numeric($ratio) === false) {
+				$ratio = explode('/', $ratio);
+				$ratio = $ratio[0] / $ratio[1];
+			}
 
 			return $image->srcset([
 				$sizes[0] . 'w' => [
@@ -339,14 +328,6 @@ abstract class Model
 	}
 
 	/**
-	 * Get the original content values for the model
-	 */
-	public function originals(): array
-	{
-		return Form::for(model: $this->model)->values();
-	}
-
-	/**
 	 * Returns the full path without leading slash
 	 */
 	abstract public function path(): string;
@@ -372,9 +353,7 @@ abstract class Model
 	}
 
 	/**
-	 * Returns the data array for the
-	 * view's component props
-	 * @internal
+	 * Returns the data array for the view's component props
 	 */
 	public function props(): array
 	{
@@ -383,18 +362,21 @@ abstract class Model
 		$request   = $this->model->kirby()->request();
 		$tabs      = $blueprint->tabs();
 		$tab       = $blueprint->tab($request->get('tab')) ?? $tabs[0] ?? null;
+		$versions  = $this->versions();
 
 		$props = [
 			'api'         => $link,
 			'buttons'     => fn () => $this->buttons(),
-			'content'     => (object)$this->content(),
 			'id'          => $this->model->id(),
 			'link'        => $link,
 			'lock'        => $this->model->lock()->toArray(),
-			'originals'   => (object)$this->originals(),
 			'permissions' => $this->model->permissions()->toArray(),
 			'tabs'        => $tabs,
-			'uuid'        => fn () => $this->model->uuid()?->toString()
+			'uuid'        => fn () => $this->model->uuid()?->toString(),
+			'versions'    => [
+				'latest'  => (object)$versions['latest'],
+				'changes' => (object)$versions['changes']
+			]
 		];
 
 		// only send the tab if it exists
@@ -410,7 +392,6 @@ abstract class Model
 	/**
 	 * Returns link url and title
 	 * for model (e.g. used for prev/next navigation)
-	 * @internal
 	 */
 	public function toLink(string $title = 'title'): array
 	{
@@ -424,8 +405,6 @@ abstract class Model
 	 * Returns link url and title
 	 * for optional sibling model and
 	 * preserves tab selection
-	 *
-	 * @internal
 	 */
 	protected function toPrevNextLink(
 		ModelWithContent|null $model = null,
@@ -451,8 +430,6 @@ abstract class Model
 	/**
 	 * Returns the url to the editing view
 	 * in the Panel
-	 *
-	 * @internal
 	 */
 	public function url(bool $relative = false): string
 	{
@@ -464,10 +441,37 @@ abstract class Model
 	}
 
 	/**
-	 * Returns the data array for
-	 * this model's Panel view
+	 * Creates an array with two versions of the content:
+	 * `latest` and `changes`.
 	 *
-	 * @internal
+	 * The content is passed through the Fields class
+	 * to ensure that the content is in the correct format
+	 * for the Panel. If there's no `changes` version, the `latest`
+	 * version is used for both.
+	 */
+	public function versions(): array
+	{
+		$language = Language::ensure('current');
+		$fields   = Fields::for($this->model, $language);
+
+		$latestVersion  = $this->model->version('latest');
+		$changesVersion = $this->model->version('changes');
+
+		$latestContent  = $latestVersion->content($language)->toArray();
+		$changesContent = $latestContent;
+
+		if ($changesVersion->exists($language) === true) {
+			$changesContent = $changesVersion->content($language)->toArray();
+		}
+
+		return [
+			'latest'  => $fields->reset()->fill($latestContent)->toFormValues(),
+			'changes' => $fields->reset()->fill($changesContent)->toFormValues()
+		];
+	}
+
+	/**
+	 * Returns the data array for this model's Panel view
 	 */
 	abstract public function view(): array;
 }

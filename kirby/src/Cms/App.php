@@ -3,8 +3,10 @@
 namespace Kirby\Cms;
 
 use Closure;
+use Exception as GlobalException;
 use Generator;
 use Kirby\Content\Storage;
+use Kirby\Content\VersionCache;
 use Kirby\Data\Data;
 use Kirby\Email\Email as BaseEmail;
 use Kirby\Exception\ErrorPageException;
@@ -69,6 +71,7 @@ class App
 	protected Core $core;
 	protected Language|null $defaultLanguage = null;
 	protected Environment|null $environment = null;
+	protected Events $events;
 	protected Language|null $language = null;
 	protected Languages|null $languages = null;
 	protected bool|null $multilang = null;
@@ -96,7 +99,11 @@ class App
 	 */
 	public function __construct(array $props = [], bool $setInstance = true)
 	{
-		$this->core = new Core($this);
+		$this->core   = new Core($this);
+		$this->events = new Events($this);
+
+		// start with a fresh version cache
+		VersionCache::reset();
 
 		// register all roots to be able to load stuff afterwards
 		$this->bakeRoots($props['roots'] ?? []);
@@ -128,7 +135,6 @@ class App
 		// configurable properties
 		$this->setLanguages($props['languages'] ?? null);
 		$this->setRoles($props['roles'] ?? null);
-		$this->setSite($props['site'] ?? null);
 		$this->setUser($props['user'] ?? null);
 		$this->setUsers($props['users'] ?? null);
 
@@ -146,6 +152,11 @@ class App
 		$this->extensionsFromPlugins();
 		$this->extensionsFromOptions();
 		$this->extensionsFromFolders();
+
+		// must be set after the extensions are loaded.
+		// the default storage instance must be defined
+		// and the App::$instance singleton needs to be set
+		$this->setSite($props['site'] ?? null);
 
 		// trigger hook for use in plugins
 		$this->trigger('system.loadPlugins:after');
@@ -178,7 +189,7 @@ class App
 	/**
 	 * Returns the Api instance
 	 *
-	 * @internal
+	 * @unstable
 	 */
 	public function api(): Api
 	{
@@ -214,47 +225,16 @@ class App
 	 * Applies a hook to the given value
 	 *
 	 * @param string $name Full event name
-	 * @param array $args Associative array of named event arguments
-	 * @param string $modify Key in $args that is modified by the hooks
-	 * @param \Kirby\Cms\Event|null $originalEvent Event object (internal use)
+	 * @param array $args Associative array of named arguments
+	 * @param string|null $modify Key in $args that is modified by the hooks (default: first argument)
 	 * @return mixed Resulting value as modified by the hooks
 	 */
 	public function apply(
 		string $name,
 		array $args,
-		string $modify,
-		Event|null $originalEvent = null
+		string|null $modify = null
 	): mixed {
-		$event = $originalEvent ?? new Event($name, $args);
-
-		if ($functions = $this->extension('hooks', $name)) {
-			foreach ($functions as $function) {
-				// bind the App object to the hook
-				$newValue = $event->call($this, $function);
-
-				// update value if one was returned
-				if ($newValue !== null) {
-					$event->updateArgument($modify, $newValue);
-				}
-			}
-		}
-
-		// apply wildcard hooks if available
-		$nameWildcards = $event->nameWildcards();
-		if ($originalEvent === null && $nameWildcards !== []) {
-			foreach ($nameWildcards as $nameWildcard) {
-				// the $event object is passed by reference
-				// and will be modified down the chain
-				$this->apply(
-					$nameWildcard,
-					$event->arguments(),
-					$modify,
-					$event
-				);
-			}
-		}
-
-		return $event->argument($modify);
+		return $this->events->apply($name, $args, $modify);
 	}
 
 	/**
@@ -333,9 +313,18 @@ class App
 			}
 		}
 
-		foreach (glob($this->root('blueprints') . '/' . $type . '/*.yml') as $blueprint) {
-			$name = F::name($blueprint);
-			$blueprints[$name] = $name;
+		try {
+			// protect against path traversal attacks
+			$root     = $this->root('blueprints') . '/' . $type;
+			$realpath = Dir::realpath($root, $this->root('blueprints'));
+
+			foreach (glob($realpath . '/*.yml') as $blueprint) {
+				$name = F::name($blueprint);
+				$blueprints[$name] = $name;
+			}
+		} catch (GlobalException) {
+			// if the realpath operation failed, the following glob was skipped,
+			// keeping just the blueprints from extensions
 		}
 
 		ksort($blueprints);
@@ -399,8 +388,6 @@ class App
 
 	/**
 	 * Returns a core component
-	 *
-	 * @internal
 	 */
 	public function component(string $name): mixed
 	{
@@ -409,8 +396,6 @@ class App
 
 	/**
 	 * Returns the content extension
-	 *
-	 * @internal
 	 */
 	public function contentExtension(): string
 	{
@@ -419,8 +404,6 @@ class App
 
 	/**
 	 * Returns files that should be ignored when scanning folders
-	 *
-	 * @internal
 	 */
 	public function contentIgnore(): array
 	{
@@ -499,8 +482,7 @@ class App
 		}
 
 		// controller from site root
-		$root         = $this->root('controllers') . '/' . $name . '.php';
-		$controller   = Controller::load($root);
+		$controller   = Controller::load($this->root('controllers') . '/' . $name . '.php', $this->root('controllers'));
 		// controller from extension
 		$controller ??= $this->extension('controllers', $name);
 
@@ -738,7 +720,7 @@ class App
 	 * Takes almost any kind of input and
 	 * tries to convert it into a valid response
 	 *
-	 * @internal
+	 * @unstable
 	 */
 	public function io(mixed $input): Response
 	{
@@ -838,7 +820,6 @@ class App
 	/**
 	 * Renders a single KirbyTag with the given attributes
 	 *
-	 * @internal
 	 * @param string|array $type Tag type or array with all tag arguments
 	 *                           (the key of the first element becomes the type)
 	 */
@@ -869,33 +850,33 @@ class App
 	}
 
 	/**
-	 * KirbyTags Parser
-	 *
-	 * @internal
+	 * Parses and resolves KirbyTags in text
 	 */
-	public function kirbytags(string|null $text = null, array $data = []): string
-	{
+	public function kirbytags(
+		string|null $text = null,
+		array $data = []
+	): string {
 		$data['kirby']  ??= $this;
 		$data['site']   ??= $data['kirby']->site();
 		$data['parent'] ??= $data['site']->page();
 
 		$options = $this->options;
 
-		$text = $this->apply('kirbytags:before', compact('text', 'data', 'options'), 'text');
+		$text = $this->apply('kirbytags:before', compact('text', 'data', 'options'));
 		$text = KirbyTags::parse($text, $data, $options);
-		$text = $this->apply('kirbytags:after', compact('text', 'data', 'options'), 'text');
+		$text = $this->apply('kirbytags:after', compact('text', 'data', 'options'));
 
 		return $text;
 	}
 
 	/**
 	 * Parses KirbyTags first and Markdown afterwards
-	 *
-	 * @internal
 	 */
-	public function kirbytext(string|null $text = null, array $options = []): string
-	{
-		$text = $this->apply('kirbytext:before', compact('text'), 'text');
+	public function kirbytext(
+		string|null $text = null,
+		array $options = []
+	): string {
+		$text = $this->apply('kirbytext:before', compact('text'));
 		$text = $this->kirbytags($text, $options);
 		$text = $this->markdown($text, $options['markdown'] ?? []);
 
@@ -903,7 +884,7 @@ class App
 			$text = $this->smartypants($text);
 		}
 
-		$text = $this->apply('kirbytext:after', compact('text'), 'text');
+		$text = $this->apply('kirbytext:after', compact('text'));
 
 		return $text;
 	}
@@ -927,8 +908,6 @@ class App
 
 	/**
 	 * Returns the current language code
-	 *
-	 * @internal
 	 */
 	public function languageCode(string|null $languageCode = null): string|null
 	{
@@ -965,8 +944,6 @@ class App
 
 	/**
 	 * Parses Markdown
-	 *
-	 * @internal
 	 */
 	public function markdown(string|null $text = null, array|null $options = null): string
 	{
@@ -1211,7 +1188,7 @@ class App
 		string|null $path = null,
 		string|null $method = null
 	): Response|null {
-		if (($_ENV['KIRBY_RENDER'] ?? true) === false) {
+		if ((filter_var($_ENV['KIRBY_RENDER'] ?? true, FILTER_VALIDATE_BOOLEAN)) === false) {
 			return null;
 		}
 
@@ -1238,7 +1215,7 @@ class App
 	/**
 	 * Path resolver for the router
 	 *
-	 * @internal
+	 * @unstable
 	 * @throws \Kirby\Exception\NotFoundException if the home page cannot be found
 	 */
 	public function resolve(
@@ -1316,16 +1293,46 @@ class App
 			}
 		}
 
+		// try to resolve clean URLs to site files
+		if (str_contains($path, '/') === false) {
+			return $this->resolveFile($site->file($path));
+		}
+
 		$id       = dirname($path);
 		$filename = basename($path);
 
-		// try to resolve image urls for pages and drafts
+		// try to resolve clean URLs to files for pages and drafts
 		if ($page = $site->findPageOrDraft($id)) {
-			return $page->file($filename);
+			return $this->resolveFile($page->file($filename));
 		}
 
-		// try to resolve site files at least
-		return $site->file($filename);
+		// none of our resolvers were successful
+		return null;
+	}
+
+	/**
+	 * Filters a resolved file object using the configuration
+	 * @internal
+	 */
+	public function resolveFile(File|null $file): File|null
+	{
+		// shortcut for files that don't exist
+		if ($file === null) {
+			return null;
+		}
+
+		$option = $this->option('content.fileRedirects', false);
+
+		if ($option === true) {
+			return $file;
+		}
+
+		if ($option instanceof Closure) {
+			return $option($file) === true ? $file : null;
+		}
+
+		// option was set to `false` or an invalid value
+		return null;
 	}
 
 	/**
@@ -1362,8 +1369,6 @@ class App
 
 	/**
 	 * Returns the Router singleton
-	 *
-	 * @internal
 	 */
 	public function router(): Router
 	{
@@ -1395,8 +1400,6 @@ class App
 
 	/**
 	 * Returns all defined routes
-	 *
-	 * @internal
 	 */
 	public function routes(): array
 	{
@@ -1444,8 +1447,6 @@ class App
 	/**
 	 * Load and set the current language if it exists
 	 * Otherwise fall back to the default language
-	 *
-	 * @internal
 	 */
 	public function setCurrentLanguage(
 		string|null $languageCode = null
@@ -1531,7 +1532,7 @@ class App
 	 *
 	 * @return $this
 	 */
-	protected function setSite(Site|array|null $site = null): static
+	public function setSite(Site|array|null $site = null): static
 	{
 		if (is_array($site) === true) {
 			$site = new Site($site);
@@ -1555,8 +1556,6 @@ class App
 
 	/**
 	 * Applies the smartypants rule on the text
-	 *
-	 * @internal
 	 */
 	public function smartypants(string|null $text = null): string
 	{
@@ -1633,8 +1632,6 @@ class App
 	/**
 	 * Uses the template component to initialize
 	 * and return the Template object
-	 *
-	 * @internal
 	 */
 	public function template(
 		string $name,
@@ -1656,47 +1653,13 @@ class App
 	 * Trigger a hook by name
 	 *
 	 * @param string $name Full event name
-	 * @param array $args Associative array of named event arguments
-	 * @param \Kirby\Cms\Event|null $originalEvent Event object (internal use)
+	 * @param array $args Associative array of named arguments
 	 */
 	public function trigger(
 		string $name,
-		array $args = [],
-		Event|null $originalEvent = null
+		array $args = []
 	): void {
-		$event = $originalEvent ?? new Event($name, $args);
-
-		if ($functions = $this->extension('hooks', $name)) {
-			static $level = 0;
-			static $triggered = [];
-			$level++;
-
-			foreach ($functions as $index => $function) {
-				if (in_array($function, $triggered[$name] ?? []) === true) {
-					continue;
-				}
-
-				// mark the hook as triggered, to avoid endless loops
-				$triggered[$name][] = $function;
-
-				// bind the App object to the hook
-				$event->call($this, $function);
-			}
-
-			$level--;
-
-			if ($level === 0) {
-				$triggered = [];
-			}
-		}
-
-		// trigger wildcard hooks if available
-		$nameWildcards = $event->nameWildcards();
-		if ($originalEvent === null && $nameWildcards !== []) {
-			foreach ($nameWildcards as $nameWildcard) {
-				$this->trigger($nameWildcard, $args, $event);
-			}
-		}
+		$this->events->trigger($name, $args);
 	}
 
 	/**
