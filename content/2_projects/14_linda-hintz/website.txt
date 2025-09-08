@@ -1,0 +1,81 @@
+Title: Linda Hintz
+
+----
+
+Matter: [{"attrs":{"class":"website","id":""},"columns":[{"blocks":[{"content":{"text":"<p>Webdevelopement</p>"},"id":"6e2ec182-8bad-4e10-999f-99859ff77bcd","isHidden":false,"type":"text"}],"id":"dbd19a3d-83da-4194-a19a-2c285a55e1c8","width":"1/4"},{"blocks":[{"content":{"text":"<p><a href=\"https://lindahintz.com/\">Linda Hintz</a></p>"},"id":"a41411cd-a13f-4f25-8e8c-b95c4d4314da","isHidden":false,"type":"text"}],"id":"595b94d6-837b-4bb3-9339-19ee8adbada4","width":"3/4"}],"id":"df603f21-ba5d-4342-8e77-1fbbbdcdbe75"}]
+
+----
+
+Published: 2024-06-26
+
+----
+
+Tags: Website
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: a67C38alJjNdFqMf

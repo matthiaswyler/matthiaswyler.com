@@ -1,0 +1,5 @@
+Uuid: BPS68qiheutR1txt
+
+----
+
+Template: blocks/image

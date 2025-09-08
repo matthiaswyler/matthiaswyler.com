@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: A book cover featuring an illustration of a man with the title:  The planner's ideal, fitting the man to the plan.
+
+----
+
+Uuid: WEXSy4yoxZo7YvRU
+
+----
+
+Template: blocks/image

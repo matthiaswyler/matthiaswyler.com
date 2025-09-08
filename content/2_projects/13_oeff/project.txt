@@ -1,0 +1,141 @@
+Title: ÖFF
+
+----
+
+Matter: [{"attrs":[],"columns":[{"blocks":[{"content":{"media":["file://KzfKzudNONIuDvBd","file://ckQZ4JG9ztOh4Y2i","file://HC72NmLIoysY3k5K","file://OMXgVxST19SUsxkI","file://JtEhmrxZtTfPLMrJ","file://DhsC5Qgcv35d98hz","file://QXvIqgEfi7oyDl8d","file://MOFkuwZuFV7lAdC4","file://GoMBgkDRms0gCums","file://z1emTvX0H5Tgz4Oe","file://GKEkVjiDK3UW3ObH","file://9liXtty8oHchswf4","file://kmdq9nIAqhZTtBY4","file://lVF2WWXEupVQLOdS","file://2qZ0TGPbPivzBMKD","file://jd91wzuFQAQEC0TF","file://DnFXuktJAMIrZIUQ"]},"id":"48f008fa-e85d-4e40-bf8f-235e6326f693","isHidden":false,"type":"slider"}],"id":"22a77696-cb63-4281-a7fb-4da29ad6880c","width":"1/1"},{"blocks":[{"content":{"text":"<p>ÖFF</p><p>is an art space dedicated to supporting a diverse range of artists who embody a bold and open vision of contemporary culture. The space encourages radical thinking and interdisciplinary collaboration, offering practitioners a place to work and a platform to exchange ideas. This open and inclusive environment fosters a community where creativity and innovation can flourish.</p><p>The programme at ÖFF is designed to push the boundaries of contemporary art, challenging conventional trends and fostering new movements. By focusing on groundbreaking and disruptive work, ÖFF provides a space where artists can experiment, take risks and explore new directions in their practice.</p><p>ÖFF exemplifies the power of radical thinking and interdisciplinary collaboration in contemporary art. By providing a supportive and inclusive environment for artists, ÖFF pushes the boundaries of what is possible in the art world. This project highlights the importance of fostering innovation and accessibility in cultural spaces to ensure that contemporary art remains dynamic and forward-thinking.</p>"},"id":"4db658ad-bfd9-473a-ad82-8cb5a2ad5c5f","isHidden":false,"type":"text"}],"id":"270f2c09-1e54-4462-8efb-89a33f8f62c4","width":"2/3"},{"blocks":[],"id":"c94f3bc3-f3b0-4392-b54f-e7616bd4413b","width":"1/3"}],"id":"113877d7-7262-476a-8f9a-f8193a92f8e1"},{"attrs":[],"columns":[{"blocks":[{"content":[],"id":"4bfaacda-1319-4f9f-a5f0-03e93b37a760","isHidden":false,"type":"line"}],"id":"092b3255-8b0c-4e3e-ba6f-d41273ffbfe5","width":"1/1"}],"id":"179af533-df94-40b3-9643-440a1eef9414"}]
+
+----
+
+Published: 2023-07-26
+
+----
+
+Tags: Spatial, Self-initiated, Identity
+
+----
+
+Cover: - file://KzfKzudNONIuDvBd
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Text: 
+
+----
+
+Images: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-title: 
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 
+
+----
+
+Robots-index: 
+
+----
+
+Robots-follow: 
+
+----
+
+Robots-archive: 
+
+----
+
+Robots-imageindex: 
+
+----
+
+Robots-snippet: 
+
+----
+
+Status: 
+
+----
+
+Uuid: EQ29ukBDKqfdAsSs

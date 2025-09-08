@@ -1,0 +1,85 @@
+Title: LAB Junges Theater Zürich
+
+----
+
+Matter: [{"attrs":{"class":""},"columns":[{"blocks":[{"content":{"media":["file://etr39R8r9pzTyubl","file://eE6n33udQrFqvn66","file://bKDAi6s3GgDl7lfc","file://y3LLMF7E8e2SGA4p"]},"id":"c01b6b41-ab72-43b6-aea1-ddc4640c75ff","isHidden":false,"type":"slider"}],"id":"d4ca99a5-8656-401f-9a28-46b36d67d1d9","width":"1/1"},{"blocks":[{"content":{"text":"<p>LAB Junges Theater Zürich</p><p>is a vibrant theatre laboratory where young people aged 14 – 24 work with professional artistic teams on a variety of theatre projects. Founded in 2014, LAB has become a cornerstone of youth theatre in the Zurich area, providing a dynamic space for exploration, creativity and learning.</p><p>To give the theatre group a distinctive brand identity, we created a custom typeface with numerous variations. This custom typeface adds a unique visual element to LAB's branding, ensuring that all communications and promotional materials stand out. In addition, the theatre's visual storytelling is enhanced by fantastic imagery captured by renowned photographer Sepp de Vries, bringing the vibrancy and energy of LAB to life.</p>"},"id":"afd56b6b-0727-4ade-a4b2-38d5b0f8c428","isHidden":false,"type":"text"},{"content":[],"id":"7381db43-6048-44c3-a264-95ac47e14f22","isHidden":false,"type":"line"}],"id":"b3b63828-bfea-4d77-a76e-386676c2ccc6","width":"2/3"},{"blocks":[],"id":"a542fc6a-0f42-40db-9a75-920c59ea2e89","width":"1/3"}],"id":"f8ed8164-3487-4f99-9425-74720cda04cd"},{"attrs":{"class":""},"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://ZIwi3GeXnEMXBK3o"],"src":"","alt":"","caption":"Everyone starts somewhere. (Christian Bale, 1987).","link":"","ratio":"","crop":"false"},"id":"05aa2303-4435-4be1-8f4c-390425117f1e","isHidden":false,"type":"image"}],"id":"1da1751b-8562-4d12-8b12-672af608ddd5","width":"1/4"},{"blocks":[{"content":{"location":"kirby","image":["file://Fm2QvIXPqkUpEi5A"],"src":"","alt":"LAB Logo Typeface Character finding with glyphdrawing.club","caption":"Character finding with <a href=\"https://glyphdrawing.club/\">glyphdrawing.club</a> for LAB Typeface","link":"","ratio":"","crop":"false"},"id":"34e16a4b-91ca-4c1e-aa0b-b4d059a14b7b","isHidden":false,"type":"image"}],"id":"2c21e681-9c1c-45e4-b31f-57e93fccc77f","width":"1/4"},{"blocks":[{"content":{"location":"kirby","image":["file://UTKizxuagBaOqEEi"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"26048123-71bd-4cc8-b326-fac2fb733cb9","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file://OUkVFUtngmJ8jdiw"],"src":"","alt":"Das LAB Leitungsteam 2024","caption":"Co-direction: Deborah Imhof, Elina Wunderle and Matthias Nüesch.","link":"","ratio":"","crop":"false"},"id":"c0ebd454-f138-46fd-b204-4b04ae3144e9","isHidden":false,"type":"image"}],"id":"d236ec0d-1479-4573-90d7-693dca7a1abc","width":"1/4"},{"blocks":[{"content":{"location":"kirby","image":["file://2Dgj5Cx4uODMbE1o"],"src":"","alt":"","caption":"The Graphics for the <a href=\"https://labzuerich.ch/archiv/chlotz\">Play</a> about money.","link":"","ratio":"","crop":"false"},"id":"600ad19e-d28d-4422-8a0b-7ccf0ec8b364","isHidden":false,"type":"image"}],"id":"be59ca0b-f511-4013-bbdd-43ae6ededd30","width":"1/4"}],"id":"172c68d5-932b-4e98-b146-518e7b0d37b0"},{"attrs":{"class":""},"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://8UPu0hOo4ngqcdwC"],"src":"","alt":"Weltformat Poster mit dem Gossips Sujet","caption":"The Poster for the latest <a href=\"https://labzuerich.ch/projekte/gossips\">Play</a> about friendship, ghosting and how they can prevail.","link":"","ratio":"","crop":"false"},"id":"31f57e59-d01e-4549-ac61-db445c19e3d9","isHidden":false,"type":"image"}],"id":"18207bab-7bb6-4302-854b-6ad3a6ad37bd","width":"1/2"},{"blocks":[{"content":{"location":"kirby","image":["file://B5ec13Av73pBwtbh"],"src":"","alt":"","caption":"Foto by <a href=\"https://seppdevries.ch\">Sepp de Vries</a>","link":"","ratio":"","crop":"false"},"id":"f3792ebe-0481-40db-9e49-9e803bda7dd2","isHidden":false,"type":"image"}],"id":"2e31cb84-b54c-497a-bce5-91e74bb1d9a1","width":"1/2"}],"id":"c81a9d5f-5dae-4402-a666-640fc61fe9b2"}]
+
+----
+
+Published: 2024-06-18
+
+----
+
+Tags: Identity
+
+----
+
+Cover: - file://eE6n33udQrFqvn66
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: 7D3urNFRBuA0Sjal
