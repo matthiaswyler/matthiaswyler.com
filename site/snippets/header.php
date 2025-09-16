@@ -21,7 +21,7 @@
     <a href="mailto:mail@matthiaswyler.com">email</a>
   </div> -->
 
-  <a class="info">
+  <button class="info" type="button" aria-label="Toggle information">
     <p>Info</p>
-  </a>
+  </button>
 </header>

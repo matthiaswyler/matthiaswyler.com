@@ -10,4 +10,6 @@
   </div>
 </section>
 
+<?= js('assets/js/trail.js') ?>
+
 <?php endsnippet() ?>

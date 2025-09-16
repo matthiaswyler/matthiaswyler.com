@@ -41,7 +41,6 @@
     'assets/js/mobile.js',
     'assets/js/splide.min.js',
     'assets/js/sliders.js',
-    'assets/js/trail.js',
 ]) ?>
 
 <?php snippet('seo/schemas'); ?>

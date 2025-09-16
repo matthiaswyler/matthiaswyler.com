@@ -9,5 +9,4 @@ Disallow: /*.json$
 Disallow: /*.txt$
 Disallow: /*.yml$
 
-# Sitemap: 
-https://matthiaswyler.com/sitemap.xml
+Sitemap: https://matthiaswyler.com/sitemap.xml

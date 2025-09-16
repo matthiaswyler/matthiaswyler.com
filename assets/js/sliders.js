@@ -146,7 +146,17 @@ document.addEventListener("DOMContentLoaded", function () {
 				}
 			};
 
+			// Show counter only if there are multiple slides
+			const showCounter = () => {
+				if (splide.length > 1) {
+					slideCounter.classList.add("show");
+				} else {
+					slideCounter.classList.remove("show");
+				}
+			};
+
 			splide.on("mounted move", updateCounter);
+			splide.on("mounted", showCounter);
 		}
 
 		splide.mount();
