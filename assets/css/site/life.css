@@ -1,3 +1,7 @@
+.life {
+	padding-bottom: var(--spacing-24);
+}
+
 .life .block.image {
 	filter: grayscale(1);
 	-webkit-filter: grayscale(100%);

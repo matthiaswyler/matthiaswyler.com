@@ -13,21 +13,28 @@ main {
 
 .projects,
 .life {
-	max-height: 100vh;
+	max-height: calc(100vh - var(--spacing-8));
 	overflow-y: auto;
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+}
+
+.projects::-webkit-scrollbar,
+.life::-webkit-scrollbar {
+	display: none;
 }
 
 .life {
-	padding: var(--spacing-3);
+	padding: var(--spacing-3) var(--spacing-3) 0 var(--spacing-3);
 	background-color: var(--color-highlight);
 }
 
-/* @supports (backdrop-filter: blur(10px)) {
+@supports (backdrop-filter: blur(10px)) {
 	.life {
 		background-color: var(--color-highlight);
 		backdrop-filter: blur(10px);
 	}
-} */
+}
 
 section.projects,
 section.life {

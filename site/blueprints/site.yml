@@ -34,6 +34,7 @@ tabs:
             template:
               - life
               - resource
+              - books
               - manifesto
               - default
               - home

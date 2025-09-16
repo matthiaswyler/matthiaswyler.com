@@ -4,24 +4,47 @@ Title: Books
 
 Text:
 
-These are books I enjoyed reading, own or use as reference, somewhat sorted after topic. Collected as a resource for my students, mainly. Enjoy!
+This curated collection features books I've enjoyed reading, own, or regularly use as reference materials, organized by topic. Originally compiled as a resource for my students, I hope you'll find these recommendations valuable for your own learning journey.
+
+**Design:**
+(link: https://www.setmargins.press/books/what-design-cant-do/ text: What Design Can’t Do)
+Essays on Design and Disillusion
+Silvio Lorusso
+
+(link: https://www.lars-mueller-publishers.com/designing-design?srsltid=AfmBOop_KsS1fSFUgIlnWo-qglwfBun7ZjU1bycjIDbJTSPr2r4g2dG5 text: Designing Design)
+by Kenya Hara
+
+(link: https://www.lars-mueller-publishers.com/super-normal?srsltid=AfmBOopREISMxvrq61m5fmR3xpe6eK4IypnJCVjglxYh-5Haj0qH-UfG text: Super Normal)
+by Naoto Fukasawa and Jasper Morrison
+
+(link: https://www.phaidon.com/products/dieter-rams-as-little-design-as-possible?srsltid=AfmBOopfUW0KrtD-TRrdX94COvGVqGWKw7o1VWoRQLcTEZtR2TvNZOxW text: Dieter Rams: As Little Design as Possible)
+by Sophie Lovell
+
+(link: https://worksthatwork.com text: Works that work 1-10)
+by Peter Bilak
+
+(link: https://www.lars-mueller-publishers.com/blind-maps-and-blue-dots?srsltid=AfmBOopNz9nuUwUKFygQf-fDp9U8bN8iZzdHvYijRrps8mkulVjz3mWP text: Blind Maps and Blue Dots
+)The Blurring of the Producer-User Divide in the Production of Visual Information
+by Joost Grootens
+
+(link: https://valiz.nl/en/publications/caps-lock text: CAPS LOCK)
+How capitalism took hold of graphic design, and how to escape from it
+by Ruben Pater
 
 **Coding:**
-
-The nature of code
+(link: https://natureofcode.com text: The nature of code)
 By Daniel Shiffman
 
-Graphic design in the Post-Digital Age
+(link: https://postdigitalgraphicdesign.com text: Graphic design in the Post-Digital Age)
 by Demian Conrad, Rob van Leijsen, David Bennewith, Max Bruinsma, Ian Lynam, David Cabianca, and others
 
-Internet Freedom and Political Space
+(link: https://www.rand.org/pubs/research_reports/RR295.html text: Internet Freedom and Political Space)
 by by Olesya Tkacheva, Lowell H. Schwartz, Martin C. Libicki, Julie E. Taylor, Jeffrey Martini, Caroline Baxter, and others
 
-Designing Interactions (Extracts)
+(link: https://dl.acm.org/doi/10.5555/1196347 text: Designing Interactions (Extracts))
 by Bill Moggridge
 
 **Identity:**
-
 Corporate Diversity
 Swiss Graphic Design and Advertising by Geigy 1940–1970
 by Andres Janser, Barbara Junod
@@ -34,24 +57,6 @@ by Adrian Shaughnessy and Tony Brook
 
 TD 63–73
 by Tony Brook and Adrian Shaughnessy
-
-**Design:**
-
-Designing Design
-by Kenya Hara
-
-Super Normal
-by Naoto Fukasawa and Jasper Morrison
-
-Dieter Rams: As Little Design as Possible
-by Sophie Lovell
-
-Works that work 1-10
-by Peter Bilak
-
-Blind Maps and Blue Dots
-The Blurring of the Producer-User Divide in the Production of Visual Information
-by Joost Grootens
 
 ----
 

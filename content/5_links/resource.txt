@@ -7,7 +7,6 @@ Text:
 This is a loose collection of links, some useful, some fun, some inspirational. It is mainly a resource for my students and is updated infrequently. I hope you find it useful!
 
 **Coding**
-
 (Link: https://github.com/EbookFoundation/free-programming-books Text: Free programming books)
 A huge collection of free programming books on github
 
@@ -30,7 +29,6 @@ A file based CMS that is easy to use and learn.
 A book on design and code by Mikaella Clements and Matej Latin
 
 **Foundries**
-
 (Link: https://typefoundry.directory/ Text: Directory of Typefoundries)
 This is a very useful collection of many many typefoundries with some extra information about licensing. 
 
@@ -57,7 +55,6 @@ If you're looking for fun display fonts, this is the place to be, based in the U
 
 
 **Font Platforms**
-
 (link: https://www.futurefonts.xyz/ text: Future Fonts)
 Collection of foundries with fonts in the making
 
@@ -66,7 +63,6 @@ Find, try, rent or buy fonts from independent foundries
 
 
 **Inspiration**
-
 (Link: https://oa.letterformarchive.org/ Text: Letterform Archive)
 THE Letterform Archive, a real treasure
 
@@ -78,7 +74,6 @@ Archive of great web design examples
 
 
 **Technology**
-
 (Link: https://caniuse.com/ Text: Can I use)
 What works where and why, current browser support tables
 
@@ -93,13 +88,11 @@ If you are designing a font and wonder if the name is already taken, this is a g
 
 
 **Identity**
-
 (link: https://brandingstyleguides.com/ text: Branding Styleguides)
 A large and broad collection
 
 
 **Publishers**.
-
 (Link: http://booooooks.scrgb.co/ Text: Overview of independent publishers)
 Not much else to add
 
@@ -114,7 +107,6 @@ A small publisher from Zurich
 
 
 **Magazines**
-
 (Link: https://www.macguffinmagazine.com/ Text: MacGuffin magazine)
 Researched Design & Craft
 
@@ -129,7 +121,6 @@ Periodical type design magazine from La Police
 
 
 **Read**
-
 (Link: https://readings.design/ text: Readings Design)
 A collection of essays and articles on design
 
@@ -146,7 +137,6 @@ The boring topic of font classification with a historical context from a critica
 Indepth documentation of the design process by Kris Sowersby, see also his other articles
 
 **Listen**
-
 (Link: http://www.typeradio.org/ Text: Type Radio)
 "Type is speech on paper. Typeradio is speech on type". 
 
@@ -155,7 +145,6 @@ About things we don't think about, design in the broadest sense
 
 
 **Watch**
-
 (link: https://vimeo.com/channels/1364477 text: Herb Lubalin lecture series)
 Part of the Type@Cooper programme
 
@@ -176,7 +165,6 @@ Collection of old films showing the technologies and processes of printing
 
 
 **Manifesto**
-
 (Link: https://conditionaldesign.org/manifesto/ Text: Conditional Design Manifesto)
 A manifesto for artists and designers
 
