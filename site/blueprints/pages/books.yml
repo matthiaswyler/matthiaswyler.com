@@ -1,0 +1,20 @@
+title: Books
+icon: book
+
+tabs:
+  content:
+    label:
+      en: Content
+      de: Inhalt
+      fr: Contenu
+    icon: document
+    columns:
+      main:
+        width: 3/4
+        fields:
+          text:
+            label: Text
+            type: textarea
+            size: large
+
+  seo: seo/page

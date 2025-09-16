@@ -29,9 +29,6 @@
 </head>
 
 <body data-url="/<?= $page->uri() ?>">
-    <?php if ($page->isHomePage()): ?>
-        <canvas id="trail"></canvas>
-    <?php endif ?>
     <?php snippet('header') ?>
     <main>
         <div class="home columns">
@@ -44,11 +41,8 @@
     'assets/js/mobile.js',
     'assets/js/splide.min.js',
     'assets/js/sliders.js',
+    'assets/js/trail.js',
 ]) ?>
-
-<?php if ($page->isHomePage()): ?>
-    <?= js('assets/js/trail.js') ?>
-<?php endif ?>
 
 <?php snippet('seo/schemas'); ?>
 
