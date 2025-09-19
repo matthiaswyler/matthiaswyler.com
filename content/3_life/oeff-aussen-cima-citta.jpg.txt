@@ -1,4 +1,4 @@
-Caption: <p>St. Jakobstrasse 54, 8004 Zurich</p>
+Caption: 
 
 ----
 

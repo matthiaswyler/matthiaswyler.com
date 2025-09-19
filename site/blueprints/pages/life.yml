@@ -1,5 +1,5 @@
 title: Life
-icon: globe
+icon: house
 
 tabs:
   content:
@@ -29,7 +29,6 @@ tabs:
               - video
               - signup
               - line
-
   media:
     icon: images
     sections:
@@ -45,5 +44,4 @@ tabs:
             value: "{{ file.dimensions }}"
           alt:
             value: "{{ file.alt }}"
-
   seo: seo/page
