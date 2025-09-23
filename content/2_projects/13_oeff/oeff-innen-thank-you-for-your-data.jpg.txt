@@ -1,1 +1,13 @@
+Caption: 
+
+----
+
+Alt: An art installation with a blue-lit curtain of hanging papers, a large crumpled transparent object in the foreground, and an abstract white sculptural form to the right, set in a minimalist white gallery space with fluorescent green floor markers.
+
+----
+
 Uuid: OMXgVxST19SUsxkI
+
+----
+
+Alt-reviewed: true

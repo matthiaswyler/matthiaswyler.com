@@ -2,7 +2,7 @@ Caption: <p>Animation: André Rothfuchs</p>
 
 ----
 
-Alt: 
+Alt: Manifest logo with the tagline "Another End of the World is possible" against a gray background with white paper scraps floating around the text. The word "Manifest" is stylized with a folded or angled letter M.
 
 ----
 
@@ -19,3 +19,7 @@ Link:
 ----
 
 Uuid: r1s7klAnksiLMmy9
+
+----
+
+Alt-reviewed: true

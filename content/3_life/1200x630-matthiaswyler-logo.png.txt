@@ -1,5 +1,13 @@
-Alt: 
+Caption: 
+
+----
+
+Alt: Pixelated profile sketch of a person with a mustache, located next to the text "Matthias Wyler Visual Practices" in a black and white logo design.
 
 ----
 
 Uuid: ksh4h5mdvge153ju
+
+----
+
+Alt-reviewed: true

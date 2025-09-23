@@ -1,5 +1,5 @@
 title: Site
-icon: globe
+icon: home
 
 tabs:
   content:
@@ -65,5 +65,4 @@ tabs:
               ratio: 1/1
             limit: 6
             info: "{{ page.published.toDate('d.m.Y') }}"
-
   seo: seo/site

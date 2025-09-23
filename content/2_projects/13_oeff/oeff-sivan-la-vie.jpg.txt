@@ -1,1 +1,13 @@
+Caption: 
+
+----
+
+Alt: Gray concrete building facade with a green door and window, both marked with colorful graffiti tags and stickers. A brown cardboard box sits on the ground near the entrance.
+
+----
+
 Uuid: 9liXtty8oHchswf4
+
+----
+
+Alt-reviewed: true

@@ -1,5 +1,17 @@
+Caption: 
+
+----
+
+Alt: German text metaphorically comparing the state to a building, with the constitution serving as its floor plan or blueprint.
+
+----
+
 Uuid: zMBuIyCTjuTHGUsX
 
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

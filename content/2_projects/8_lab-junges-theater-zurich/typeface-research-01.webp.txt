@@ -1,5 +1,17 @@
+Caption: 
+
+----
+
+Alt: Pixelated black and white text reading "MAKE OF THE IMAGE" in a blocky, abstract typographic style typical of experimental design or digital art.
+
+----
+
 Uuid: MDQK3aU6aDCF01Sz
 
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

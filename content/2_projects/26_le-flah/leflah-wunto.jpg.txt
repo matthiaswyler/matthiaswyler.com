@@ -1,1 +1,13 @@
+Caption: 
+
+----
+
+Alt: A woman in a gray off-shoulder top looks excited and makes a surprised expression while sitting at a bar with drinks and people in the background.
+
+----
+
 Uuid: wK8HIaQfgmYv2V8p
+
+----
+
+Alt-reviewed: true

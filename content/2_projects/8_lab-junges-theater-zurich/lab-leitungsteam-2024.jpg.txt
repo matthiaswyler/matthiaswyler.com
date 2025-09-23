@@ -1,5 +1,17 @@
+Caption: 
+
+----
+
+Alt: Three people posing together in a bright, minimalist interior space with windows and a radiator. One stands in a blue sweater, another in a gray top, and a third wearing an orange sweater sits in the foreground. The scene appears staged and deliberate, with a sense of theatrical composition.
+
+----
+
 Uuid: OUkVFUtngmJ8jdiw
 
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

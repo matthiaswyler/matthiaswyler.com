@@ -11,3 +11,7 @@ Uuid: 8IPJ7O8Gqgc2fq9P
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

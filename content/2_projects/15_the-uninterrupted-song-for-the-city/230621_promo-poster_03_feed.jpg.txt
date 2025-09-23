@@ -1,1 +1,13 @@
+Caption: 
+
+----
+
+Alt: A large white poster titled "The Uninterrupted Song for the City" mounted on a stand, surrounded by bicycles in a blurry urban setting with concrete walls and reflective surfaces.
+
+----
+
 Uuid: iebEPfCV8ox2d80K
+
+----
+
+Alt-reviewed: true

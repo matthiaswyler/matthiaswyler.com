@@ -1,5 +1,17 @@
+Caption: 
+
+----
+
+Alt: A person in dark clothing adjusts a street sign near a tree, with a bicycle, red chairs, and blurred urban background suggesting motion. Yellow construction equipment and colorful buildings are visible in the scene.
+
+----
+
 Uuid: cEatLd85VpqkMvP5
 
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

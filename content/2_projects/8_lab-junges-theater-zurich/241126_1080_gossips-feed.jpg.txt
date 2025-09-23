@@ -1,5 +1,17 @@
+Caption: 
+
+----
+
+Alt: Two performers stand on a geometric stage with yellow platforms, wearing distinctive clothing in muted tones, positioned in a stark, architectural space with graphic white and gray design elements overlaid.
+
+----
+
 Uuid: B5ec13Av73pBwtbh
 
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

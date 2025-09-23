@@ -1,5 +1,17 @@
+Caption: 
+
+----
+
+Alt: Stylized black and white logo for "Lab" with annotations indicating "human", "young", and "playful". The letters are designed as geometric shapes, creating an abstract representation of the theater's identity.
+
+----
+
 Uuid: mH3B9eiWKnm6gkEO
 
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

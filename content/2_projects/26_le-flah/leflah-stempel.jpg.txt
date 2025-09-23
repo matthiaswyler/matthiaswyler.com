@@ -1,1 +1,13 @@
+Caption: 
+
+----
+
+Alt: Wooden stamp with a black printed design sits atop a red ink pad on a dark, textured surface. The stamp has a barcode-like graphic with a stylized figure in black and white.
+
+----
+
 Uuid: kr7i2Qa4aa7ZkLvS
+
+----
+
+Alt-reviewed: true

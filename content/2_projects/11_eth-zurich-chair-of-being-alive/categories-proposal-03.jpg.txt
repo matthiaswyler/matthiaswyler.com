@@ -1,5 +1,17 @@
+Caption: 
+
+----
+
+Alt: Schematic cross-section diagram of plant roots and stems growing in soil, illustrating root systems and plant structures against a light purple background. The image appears to be part of a proposal with geometric lines connecting the botanical elements, suggesting an analytical or design-oriented approach to plant growth.
+
+----
+
 Uuid: frU7LLYZFVczWYgz
 
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

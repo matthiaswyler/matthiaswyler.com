@@ -1,5 +1,17 @@
+Caption: 
+
+----
+
+Alt: German text document from the Zentrum für kritisches Denken, describing various philosophical perspectives and reflections on thought processes, printed in a typewriter-style font on white paper.
+
+----
+
 Uuid: OGJERLmgDNX1B3Z6
 
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

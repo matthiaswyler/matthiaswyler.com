@@ -1,5 +1,17 @@
+Caption: 
+
+----
+
+Alt: Roland TB-303 Bass Line synthesizer control panel, a vintage analog electronic music instrument with multiple knobs, switches, and parameter controls used for creating bass sounds in electronic music genres like techno and acid house.
+
+----
+
 Uuid: XTw5W1E1GZGpZiWn
 
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

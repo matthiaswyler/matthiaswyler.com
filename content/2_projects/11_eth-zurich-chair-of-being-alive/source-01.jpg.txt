@@ -1,5 +1,17 @@
+Caption: 
+
+----
+
+Alt: Topographic map in green tones with textured lines representing terrain elevation and contours. Text overlay highlights "Different types of knowledge that inform us" in a matching green color palette.
+
+----
+
 Uuid: aYgEKC3yMThOal4i
 
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

@@ -1,1 +1,13 @@
+Caption: 
+
+----
+
+Alt: Curved shower curtains in a light green and purple-tinted bathroom space, hanging from a rounded track with multiple fabric panels creating a soft, draped environment.
+
+----
+
 Uuid: lVF2WWXEupVQLOdS
+
+----
+
+Alt-reviewed: true

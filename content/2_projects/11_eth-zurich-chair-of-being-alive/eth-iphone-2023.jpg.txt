@@ -1,1 +1,13 @@
+Caption: 
+
+----
+
+Alt: Smartphone displaying a webpage from "ETH Zürich Chair of Being Alive" positioned on a textured, stone-like surface with intricate patterns of brown, beige, and gray tones. The device screen appears to show text and navigation elements against a light background.
+
+----
+
 Uuid: jk8pZknRLlVd26Vz
+
+----
+
+Alt-reviewed: true

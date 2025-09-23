@@ -1,5 +1,17 @@
+Caption: 
+
+----
+
+Alt: Black and white pixelated letters and characters arranged on a white background, appearing to be an experimental typography or graphic design composition with geometric, blocky letterforms.
+
+----
+
 Uuid: LNH6GpBoXYWHwDYx
 
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

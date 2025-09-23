@@ -1,5 +1,17 @@
+Caption: 
+
+----
+
+Alt: A cellist plays an instrument outdoors in front of a green patterned building, with a camera and two people filming the performance. The scene appears to be a professional recording session in an urban setting with a glass-doored building and tiled ground.
+
+----
+
 Uuid: AHgGSCTWDPBjYCPc
 
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

@@ -11,3 +11,7 @@ Uuid: vsRPEg1fW20hU3YA
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

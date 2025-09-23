@@ -1,5 +1,17 @@
+Caption: 
+
+----
+
+Alt: Radial map centered on Rome, showing rivers like the Aniene and various lines converging towards the city, suggesting geographical or network connections. The map appears to be a green-tinted graphic design highlighting interconnected pathways and knowledge sources.
+
+----
+
 Uuid: TUKm2nmdPFnEDH0v
 
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

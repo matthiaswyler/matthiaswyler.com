@@ -1,5 +1,17 @@
+Caption: 
+
+----
+
+Alt: Geometric black and white grid design with repeated letters "CHLÖTZ" and circular elements, creating a symmetrical and structured visual pattern. The graphic appears to be a stylized typographic composition with consistent blocky letterforms and dot/circle elements.
+
+----
+
 Uuid: 2Dgj5Cx4uODMbE1o
 
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

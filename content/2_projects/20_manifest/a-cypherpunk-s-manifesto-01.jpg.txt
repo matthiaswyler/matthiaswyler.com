@@ -1,5 +1,17 @@
+Caption: 
+
+----
+
+Alt: Typewritten manifesto page discussing privacy, electronic communication, and individual freedom in the digital age. The text explores concepts of cryptography, personal identity, and the power of information sharing in a cyberpunk context.
+
+----
+
 Uuid: Ea8q3f9p98tbcxln
 
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

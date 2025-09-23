@@ -7,3 +7,7 @@ Alt: Studio entrance of Sugus Press, Le Domaine and Köbi3000, highlighting a we
 ----
 
 Uuid: HxcDB28wOnZN8blf
+
+----
+
+Alt-reviewed: true

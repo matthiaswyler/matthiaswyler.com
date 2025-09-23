@@ -1,1 +1,13 @@
+Caption: 
+
+----
+
+Alt: Two performers in a dramatic pose - one wearing a blue turtleneck is yelling with mouth wide open, while another in a yellow-green shirt stands in the background, against a partially obscured black and white graphic design.
+
+----
+
 Uuid: eE6n33udQrFqvn66
+
+----
+
+Alt-reviewed: true

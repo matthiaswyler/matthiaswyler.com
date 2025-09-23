@@ -1,1 +1,13 @@
+Caption: 
+
+----
+
+Alt: Aerial view of an urban street with a road, parked vehicles, small buildings, and a roof with solar panels in the foreground. The scene shows a dense, compact urban landscape with vehicles and structures tightly arranged along the roadway.
+
+----
+
 Uuid: 0JmXlXscoFVflB5E
+
+----
+
+Alt-reviewed: true

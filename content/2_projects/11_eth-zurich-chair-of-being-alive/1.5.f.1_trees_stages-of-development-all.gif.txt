@@ -1,5 +1,17 @@
+Caption: 
+
+----
+
+Alt: Symmetrical geometric diagram of a circular grid with dashed lines, centered around a vertical axis, creating a balanced and precise circular composition with a vertical line bisecting the circle.
+
+----
+
 Uuid: Ay2jdzhRQB1Mx5y0
 
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

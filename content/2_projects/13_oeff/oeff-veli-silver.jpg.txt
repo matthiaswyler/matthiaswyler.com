@@ -1,1 +1,13 @@
+Caption: 
+
+----
+
+Alt: Art gallery interior with colorful abstract paintings hanging on white walls, wooden chairs in the center, and a large window casting natural light on the gray floor.
+
+----
+
 Uuid: kmdq9nIAqhZTtBY4
+
+----
+
+Alt-reviewed: true

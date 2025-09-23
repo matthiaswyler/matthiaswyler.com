@@ -1,5 +1,17 @@
+Caption: 
+
+----
+
+Alt: Two sets of overlapping black letter "M"s in a slightly offset, abstract arrangement against a white background.
+
+----
+
 Uuid: ZfrBpAhJTw70HAJZ
 
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

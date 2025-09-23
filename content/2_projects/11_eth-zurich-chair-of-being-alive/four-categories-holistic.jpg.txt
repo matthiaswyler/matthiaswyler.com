@@ -1,5 +1,17 @@
+Caption: 
+
+----
+
+Alt: Circular diagram connecting four labeled segments: "Source", "Translation", "Celebration", and "Proposal" around the central text "ETH Zürich Chair of Being Alive". The segments are connected by curved lines in different colors, suggesting a cyclical or interconnected relationship.
+
+----
+
 Uuid: YyZ5xvTyHyfeFSO0
 
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

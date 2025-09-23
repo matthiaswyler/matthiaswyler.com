@@ -1,5 +1,17 @@
+Caption: 
+
+----
+
+Alt: Two sneakers hanging from a power line, with stark black and white graphic design for "INVHIDE 3 SUNS LEFLAH" tape series volume II album artwork.
+
+----
+
 Uuid: 08Iudl0rzYbjlMF4
 
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

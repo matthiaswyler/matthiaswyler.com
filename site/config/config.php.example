@@ -1,0 +1,53 @@
+<?php
+return [
+  'debug'  => false,
+
+  'updates' => true,
+
+  'panel' => [
+    'menu' => [
+      'site',
+      'users',
+      'retour',
+      'alter',
+      'system',
+      '-',
+      'plausible',
+    ]
+  ],
+      'search',
+
+  'thumbs' => [
+    'format' => 'webp',
+    'quality' => 80,
+  ],
+
+  'medienbaecker.alter' => [
+    'apiKey' => 'your-claude-api-key-here', // Set your Claude API key here
+    'prompt' => function ($file) {
+        $prompt = 'Du bist ein Barrierefreiheitsexperte, der Alt-Texte schreibt. Schreibe eine prägnante, kurze Beschreibung in ein bis drei Sätzen. Beginne direkt mit dem Subjekt - KEINE einleitenden Phrasen wie "Bild von", "zeigt", "zeigt", "zeigt", "enthält", "enthält" usw.';
+        $prompt .= ' Das Bild ist auf einer Seite namens "' . $file->page()->title() . '".';
+        $prompt .= ' Die Website heißt "' . $file->site()->title() . '".';
+        $prompt .= ' Gib nur den Alt-Text zurück, ohne zusätzlichen Text oder Formatierung.';
+        return $prompt;
+    }
+  ],
+
+  'floriankarsten.plausible' => [
+    'sharedLink' => 'your-plausible-shared-link-here', // Set your Plausible shared link here
+  ],
+
+  'tobimori.seo.canonicalBase' => 'https://matthiaswyler.com',
+  'tobimori.seo.robots.indicator' => false,
+  'tobimori.seo.robots.pageSettings' => true,
+  'tobimori.seo.sitemap.active' => true,
+  'tobimori.seo.robots' => [
+    'active' => true,
+    'content' => [
+      '*' => [
+        'Allow' => ['/'],
+        'Disallow' => ['/kirby', '/panel', '/content']
+      ]
+    ]
+  ],
+];

@@ -1,5 +1,17 @@
+Caption: 
+
+----
+
+Alt: An open cardboard box placed on wooden planks containing a printed document titled "The Uninterrupted Song for the City" with handwritten text visible on the page.
+
+----
+
 Uuid: 61TUuMLwTKYWyAsY
 
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

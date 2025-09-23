@@ -1,5 +1,17 @@
+Caption: 
+
+----
+
+Alt: Densely printed text layout across multiple columns of a document, appearing to be a scholarly or academic text with extensive paragraphs and sections, potentially related to a publication about urban themes or cultural analysis.
+
+----
+
 Uuid: UU6FxvH3nq3VTSB3
 
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

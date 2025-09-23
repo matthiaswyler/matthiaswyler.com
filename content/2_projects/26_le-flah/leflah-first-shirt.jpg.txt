@@ -1,5 +1,17 @@
+Caption: 
+
+----
+
+Alt: Promotional poster for Leflah's Live Beats concert series, displaying a grid of 9 event dates from September 2013 to May 2014, each featuring a stylized illustration of an animal or object like a rodent or gun alongside the artist or band name.
+
+----
+
 Uuid: pmLwPHYeVFCrkSMb
 
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

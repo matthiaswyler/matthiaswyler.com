@@ -7,3 +7,7 @@ Alt: A purple and white poster displaying the phrase "Beyond Maintenance" promin
 ----
 
 Uuid: lVPh8jyn2ezOSPVz
+
+----
+
+Alt-reviewed: true

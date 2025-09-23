@@ -1,5 +1,17 @@
+Caption: 
+
+----
+
+Alt: Triangular soil classification diagram with percentages of clay, silt, and sand, showing different soil texture categories like clay loam, sandy clay, and silt loam. The chart uses a yellow color scheme with geometric divisions to represent soil composition ranges.
+
+----
+
 Uuid: QpRqG83KosyDp0lQ
 
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

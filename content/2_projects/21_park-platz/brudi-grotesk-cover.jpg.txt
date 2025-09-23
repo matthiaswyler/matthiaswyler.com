@@ -1,5 +1,17 @@
+Caption: 
+
+----
+
+Alt: Black and white overhead view of a workspace with a laptop, papers, and various office items. Bold, pixelated text reading "BRUDI GROTESK" is overlaid on the image, creating a stark graphic design effect.
+
+----
+
 Uuid: 9i7Y2sanl9ABDerq
 
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

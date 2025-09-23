@@ -1,1 +1,13 @@
+Caption: 
+
+----
+
+Alt: Two DJs at a music event, with a bearded person in a green hoodie standing next to another DJ working turntables, under purple and blue lighting with "piccolo giardin" signage in the background.
+
+----
+
 Uuid: Z4ZkvaN2uUSXTv6w
+
+----
+
+Alt-reviewed: true

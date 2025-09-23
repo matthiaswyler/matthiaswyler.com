@@ -51,3 +51,11 @@ Icon
 # ---------------
 .cursorrules
 .cursorignore
+
+# Composer
+# ---------------
+/vendor/
+
+# Configuration files with sensitive data
+# ---------------
+/site/config/config.php

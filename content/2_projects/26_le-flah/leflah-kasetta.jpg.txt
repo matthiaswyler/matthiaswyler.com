@@ -1,1 +1,13 @@
+Caption: 
+
+----
+
+Alt: Hands operating a music production sampler or drum machine with multiple buttons and a green display screen. The device appears to be in a dimly lit studio or workspace with a blurred background.
+
+----
+
 Uuid: eQYTl0zQ1eIkSHgF
+
+----
+
+Alt-reviewed: true

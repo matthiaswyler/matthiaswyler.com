@@ -1,1 +1,13 @@
+Caption: 
+
+----
+
+Alt: Two musicians performing on stage with audio equipment, bathed in vibrant red and teal lighting, creating a moody and atmospheric concert scene.
+
+----
+
 Uuid: sHj7T4zsfRBzse4i
+
+----
+
+Alt-reviewed: true

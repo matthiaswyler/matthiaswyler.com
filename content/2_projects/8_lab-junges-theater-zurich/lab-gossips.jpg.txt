@@ -1,5 +1,17 @@
+Caption: 
+
+----
+
+Alt: Graphic design poster with the word "GOSSIPS" repeated vertically in a stylized, pixelated black and white typography. The letters are composed of varying sizes of black dots, creating a gradient effect from dense to sparse. The design has a modern, experimental visual aesthetic with a gradual dissolving or disintegrating visual treatment.
+
+----
+
 Uuid: H3aXCFU0ed1UjgHW
 
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

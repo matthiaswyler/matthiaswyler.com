@@ -1,5 +1,17 @@
+Caption: 
+
+----
+
+Alt: Minimalist white page with the name "Tina Paradiso" printed in black text, positioned against a black background. Part of a page on the "Life" section of the "Matthias Wyler" site.
+
+----
+
 Uuid: vUknMgZeMN6FbFba
 
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

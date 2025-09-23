@@ -1,1 +1,13 @@
+Caption: 
+
+----
+
+Alt: Black and white graphic poster with the word "GOSSIPS" repeated vertically, composed of stylized letters made from a gradient of decreasing black dots against a white background, creating a visual texture and fading effect.
+
+----
+
 Uuid: HSl1Nllq3VWwewIU
+
+----
+
+Alt-reviewed: true

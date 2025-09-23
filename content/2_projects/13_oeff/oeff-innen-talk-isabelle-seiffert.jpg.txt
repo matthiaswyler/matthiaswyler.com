@@ -1,1 +1,13 @@
+Caption: 
+
+----
+
+Alt: A person seated at the front of a room leads a presentation or workshop, with a projection screen behind them and several attendees sitting on white stools in a classroom or studio setting with art and design-related posters on the walls.
+
+----
+
 Uuid: MOFkuwZuFV7lAdC4
+
+----
+
+Alt-reviewed: true

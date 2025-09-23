@@ -1,5 +1,17 @@
+Caption: 
+
+----
+
+Alt: Cartoon globe character asking in German: "Online advertising: is this graphic or can that go away?" The character points upward while speaking in a speech bubble against a simple black and white background.
+
+----
+
 Uuid: D3MT4mXqb6p92Mni
 
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

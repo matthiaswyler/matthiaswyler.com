@@ -1,5 +1,17 @@
+Caption: 
+
+----
+
+Alt: Empty white gallery or studio space with large windows, track lighting, and a polished dark floor reflecting light from the windows.
+
+----
+
 Uuid: 717E6el3goRLZLJs
 
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

@@ -1,5 +1,17 @@
+Caption: 
+
+----
+
+Alt: Detailed black and white botanical illustration of a grass or reed plant, showcasing its extensive root system sprawling outward and downward, with a vertical measurement scale on the left side indicating the plant's size and proportions.
+
+----
+
 Uuid: EgyzHQYFmNe13TSn
 
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

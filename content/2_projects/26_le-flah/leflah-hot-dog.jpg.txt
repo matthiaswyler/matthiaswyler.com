@@ -1,1 +1,13 @@
+Caption: 
+
+----
+
+Alt: Cook at a kitchen counter preparing a dish, surrounded by cooking utensils and ingredients, wearing a graphic t-shirt in a black and white photograph.
+
+----
+
 Uuid: i0u7lt5VBAKzQqMP
+
+----
+
+Alt-reviewed: true

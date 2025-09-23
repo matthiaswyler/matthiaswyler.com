@@ -1,5 +1,17 @@
+Caption: 
+
+----
+
+Alt: Black and white music publication titled "LEFLAH" with art supplies, a coffee mug, and tape measure scattered around it on a dark surface, highlighting a creative workspace setup.
+
+----
+
 Uuid: RzN3MEu7f1uczwU7
 
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

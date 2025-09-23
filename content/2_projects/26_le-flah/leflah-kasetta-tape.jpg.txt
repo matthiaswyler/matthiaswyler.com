@@ -1,5 +1,17 @@
+Caption: 
+
+----
+
+Alt: Black and white sketch of a person crouching on the edge of a geometric concrete surface, rendered in a stylized, slightly distorted drawing style typical of skateboarding culture graphics. The artwork is part of a tape series volume, labeled with "KASETA" and "LEFLAH" typography.
+
+----
+
 Uuid: trveR7j5KHmU05z4
 
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

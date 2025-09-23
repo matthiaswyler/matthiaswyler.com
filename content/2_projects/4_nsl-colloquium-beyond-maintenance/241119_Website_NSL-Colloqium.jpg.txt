@@ -7,3 +7,7 @@ Alt: A textured wall with a striking purple poster mounted on it.
 ----
 
 Uuid: lnMs7yFxmDfBWMfi
+
+----
+
+Alt-reviewed: true

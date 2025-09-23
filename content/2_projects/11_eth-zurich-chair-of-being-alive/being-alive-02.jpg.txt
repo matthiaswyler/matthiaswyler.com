@@ -1,1 +1,13 @@
+Caption: 
+
+----
+
+Alt: Two legs in plaid pants, viewed from ground level, are positioned in a V-shape against a muddy, leaf-strewn background, creating a geometric composition within a poster mounted on a stone wall.
+
+----
+
 Uuid: DCFTwW1Z7XhSE798
+
+----
+
+Alt-reviewed: true

@@ -1,5 +1,17 @@
+Caption: 
+
+----
+
+Alt: Several visitors in casual clothing stand in a white-walled gallery space, viewing artwork and exploring the exhibition area with a hanging light and open doorways.
+
+----
+
 Uuid: GUNOV5sqUWIvlLVP
 
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

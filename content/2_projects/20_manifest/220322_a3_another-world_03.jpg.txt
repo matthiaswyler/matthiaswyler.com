@@ -1,5 +1,17 @@
+Caption: 
+
+----
+
+Alt: Philosophical quote in black text stating: "If the State were a building, the Constitution would be its floor plan." Set against a plain white background.
+
+----
+
 Uuid: BPS68qiheutR1txt
 
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

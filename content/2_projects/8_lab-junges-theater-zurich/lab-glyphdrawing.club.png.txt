@@ -1,5 +1,17 @@
+Caption: 
+
+----
+
+Alt: Abstract geometric logo design with a black background featuring a white circle, shaped like a stylized lowercase letter "a" or an abstract symbol for a theater or creative space.
+
+----
+
 Uuid: Fm2QvIXPqkUpEi5A
 
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

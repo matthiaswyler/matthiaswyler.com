@@ -23,3 +23,7 @@ Uuid: WV5xisoDuhNEzd3E
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

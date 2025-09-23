@@ -1,1 +1,13 @@
+Caption: 
+
+----
+
+Alt: White-walled art gallery interior with multiple colorful graphic posters and artworks hung on walls, large arched window with natural light, and text on the wall reading "LES MATINS AUSSI" with additional gallery details.
+
+----
+
 Uuid: DhsC5Qgcv35d98hz
+
+----
+
+Alt-reviewed: true

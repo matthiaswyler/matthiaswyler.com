@@ -1,5 +1,13 @@
-Alt: 
+Caption: 
+
+----
+
+Alt: Modern multi-story office building with horizontal rows of windows, seen from a low angle against a cloudy blue sky. Steel cables and a communications tower are visible at the top of the image. The building appears to have a sleek, minimalist architectural design with a gray and white color scheme.
 
 ----
 
 Uuid: r3tr9ecuxkjlgbee
+
+----
+
+Alt-reviewed: true

@@ -1,5 +1,17 @@
+Caption: 
+
+----
+
+Alt: Young person in a denim jacket seated at a vintage desk with an old television, computer, and radio, looking directly at the camera with a relaxed posture.
+
+----
+
 Uuid: ZIwi3GeXnEMXBK3o
 
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true

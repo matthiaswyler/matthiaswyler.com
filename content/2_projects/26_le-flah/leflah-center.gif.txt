@@ -1,5 +1,17 @@
+Caption: 
+
+----
+
+Alt: Music poster for "Le Flah" by Piccolo Giardino, with bold, high-contrast black and white typography and geometric shapes creating a stark, graphic design aesthetic. Music credited to SMK [SLM & KHADERBAI].
+
+----
+
 Uuid: ZAbXZyDQEDA4xlbt
 
 ----
 
 Template: blocks/image
+
+----
+
+Alt-reviewed: true
