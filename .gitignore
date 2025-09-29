@@ -49,7 +49,7 @@ Icon
 
 # Cursor Rules
 # ---------------
-# .cursorrules - Keep this file in version control for team consistency
+.cursorrules
 .cursorignore
 
 # Composer

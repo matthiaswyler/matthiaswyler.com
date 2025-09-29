@@ -1,0 +1,14 @@
+title: Now
+icon: calendar
+
+preset: page
+pages: false
+files: false
+fields:
+  text:
+    label:
+      en: Now Text
+      de: Now Text
+      fr: Now Text
+    type: textarea
+    size: medium

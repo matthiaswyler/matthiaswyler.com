@@ -42,6 +42,7 @@ tabs:
               - imprint
               - privacy
               - newsletter
+              - now
             image: icon
           unpublished:
             label:

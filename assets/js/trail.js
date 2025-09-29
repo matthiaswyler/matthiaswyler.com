@@ -5,12 +5,6 @@ document.addEventListener("DOMContentLoaded", () => {
 		return;
 	}
 
-	// Only initialize trail on home page and books page
-	if (window.location.pathname !== "/" && window.location.pathname !== "/books") {
-		canvas.style.display = "none";
-		return;
-	}
-
 	const ctx = canvas.getContext("2d");
 	let lastEvent = null;
 	let currentEvent = null;
