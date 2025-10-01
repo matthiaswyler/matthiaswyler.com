@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: A black and white album or poster design for "Leflah" with text and graphic elements, surrounded by art supplies like markers, masking tape, a coffee mug, and a compass on a dark surface.
+
+----
+
+Uuid: RzN3MEu7f1uczwU7
+
+----
+
+Template: blocks/image

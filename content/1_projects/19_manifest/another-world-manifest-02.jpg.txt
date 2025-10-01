@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Philosophical quote in German about the state and constitution, comparing a state to a building and its constitution to its blueprint or floor plan.
+
+----
+
+Uuid: zMBuIyCTjuTHGUsX
+
+----
+
+Template: blocks/image

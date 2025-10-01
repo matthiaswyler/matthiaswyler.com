@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Two hands using a small trowel and pruning tool to work among green grass and weeds, carefully tending to vegetation on the ground.
+
+----
+
+Uuid: rqznx8bYArcqT0Ie
+
+----
+
+Template: blocks/image

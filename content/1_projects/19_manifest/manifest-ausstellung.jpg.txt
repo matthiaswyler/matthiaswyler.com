@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Several people stand or move in a minimalist white gallery space with exposed ceiling pipes, examining artwork or installations near white walls and a framed doorway.
+
+----
+
+Uuid: GUNOV5sqUWIvlLVP
+
+----
+
+Template: blocks/image

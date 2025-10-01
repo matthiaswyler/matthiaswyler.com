@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Purple background with text that reads "Foundation Studio I Module 3 HS20: Drawing Soil." Text is in a dark color and appears to be part of a course or project description.
+
+----
+
+Uuid: a53TYA7ZYsj7vdg9
+
+----
+
+Template: blocks/image

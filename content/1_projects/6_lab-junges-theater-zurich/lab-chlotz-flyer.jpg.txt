@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Geometric black and white graphic design with repeated letters forming a pattern. The letters "CHLÖTZ" are stylized in a blocky, modular font, arranged vertically with varying levels of completeness. Each row shows a progressive deconstruction of the letterforms, creating a rhythmic visual sequence.
+
+----
+
+Uuid: 2Dgj5Cx4uODMbE1o
+
+----
+
+Template: blocks/image

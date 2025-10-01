@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Handwritten page titled "The Uninterrupted Song for the City" placed inside an open cardboard box sitting on a wooden surface with a gray background. The document appears to be a text-heavy printed page with multiple paragraphs.
+
+----
+
+Uuid: 61TUuMLwTKYWyAsY
+
+----
+
+Template: blocks/image

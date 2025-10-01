@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Roland TB-303 Bass Line synthesizer front panel, featuring decay and accent knobs, volume control, step sequencer buttons, and time mode selector, iconic electronic music instrument used in electronic and dance music genres.
+
+----
+
+Uuid: XTw5W1E1GZGpZiWn
+
+----
+
+Template: blocks/image

@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Three people pose together in a bright interior space with large windows, radiators, and white panels. One person stands, one sits in an orange top, and another stands in a blue top, creating a casual group portrait in what appears to be a performance or rehearsal space.
+
+----
+
+Uuid: OUkVFUtngmJ8jdiw
+
+----
+
+Template: blocks/image

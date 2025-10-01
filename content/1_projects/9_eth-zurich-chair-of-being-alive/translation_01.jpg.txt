@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Stylized line drawing of a tree-like structure with geometric leaves against a yellow background. The image includes text "Translation: Rigorously drawing what we see and learn" alongside a minimalist graphic design element.
+
+----
+
+Uuid: trs6PP7aNXkFYNS3
+
+----
+
+Template: blocks/image

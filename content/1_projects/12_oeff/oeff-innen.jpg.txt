@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Empty white gallery or studio space with polished dark floor, track lighting, large windows, and a door. Minimalist interior with clean lines and neutral color palette, creating a sense of openness and potential.
+
+----
+
+Uuid: 717E6el3goRLZLJs
+
+----
+
+Template: blocks/image

@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Black and white botanical illustration of a dense grass or plant clump with an extensive root system, displaying intricate, spreading roots below ground and vertical grass blades above, with a measurement scale on the side indicating height and scale.
+
+----
+
+Uuid: EgyzHQYFmNe13TSn
+
+----
+
+Template: blocks/image

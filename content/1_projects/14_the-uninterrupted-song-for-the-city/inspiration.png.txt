@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Silhouetted cityscape with abstract architectural shapes and angular forms, divided into two monochromatic panels suggesting urban fragmentation and geometric complexity against a textured background.
+
+----
+
+Uuid: 3oqauVhiiWVrhQ0v
+
+----
+
+Template: blocks/image

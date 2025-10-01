@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Graphic design poster with the word "GOSSIPS" repeated in a distorted, pixelated black and white typographic layout. Letters gradually fade and break apart into increasingly sparse dot patterns from top to bottom. The design creates a visually fragmented and disintegrating text effect.
+
+----
+
+Uuid: H3aXCFU0ed1UjgHW
+
+----
+
+Template: blocks/image

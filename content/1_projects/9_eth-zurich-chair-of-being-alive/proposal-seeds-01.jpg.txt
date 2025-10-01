@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Minimalist graphic with colored dots and the text "ETH Zürich Chair of Being Alive" with the word "(Seeds)" appearing below, suggesting an abstract or conceptual design related to life and potential.
+
+----
+
+Uuid: mcClGmei6NifuNgn
+
+----
+
+Template: blocks/image

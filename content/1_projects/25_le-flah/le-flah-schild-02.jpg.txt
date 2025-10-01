@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: A person reaches up to adjust a street sign near a tree, with a bicycle and red chairs in the foreground and blurred urban buildings in the background. The scene appears to be in an outdoor urban setting with motion blur suggesting movement.
+
+----
+
+Uuid: cEatLd85VpqkMvP5
+
+----
+
+Template: blocks/image

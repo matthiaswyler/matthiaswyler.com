@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: A person in a white shirt stands at a wooden podium, facing a white wall with a small illuminated rectangular light, casting a shadow on the floor.
+
+----
+
+Uuid: s56G9JnMN8S9aADB
+
+----
+
+Template: blocks/image

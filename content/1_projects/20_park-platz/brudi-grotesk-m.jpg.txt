@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Two sets of stacked black letter "M"s arranged slightly askew against a white background, with each set having three letters slightly overlapping and angled.
+
+----
+
+Uuid: ZfrBpAhJTw70HAJZ
+
+----
+
+Template: blocks/image

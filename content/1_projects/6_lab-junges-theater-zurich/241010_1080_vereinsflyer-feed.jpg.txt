@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: A person in a shiny blue-purple puffy jacket stands with eyes closed while another person's hand is near their face, with a third person in dark clothing in the background. The scene appears tense or dramatic, set against a gray wall with a theatrical lighting effect.
+
+----
+
+Uuid: ReBnKQvsaPaV0eV4
+
+----
+
+Template: blocks/image

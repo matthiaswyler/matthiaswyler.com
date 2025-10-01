@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Black and white overhead view of a workspace with a laptop, papers, keyboard, and someone's hand working on documents, suggesting a design or creative process.
+
+----
+
+Uuid: 7gJWJ9bxaFPMR4S4
+
+----
+
+Template: blocks/image

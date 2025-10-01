@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Scattered black and white office supplies and a laptop surround the bold pixelated text "BRVDI GROTESK" in the center of the image. The composition appears to be a creative typographic design showcasing a graphic design or typography concept.
+
+----
+
+Uuid: 9i7Y2sanl9ABDerq
+
+----
+
+Template: blocks/image

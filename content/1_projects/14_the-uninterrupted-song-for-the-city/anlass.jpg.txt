@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Cellist performs alone on a green-tiled exterior plaza, positioned in front of a glass-doored building, while two individuals with a camera record the performance from behind.
+
+----
+
+Uuid: AHgGSCTWDPBjYCPc
+
+----
+
+Template: blocks/image

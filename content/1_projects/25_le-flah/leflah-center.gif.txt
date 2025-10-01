@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Black and white poster for "Leflah" music, designed by Piccolo Giardino with bold geometric typography and a circular white shape, created by SMK [SLM & Khaderbai].
+
+----
+
+Uuid: ZAbXZyDQEDA4xlbt
+
+----
+
+Template: blocks/image

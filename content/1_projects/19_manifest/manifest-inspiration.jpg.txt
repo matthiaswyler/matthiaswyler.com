@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Minimalist black metal side table supporting a stack of white folded towels or linens. The scene is set against a textured grid background with a monochromatic, clean aesthetic typical of contemporary design.
+
+----
+
+Uuid: RhXAWzBzNV5js35S
+
+----
+
+Template: blocks/image

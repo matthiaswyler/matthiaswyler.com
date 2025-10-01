@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Spread of a scholarly text in two columns, discussing "The Importance of Humanizing an African World Archive" with dense paragraphs of academic writing on a white background with black text.
+
+----
+
+Uuid: ff2wWz50f0TeybPk
+
+----
+
+Template: blocks/image

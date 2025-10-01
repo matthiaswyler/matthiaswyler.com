@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Bearded middle-aged man in a white t-shirt sits smiling at a bar or event, with blurred people around him and colorful lights in the background.
+
+----
+
+Uuid: lUFSQ3ia6Os9qGCs
+
+----
+
+Template: blocks/image

@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Two sneakers or athletic shoes hanging by their laces from a power line or wire against a white background, with text "INVHIDE 3 SUNS LEFLAH" on a black geometric shape below the shoes.
+
+----
+
+Uuid: 08Iudl0rzYbjlMF4
+
+----
+
+Template: blocks/image

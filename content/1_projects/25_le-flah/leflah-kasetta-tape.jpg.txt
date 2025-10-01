@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Black and white sketch of a person sitting on a skateboard, riding diagonally down a steep concrete surface or ramp. The drawing has a minimalist, angular style with strong shading and geometric lines. Text on the page indicates it's related to Kaseta and Le Flah tape series.
+
+----
+
+Uuid: trveR7j5KHmU05z4
+
+----
+
+Template: blocks/image

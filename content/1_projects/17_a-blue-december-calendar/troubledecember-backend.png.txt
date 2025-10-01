@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Minimalist white web interface showing an empty page titled "trouble blue december" with blank information and page sections visible. Default layout of a design or project management platform with grayscale color scheme and minimal content areas.
+
+----
+
+Uuid: NQbF1bNSAavQECHb
+
+----
+
+Template: blocks/image

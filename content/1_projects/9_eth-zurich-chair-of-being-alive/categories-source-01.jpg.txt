@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: A detailed green-toned map radiating from a central point, showing rivers, geographic lines, and the city of Rome, with arrow-like lines spreading out from the center like a network or knowledge diagram.
+
+----
+
+Uuid: TUKm2nmdPFnEDH0v
+
+----
+
+Template: blocks/image

@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Young person sits smiling on a windowsill, wearing a multicolored sweater with partially obscured text and dark gray jeans, with a radiator below and a window showing buildings in the background.
+
+----
+
+Uuid: UTKizxuagBaOqEEi
+
+----
+
+Template: blocks/image

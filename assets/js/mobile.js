@@ -5,18 +5,19 @@ document.addEventListener("DOMContentLoaded", function () {
 	const projectsSection = document.querySelector(".projects");
 
 	const path = window.location.pathname;
+	const isHomePage = path === "/" || path === "/home";
 	const isLinksOrBooks =
 		path.includes("links") ||
 		path.includes("books") ||
 		path.includes("newsletters") ||
 		path.includes("manifesto-library");
 
-	if (isLinksOrBooks) {
+	if (isHomePage) {
+		projectsSection.classList.add("show");
+	} else {
 		lifeSection.classList.add("show");
 		buttonText.textContent = "Close";
 		projectsSection.classList.remove("show");
-	} else {
-		projectsSection.classList.add("show");
 	}
 
 	infoButton.addEventListener("click", function () {

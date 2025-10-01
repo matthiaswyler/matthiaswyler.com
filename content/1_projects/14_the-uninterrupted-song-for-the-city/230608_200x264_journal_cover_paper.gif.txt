@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Handwritten title "The Uninterrupted Potted Song for the City" overlaid on a text document with dense paragraphs. The text appears to be a printed page with handwritten title at the top, set against a black background.
+
+----
+
+Uuid: yBJPLCRJdC3gq97U
+
+----
+
+Template: blocks/image

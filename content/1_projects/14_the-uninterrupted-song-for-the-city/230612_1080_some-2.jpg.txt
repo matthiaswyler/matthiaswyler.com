@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Experimental typography-based poster for "The Uninterrupted Song for the City" event. Black text on a white background, arranged in a fragmented, angular style with performance and event details. Designed with a minimalist, avant-garde graphic approach.
+
+----
+
+Uuid: aU8Nk35rFPO8UBLN
+
+----
+
+Template: blocks/image

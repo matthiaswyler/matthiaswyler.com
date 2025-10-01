@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Album cover for the International Library of African Music (AMA), showing the outline of the African continent with a stylized symbol inside, printed on a white background with text in French and English.
+
+----
+
+Uuid: vK31UyZGzvORPhFe
+
+----
+
+Template: blocks/image

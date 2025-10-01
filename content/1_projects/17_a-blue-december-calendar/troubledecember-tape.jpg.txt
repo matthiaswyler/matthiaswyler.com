@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Black and white graphic of a music cassette tape positioned next to an abstract patterned background with scattered geometric shapes and symbols, accompanied by repeated text "A BLUE DECEMBER CALENDAR" around the edges.
+
+----
+
+Uuid: vrahaCeJcGn71fjY
+
+----
+
+Template: blocks/image

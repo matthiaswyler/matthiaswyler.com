@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Black and white poster for "Gossips" with a stylized dotted text design and a golden heart-shaped pendant hanging in the center, mounted on a street billboard surrounded by green grass and trees.
+
+----
+
+Uuid: 8UPu0hOo4ngqcdwC
+
+----
+
+Template: blocks/image

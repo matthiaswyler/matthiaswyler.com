@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Topographical map in shades of green with contour lines and organic, textured patterns resembling geological formations or biological structures. The image is styled with a minimalist graphic design approach, suggesting the theme of "Different types of knowledge that inform us" in a visually abstract manner.
+
+----
+
+Uuid: aYgEKC3yMThOal4i
+
+----
+
+Template: blocks/image

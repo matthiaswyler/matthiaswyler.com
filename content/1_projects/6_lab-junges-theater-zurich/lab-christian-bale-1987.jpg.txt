@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Young person sitting at a vintage computer setup, wearing a blue denim jacket and resting their feet on the desk, surrounded by an old television and radio equipment.
+
+----
+
+Uuid: ZIwi3GeXnEMXBK3o
+
+----
+
+Template: blocks/image

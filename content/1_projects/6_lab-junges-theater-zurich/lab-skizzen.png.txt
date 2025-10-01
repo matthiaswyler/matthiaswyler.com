@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Graphic design layout with the word "Lab" in various stylized black typography, alongside a black and white photograph of a person sitting casually near a radiator, surrounded by additional graphic design elements on a gray background.
+
+----
+
+Uuid: gh8P4Ue7ULQukBY4
+
+----
+
+Template: blocks/image

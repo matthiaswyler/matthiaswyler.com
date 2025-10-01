@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Symmetrical architectural or design sketch showing a circular dashed outline with vertical and diagonal lines intersecting at a central point, creating a precise geometric composition within a grid background.
+
+----
+
+Uuid: Ay2jdzhRQB1Mx5y0
+
+----
+
+Template: blocks/image

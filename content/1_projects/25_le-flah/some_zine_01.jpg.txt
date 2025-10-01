@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Handmade zine or magazine titled "DESIRE" sealed in a clear plastic ziplock bag. The cover has a hand-drawn stylized graphic design with curved shapes in black and white, partially obscured by the bag's transparency.
+
+----
+
+Uuid: MWzGpyi5ro8uCAuS
+
+----
+
+Template: blocks/image

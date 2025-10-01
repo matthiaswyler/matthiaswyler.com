@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Circular diagram with four labeled segments in different colors: "Source" in green, "Translation" in yellow, "Celebration" in red, and "Proposal" in purple, centered around text indicating "ETH Zürich Chair of Being Alive".
+
+----
+
+Uuid: YyZ5xvTyHyfeFSO0
+
+----
+
+Template: blocks/image

@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Geometric black letters and numbers arranged in a grid, using blocky, pixelated shapes with white grid lines visible in the background, creating an abstract typographic composition.
+
+----
+
+Uuid: LNH6GpBoXYWHwDYx
+
+----
+
+Template: blocks/image

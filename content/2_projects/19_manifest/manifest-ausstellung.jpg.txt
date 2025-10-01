@@ -1,5 +1,0 @@
-Uuid: GUNOV5sqUWIvlLVP
-
-----
-
-Template: blocks/image

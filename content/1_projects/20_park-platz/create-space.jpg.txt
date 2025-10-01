@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Open-air amphitheater with curved stone seating and blue-paneled structures, surrounded by lush green trees under a blue sky with scattered clouds.
+
+----
+
+Uuid: Or4ez6aD8zmiqa8h
+
+----
+
+Template: blocks/image

@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Schematic diagram of plants with intricate root systems, illustrating underground growth patterns against a lavender-colored background. The graphic includes a proposal section with the text "Our suggestions" in a white box, suggesting an ecological or botanical design concept.
+
+----
+
+Uuid: frU7LLYZFVczWYgz
+
+----
+
+Template: blocks/image

@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Two people in a dimly lit stone space with a bright yellow surface. A person in a pink shirt stands in the foreground, while another person in a striped top stands on the yellow platform in the background. Geometric white and gray abstract shapes overlay parts of the image.
+
+----
+
+Uuid: B5ec13Av73pBwtbh
+
+----
+
+Template: blocks/image

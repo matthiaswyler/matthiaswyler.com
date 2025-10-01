@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Stylized, hand-drawn title "The Uninterrupted Song for the City" at the top of a text page with grid background. Black and white layout with a dense editorial text block underneath the title.
+
+----
+
+Uuid: REhm4po5hPmOSuHK
+
+----
+
+Template: blocks/image

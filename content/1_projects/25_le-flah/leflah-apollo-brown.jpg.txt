@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Two musicians in a dimly lit home studio with colored lighting, surrounded by music equipment including a laptop, mixing board, and various audio devices. The scene has a moody, creative atmosphere with teal and pink ambient lighting.
+
+----
+
+Uuid: flq2LJH6ALwSy4oU
+
+----
+
+Template: blocks/image

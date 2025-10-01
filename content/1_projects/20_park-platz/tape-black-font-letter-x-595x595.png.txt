@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Black velcro straps crossed in an X shape, appearing textured and slightly worn, against a white background.
+
+----
+
+Uuid: 7pxwN1jT2VneUACi
+
+----
+
+Template: blocks/image

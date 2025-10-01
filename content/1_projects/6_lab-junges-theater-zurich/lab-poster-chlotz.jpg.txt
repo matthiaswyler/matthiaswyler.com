@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Cylindrical advertising column with repeated text on a city square, a person on a ladder adjusting a blue fabric covering part of the structure, with historic buildings and a bare tree in the background.
+
+----
+
+Uuid: 8dev2dw1s9xgkz5t
+
+----
+
+Template: blocks/image

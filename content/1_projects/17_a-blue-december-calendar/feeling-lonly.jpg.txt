@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Astronaut in white spacesuit seated in spacecraft, gazing down at the curved blue horizon of Earth from space with a pixelated, slightly grainy appearance.
+
+----
+
+Uuid: gvyMLP0foBEbxvYm
+
+----
+
+Template: blocks/image

@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Black and white poster advertising "Leflah" live beats concert series from 2013-2014. Each event is illustrated with a hand-drawn style image of an animal or a gun, showing the performer name and date. The design has a grungy, underground music aesthetic with stark typography and sketchy illustrations.
+
+----
+
+Uuid: pmLwPHYeVFCrkSMb
+
+----
+
+Template: blocks/image

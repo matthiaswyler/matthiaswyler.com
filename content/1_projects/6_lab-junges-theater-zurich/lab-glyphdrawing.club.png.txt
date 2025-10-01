@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Black geometric logo featuring a stylized letterform with a white circle, designed with clean, minimalist lines against a light background.
+
+----
+
+Uuid: Fm2QvIXPqkUpEi5A
+
+----
+
+Template: blocks/image

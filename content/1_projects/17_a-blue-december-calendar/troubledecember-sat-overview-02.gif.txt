@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Spacecraft and satellites floating against a starry black space background, with a digital-looking cube structure and a shuttlecock or badminton birdie-shaped object positioned at different points in the composition.
+
+----
+
+Uuid: vO5QC2W6GJI2Afmd
+
+----
+
+Template: blocks/image

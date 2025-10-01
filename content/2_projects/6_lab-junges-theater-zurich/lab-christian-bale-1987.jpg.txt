@@ -1,5 +1,0 @@
-Uuid: ZIwi3GeXnEMXBK3o
-
-----
-
-Template: blocks/image

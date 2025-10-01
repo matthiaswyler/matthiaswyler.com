@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Young performer in a shiny blue jacket stands on stage with another person partially visible, conveying an intense theatrical moment during a theater workshop for youth. A text overlay promotes weekly project rehearsals between September and May, inviting young people to develop a theater piece together.
+
+----
+
+Uuid: IWPu4943s7tV7STt
+
+----
+
+Template: blocks/image

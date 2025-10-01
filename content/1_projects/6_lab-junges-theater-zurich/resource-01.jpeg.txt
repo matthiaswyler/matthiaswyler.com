@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Black and white scientific experiment setup showing six young seedlings in numbered clay pots, with their root systems visible through glass bottles below, demonstrating plant growth and root development.
+
+----
+
+Uuid: pPLQFmsmTv3SOwxj
+
+----
+
+Template: blocks/image

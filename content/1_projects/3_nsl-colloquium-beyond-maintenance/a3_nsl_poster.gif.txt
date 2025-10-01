@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Black and white graphic design poster for an NSL Colloquium event titled "Beyond Maintenance: Responsive Practices for Changing Landscapes" with stylized text and a clustered, organic-shaped graphic element. The poster lists keynote speakers and provides event details for February 26th-28th, 2025.
+
+----
+
+Uuid: 2Ee7R9yza8QJ5nBZ
+
+----
+
+Template: blocks/image

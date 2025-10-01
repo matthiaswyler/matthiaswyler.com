@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Stylized black text quote reading "Another End of the World is Possible." on a plain white background, with a minimalist graphic design aesthetic typical of contemporary art or design publications.
+
+----
+
+Uuid: Wilsl0MPWuEkCuag
+
+----
+
+Template: blocks/image

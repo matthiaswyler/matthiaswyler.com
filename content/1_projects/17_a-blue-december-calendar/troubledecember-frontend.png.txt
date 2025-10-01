@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Stylized space satellite with geometric, striped cylindrical sections in blue, purple, and teal colors, positioned against a starry black background with a galaxy-like texture. The satellite appears to be a conceptual or artistic rendering with angular, segmented design and red accent details. Text overlay suggests "Satellite of Love" with additional small credits at the bottom of the image.
+
+----
+
+Uuid: bUv6YZjHEoSuogFz
+
+----
+
+Template: blocks/image

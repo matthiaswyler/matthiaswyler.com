@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Typographic logo for "Lab" using black geometric letterforms. Annotations point to the qualities "human", "young", and "playful" around the logo. The design is minimalist and stylized, with white dots and lines integrated into the black letters.
+
+----
+
+Uuid: mH3B9eiWKnm6gkEO
+
+----
+
+Template: blocks/image

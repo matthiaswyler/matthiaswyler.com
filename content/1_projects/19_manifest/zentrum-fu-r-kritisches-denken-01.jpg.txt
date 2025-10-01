@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Typewritten text page in German from the "Zentrum für kritisches Denken" (Center for Critical Thinking), with multiple paragraphs starting with numbered sections like "WIR DICHTEN NICHT" and continuing with other numbered statements.
+
+----
+
+Uuid: OGJERLmgDNX1B3Z6
+
+----
+
+Template: blocks/image

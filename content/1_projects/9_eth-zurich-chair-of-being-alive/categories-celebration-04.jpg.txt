@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Intricate red network of interconnected lines resembling a map or neural pathways, with the text "Celebration - What we share with the world" in white and red boxes on the right side of the image.
+
+----
+
+Uuid: ds2fWA9BkRmvmAQa
+
+----
+
+Template: blocks/image

@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Black starry background with floating geometric objects: a cylindrical white and black striped object surrounded by three magenta spheres.
+
+----
+
+Uuid: JoKLV9Jl6e44ng6h
+
+----
+
+Template: blocks/image

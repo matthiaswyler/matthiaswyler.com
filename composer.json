@@ -1,5 +1,42 @@
 {
+    "name": "matthiaswyler/matthiaswyler.com",
+    "description": "Personal website for Matthias Wyler - visual design, art direction, typography and type design",
+    "type": "portfolio",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Studio Matthias Wyler",
+            "email": "mail@matthiaswyler.com",
+            "homepage": "https://matthiaswyler.com"
+        }
+    ],
     "require": {
-        "getkirby/cli": "^1.7"
+        "php": ">=8.4.0",
+        "getkirby/cms": "^5.0.4",
+        "getkirby/cli": "^1.7",
+        "tobimori/kirby-seo": "^2.0.0-alpha.1",
+        "floriankarsten/kirby-plausible": "*",
+        "distantnative/retour-for-kirby": "^5.5.0",
+        "medienbaecker/kirby-alter": "^1.7.0"
+    },
+    "require-dev": {
+        "getkirby/composer-installer": "^1.2.1"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "allow-plugins": {
+            "getkirby/composer-installer": true
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "php -r \"if (file_exists('kirby/bootstrap.php')) { require 'kirby/bootstrap.php'; }\""
+        ],
+        "post-update-cmd": [
+            "php -r \"if (file_exists('kirby/bootstrap.php')) { require 'kirby/bootstrap.php'; }\""
+        ]
+    },
+    "extra": {
+        "kirby-cms-path": "kirby"
     }
 }
