@@ -3,12 +3,7 @@
 	scroll-padding-bottom: var(--spacing-16);
 }
 
-.life .text > *:last-child {
-	margin-bottom: var(--spacing-16);
-}
-
-.life .columns > *:last-child,
-.life .text > *:last-child {
+.life .columns > *:last-child {
 	margin-bottom: var(--spacing-16);
 }
 
