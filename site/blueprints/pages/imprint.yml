@@ -1,0 +1,25 @@
+title: Imprint
+
+tabs:
+  content:
+    label:
+      en: Content
+      de: Inhalt
+      fr: Contenu
+    icon: document
+    columns:
+      main:
+        width: 3/4
+        fields:
+          matter:
+            label:
+              en: Content
+              de: Inhalt
+            type: layout
+            layouts:
+              - "1/1"
+            fieldsets:
+              - heading
+              - text
+              - line
+  seo: seo/page

@@ -1,0 +1,73 @@
+Title: Imprint
+
+----
+
+Matter: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p><strong>Legal Notice</strong></p><p>Information according to § 5 TMG</p><p>Studio Matthias Wyler<br>Schöneggstrasse 5<br>8008 Zürich<br>Switzerland</p><p><strong>Contact:</strong><br>Email: <a href=\"mailto:mail@matthiaswyler.com\" title=\"Email Studio Matthias Wyler\">mail@matthiaswyler.com</a><br>Website: <a href=\"https://matthiaswyler.com\" title=\"Webseite Studio Matthias Wyler\">https://matthiaswyler.com</a></p><p><strong>Responsible for content </strong>according to § 55 para. 2 RStV:<br>Matthias David Wyler</p><p><strong>1. Privacy at a Glance</strong></p><p>General Information<br>The following notes provide a simple overview of what happens to your personal data when you visit this website. Personal data is any data that can be used to identify you personally.</p><p>Responsible Party<br>The responsible party for data processing on this website is:</p><p>Studio Matthias Wyler<br>Schöneggstrasse 5<br>8008 Zürich<br>Email: <a href=\"mailto:mail@matthiaswyler.com\" title=\"Email Studio Matthias Wyler\">mail@matthiaswyler.com</a></p><p>The responsible party is the natural or legal person who alone or jointly with others determines the purposes and means of processing personal data.</p><p><strong>2. Data Collection on This Website</strong></p><p>Server Log Files<br>The provider of the pages automatically collects and stores information in so-called server log files, which your browser automatically transmits to us. These are:</p><p>- Browser type and browser version<br>- Operating system used<br>- Referrer URL<br>- Host name of the accessing computer<br>- Time of the server request</p><p>IP address<br>This data is not combined with other data sources. The collection of this data is based on Art. 6 para. 1 lit. f GDPR. The website operator has a legitimate interest in the technically error-free presentation and optimization of its website – for this purpose, server log files must be collected.</p><p>Cookies<br>This website does not use cookies. The web analytics software used, Plausible Analytics, works completely without cookies.</p><p>Email Contact<br>If you send us inquiries via email, your information from your email, including the contact data you provide there, will be stored by us for the purpose of processing the inquiry and in case of follow-up questions. We do not share this data without your consent.</p><p>The processing of this data is based on Art. 6 para. 1 lit. b GDPR, if your inquiry is related to the fulfillment of a contract or is necessary for the implementation of pre-contractual measures. In all other cases, the processing is based on our legitimate interest in the effective processing of inquiries addressed to us (Art. 6 para. 1 lit. f GDPR) or on your consent (Art. 6 para. 1 lit. a GDPR) if this has been requested.</p><p>The data you enter via email remains with us until you request deletion, revoke your consent to storage, or the purpose for data storage no longer applies. Mandatory legal provisions – especially retention periods – remain unaffected.</p><p>Newsletter (MailChimp)<br>If you would like to subscribe to the newsletter offered on the website, we require an email address from you as well as information that allows us to verify that you are the owner of the specified email address and agree to receive the newsletter.</p><p>For sending the newsletter, we use the service MailChimp, a newsletter distribution service of The Rocket Science Group LLC, 675 Ponce De Leon Ave NE, Suite 5000, Atlanta, GA 30308, USA. MailChimp's privacy policy can be found at: <a href=\"https://mailchimp.com/legal/privacy/\">https://mailchimp.com/legal/privacy/</a></p><p>MailChimp is a service that can be used to organize and analyze the sending of newsletters. The data you enter for the purpose of subscribing to the newsletter is stored on MailChimp's servers in the USA. MailChimp is certified under the EU-US Data Privacy Framework.</p><p><strong>Data Analysis by MailChimp:</strong> With the help of MailChimp, we can analyze our newsletter campaigns. For example, we can see whether a newsletter message was opened and which links were clicked. In this way, we can determine which links were clicked particularly often. MailChimp also enables us to divide newsletter recipients into different categories (\"cluster\"), e.g., based on demographic characteristics. This allows us to better adapt the newsletters to the respective target groups.</p><p>Data processing is based on your consent (Art. 6 para. 1 lit. a GDPR). You can revoke this consent at any time by unsubscribing from the newsletter. The lawfulness of data processing operations that have already taken place remains unaffected by the revocation.</p><p>If you do not want analysis by MailChimp, you must unsubscribe from the newsletter. We provide a corresponding link in every newsletter message for this purpose.</p><p>The data you have deposited with us for the purpose of subscribing to the newsletter will be stored by us or the newsletter service provider until you unsubscribe from the newsletter and deleted from the newsletter distribution list after you cancel the newsletter subscription. Data stored by us for other purposes remains unaffected.</p><p>After you unsubscribe from the newsletter distribution list, your email address may be stored by us or the newsletter service provider in a blacklist, if necessary to prevent future mailings. The data from the blacklist is used only for this purpose and is not merged with other data. This serves both your interest and our interest in complying with legal requirements when sending newsletters (legitimate interest within the meaning of Art. 6 para. 1 lit. f GDPR). Storage in the blacklist is not limited in time. You can object to the storage if your interests outweigh our legitimate interest.</p><p><strong>3. Hosting</strong></p><p>This website is hosted externally. The personal data collected on this website is stored on the servers of the host. This may include IP addresses, contact requests, meta and communication data, contract data, contact details, names, website accesses, and other data generated via a website.</p><p>External hosting is carried out for the purpose of contract fulfillment towards our potential and existing customers (Art. 6 para. 1 lit. b GDPR) and in the interest of secure, fast, and efficient provision of our online offer by a professional provider (Art. 6 para. 1 lit. f GDPR).</p><p>Our host will only process your data to the extent necessary to fulfill its performance obligations and follow our instructions regarding this data.</p><p><strong>4. Your Rights</strong></p><p>Information, Deletion, and Correction<br>Within the framework of applicable legal provisions, you have the right at any time to free information about your stored personal data, its origin and recipients, and the purpose of data processing, and possibly a right to correction or deletion of this data.</p><p>Right to Restriction of Processing<br>You have the right to request the restriction of processing your personal data.</p><p>Right to Data Portability<br>You have the right to have data that we process automatically based on your consent or in fulfillment of a contract handed over to you or to a third party in a common, machine-readable format.</p><p>Right to Object<br>If your personal data is processed on the basis of legitimate interests according to Art. 6 para. 1 lit. f GDPR, you have the right to object to the processing of your personal data according to Art. 21 GDPR, provided there are reasons for this arising from your particular situation.</p><p>Right to Lodge a Complaint with a Supervisory Authority</p><p>In the event of violations of the GDPR, data subjects have the right to lodge a complaint with a supervisory authority. The right to lodge a complaint exists without prejudice to other administrative or judicial remedies.</p><p><strong>5. Analytics Services</strong></p><p>Plausible Analytics<br>This website uses Plausible Analytics, a privacy-friendly web analytics service. Plausible Analytics is operated by Plausible Insights OÜ, Västriku tn 2, 50403, Tartu, Estonia.</p><p><strong>Nature and Scope of Data Processing:</strong> Plausible Analytics collects only aggregated, anonymized data about the use of this website. No personal data is collected, no cookies are set, and no personal information is stored. The collected data includes:</p><p>- Pages visited<br>- Referring websites (referrer)<br>- Device types used (desktop, mobile, tablet)<br>- Countries used (based on IP address, which is not stored)</p><p>Browsers used<br><strong>GDPR Compliance:</strong> Plausible Analytics is fully GDPR-compliant and does not require cookie banners or user consent because:</p><p>- No personal data is collected<br>- No cookies are used<br>- No IP addresses are stored<br>- No data is shared with third parties</p><p>All data is hosted on servers within the EU</p><p>The use of Plausible Analytics is based on Art. 6 para. 1 lit. f GDPR. We have a legitimate interest in the anonymized analysis of user behavior in order to optimize our web offering.</p><p>More information about privacy at Plausible Analytics can be found at: <a href=\"https://plausible.io/data-policy\">https://plausible.io/data-policy</a></p><p><strong>6. Content Management System</strong></p><p>Kirby CMS<br>This website is operated with <a href=\"https://getkirby.com\" title=\"Kirby Website\">Kirby CMS</a>, a file-based content management system without a database. Kirby itself does not collect any personal data from website visitors.</p><p><strong>Date of this Privacy Policy:</strong> October 2025</p><p>If you have any questions about the collection, processing, or use of your personal data, for information, correction, blocking, or deletion of data, please contact: <a href=\"mailto:mail@matthiaswyler.com\" title=\"Email Studio Matthias Wyler\">mail@matthiaswyler.com</a></p>"},"id":"2f0f5bb3-fa88-4b01-817e-da77bc4c0b86","isHidden":false,"type":"text"}],"id":"e747eca3-6f27-4961-bd76-9571f6558dd4","width":"1/1"}],"id":"60313141-8a60-4ed7-a2e0-5a1eb2009521"}]
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: ebqfurdvzotuyttv
