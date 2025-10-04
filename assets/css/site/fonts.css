@@ -7,8 +7,17 @@
 }
 
 @font-face {
-	font-family: "Studio";
+	font-family: "Savate";
 	src: url("/assets/fonts/savate-regular-webfont.woff2") format("woff2");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: "System";
+	src: url("/assets/fonts/System-Regular.woff2") format("woff2");
 	font-display: swap;
 	font-weight: 400;
 	font-style: normal;
