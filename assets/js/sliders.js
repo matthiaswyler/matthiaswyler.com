@@ -118,6 +118,17 @@ document.addEventListener("DOMContentLoaded", function () {
 			`.right-zone[data-slider="${sliderId}"]`
 		);
 
+		// Hide navigation zones if there's only one slide
+		const hideNavigationIfSingleSlide = () => {
+			if (splide.length <= 1) {
+				if (leftZone) leftZone.style.display = "none";
+				if (rightZone) rightZone.style.display = "none";
+			} else {
+				if (leftZone) leftZone.style.display = "";
+				if (rightZone) rightZone.style.display = "";
+			}
+		};
+
 		if (leftZone) {
 			leftZone.addEventListener("click", (e) => {
 				if (e.pointerType === "touch") return; // Prevent double triggers on touch
@@ -131,6 +142,10 @@ document.addEventListener("DOMContentLoaded", function () {
 				splide.go(">");
 			});
 		}
+
+		// Check navigation visibility on mount and when slides change
+		splide.on("mounted", hideNavigationIfSingleSlide);
+		splide.on("updated", hideNavigationIfSingleSlide);
 
 		// Performance: Optimized counter updates
 		const slideCounter = splideElement.querySelector(
