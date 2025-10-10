@@ -31,7 +31,7 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           port: ${{ secrets.PORT }}
           script: |
-            cd /path/to/your/website
+            cd /home/matthiasdavidwyler/matthiaswyler.com
             git pull origin main
             composer install --no-dev --optimize-autoloader
             # Clear Kirby cache if needed
