@@ -24,18 +24,6 @@ main {
 	display: none;
 }
 
-.life {
-	padding: var(--spacing-3) var(--spacing-3) 0 var(--spacing-3);
-	background-color: var(--color-highlight);
-}
-
-@supports (backdrop-filter: blur(10px)) {
-	.life {
-		background-color: var(--color-highlight);
-		backdrop-filter: blur(10px);
-	}
-}
-
 section.projects,
 section.life {
 	position: relative;

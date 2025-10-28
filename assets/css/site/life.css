@@ -1,7 +1,21 @@
 .life {
 	padding-bottom: var(--spacing-16);
 	scroll-padding-bottom: var(--spacing-16);
+	background-image: url('/assets/files/life-bg-texture.png');
+	overflow: auto;
+    min-height: 100vh;
+    background-size: 1300px;
+    background-repeat: repeat;
 }
+
+
+@media (max-width: 64rem) {
+	.life {
+		/* padding: var(--spacing-3) var(--spacing-3) 0 var(--spacing-3); */
+		background-color: white;
+	}
+}
+
 
 .life .columns > *:last-child {
 	margin-bottom: var(--spacing-16);
