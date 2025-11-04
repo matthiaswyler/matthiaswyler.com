@@ -43,6 +43,8 @@ canvas {
 @media (max-width: 64rem) {
 	main {
 		padding: 0 var(--spacing-3);
+		height: auto;
+		overflow: visible;
 	}
 
 	.life,
@@ -54,8 +56,19 @@ canvas {
 	.projects.show {
 		display: block;
 		width: 100%;
-		height: 100%;
+		max-height: calc(100vh - var(--spacing-16));
+		height: auto;
 		top: var(--spacing-16);
+		overflow-y: auto;
+		overflow-x: hidden;
+		scrollbar-width: none;
+		-ms-overflow-style: none;
+		-webkit-overflow-scrolling: touch;
+	}
+
+	.life.show::-webkit-scrollbar,
+	.projects.show::-webkit-scrollbar {
+		display: none;
 	}
 
 	.project.columns [style="--span:3"],

@@ -1,0 +1,18 @@
+Title: P5 Sketch
+icon: code
+
+status: 
+  draft:
+    label:
+      en: Draft
+      de: Entwurf
+    text:
+      en: The sketch is still in draft mode. It can only be viewed by editors with Panel access.
+      de: Der Sketch ist noch im Entwurf. Er kann nur von Redakteuren mit Panel-Zugriff eingesehen werden.
+  listed:
+    label:
+      en: Published
+      de: Veröffentlicht
+    text:
+      en: The sketch is online and listed on the homepage.
+      de: Der Sketch ist online und auf der Homepage aufgeführt.

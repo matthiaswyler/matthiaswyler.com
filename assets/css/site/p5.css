@@ -1,0 +1,147 @@
+/* Canvas Base Styles */
+canvas {
+	display: block;
+	touch-action: pan-y;
+}
+
+/* Sketches Grid */
+.sketches-grid {
+	--sketches-grid-cols-sm: 1;
+	--sketches-grid-cols-md: 12;
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat(var(--sketches-grid-cols-sm), 1fr);
+	gap: var(--spacing-2);
+	row-gap: var(--spacing-2);
+	margin-top: var(--spacing-4);
+	container-type: inline-size;
+}
+
+.sketches-grid > * {
+	grid-column: 1 / -1;
+}
+
+.projects[style*="--span: 4"] .sketches-grid,
+.projects[style*="--span: 3"] .sketches-grid,
+.projects[style*="--span: 2"] .sketches-grid,
+.projects[style*="--span: 1"] .sketches-grid {
+	grid-template-columns: repeat(1, 1fr);
+}
+
+.projects[style*="--span: 4"] .sketches-grid > *,
+.projects[style*="--span: 3"] .sketches-grid > *,
+.projects[style*="--span: 2"] .sketches-grid > *,
+.projects[style*="--span: 1"] .sketches-grid > * {
+	grid-column: 1 / -1;
+}
+
+@media (min-width: 768px) {
+	.sketches-grid {
+		grid-template-columns: repeat(var(--sketches-grid-cols-md), 1fr);
+	}
+
+	.sketches-grid > *:nth-child(12n + 1) { grid-column: span 4; }
+	.sketches-grid > *:nth-child(12n + 2) { grid-column: span 5; }
+	.sketches-grid > *:nth-child(12n + 3) { grid-column: span 3; }
+	.sketches-grid > *:nth-child(12n + 4) { grid-column: span 8; }
+	.sketches-grid > *:nth-child(12n + 5) { grid-column: span 4; }
+	.sketches-grid > *:nth-child(12n + 6) { grid-column: span 6; }
+	.sketches-grid > *:nth-child(12n + 7) { grid-column: span 6; }
+	.sketches-grid > *:nth-child(12n + 8) { grid-column: span 5; }
+	.sketches-grid > *:nth-child(12n + 9) { grid-column: span 3; }
+	.sketches-grid > *:nth-child(12n + 10) { grid-column: span 4; }
+	.sketches-grid > *:nth-child(12n + 11) { grid-column: span 7; }
+	.sketches-grid > *:nth-child(12n + 12) { grid-column: span 5; }
+}
+
+/* Sketch Container */
+.sketch-container {
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin-bottom: var(--spacing-3);
+}
+
+.sketch-wrapper {
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-bottom: 100%;
+	overflow: hidden;
+	touch-action: pan-y;
+}
+
+/* Canvas Base Styles */
+canvas {
+	display: block;
+	touch-action: pan-y !important;
+}
+
+.sketch-container canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+	touch-action: pan-y !important;
+}
+
+/* Error Message */
+.sketch-error {
+	color: var(--color-gray-600);
+	font-size: var(--text-sm);
+	padding: var(--spacing-4);
+	background: var(--color-gray-200);
+	border-radius: var(--rounded);
+}
+
+/* Toggle Switch */
+.sketch-toggle {
+	position: absolute;
+	bottom: var(--spacing-2);
+	right: var(--spacing-2);
+	display: inline-block;
+	width: 30px;
+	height: 18px;
+	z-index: 10;
+}
+
+.sketch-toggle input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+.sketch-toggle-slider {
+	position: absolute;
+	inset: 0;
+	cursor: pointer;
+	background-color: var(--color-gray-400);
+	border-radius: 10px;
+	transition: background-color 0.4s;
+}
+
+.sketch-toggle-slider:before {
+	position: absolute;
+	content: "";
+	width: 10px;
+	height: 10px;
+	left: 4px;
+	bottom: 4px;
+	background-color: var(--color-white);
+	border-radius: 50%;
+	transition: transform 0.4s;
+}
+
+.sketch-toggle input:checked + .sketch-toggle-slider {
+	background-color: var(--color-black);
+}
+
+.sketch-toggle input:focus + .sketch-toggle-slider {
+	box-shadow: 0 0 1px var(--color-black);
+}
+
+.sketch-toggle input:checked + .sketch-toggle-slider:before {
+	transform: translateX(10px);
+}

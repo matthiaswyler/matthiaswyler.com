@@ -1,0 +1,55 @@
+title: P5
+icon: code
+
+tabs:
+  content:
+    label:
+      en: Content
+      de: Inhalt
+      fr: Contenu
+    icon: document
+    columns:
+      main:
+        width: 2/3
+        sections:
+          matter:
+            headline:
+              en: P5 Sketches
+              de: P5 Sketches
+            type: pages
+            parent: page
+            create: sketch
+            template:
+              - sketch
+            status: all
+            layout: table
+            search: true
+            limit: 50
+            columns:
+              title:
+                width: 1/2
+                value: "{{ page.title }}"
+              date:
+                width: 1/2
+                value: "{{ page.published.toDate('d.m.Y') }}"
+      sidebar:
+        width: 1/3
+        fields:
+          life:
+            label:
+              en: Content
+              de: Inhalt
+            type: layout
+            layouts:
+              - "1/1"
+              - "1/2, 1/2"
+              - "1/3, 1/3, 1/3"
+            fieldsets:
+              - text
+              - image
+              - slider
+              - gallery
+              - video
+              - signup
+              - line
+  seo: seo/page

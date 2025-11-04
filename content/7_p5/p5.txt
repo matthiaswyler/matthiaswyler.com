@@ -1,0 +1,73 @@
+Title: P5 Daily
+
+----
+
+Life: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Creative coding is a craft for sparking, exploring, and developing ideas in a computational medium. Through cycles of experimentation, iteration, and reflection, it creates a broad array of works, from functional tools to poetic expressions. As a practice, creative coding extends creativity and prompts a dialogue with technology that deepens our understanding of the systems shaping our world.</p><p>Starting now, I'm committing to this practice: publishing a small p5.js sketch at least once a week. Each sketch will be a small experiment, a visual thought, a playful interaction, or a technical curiosity. Some will be polished, others rough. All will be part of an ongoing conversation with code.</p><p>Follow along as I explore what's possible when creativity meets computation.</p>"},"id":"1a3852f9-ffce-4b24-895f-d593d2345dfb","isHidden":false,"type":"text"}],"id":"7111f73b-a845-4806-9752-d0c721e8a9bf","width":"1/1"}],"id":"766ea4d9-0f22-4a5a-b6af-61036a09bac8"}]
+
+----
+
+Metatitle: P5.js exploration, iteration, reflection and discovery
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: cbd8nqjwy3ahzgl5
