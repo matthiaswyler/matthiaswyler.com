@@ -1,4 +1,4 @@
-let fg= 'rgb(0, 0, 0)';
+let fg= '#1a1a1a';
 let bg='rgb(255, 255, 255)';
 
 function setup() {
