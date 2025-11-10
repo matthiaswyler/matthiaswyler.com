@@ -4,7 +4,7 @@
   Say hello ~ matthiaswyler.com
 
 -->
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" prefix="og: <?= $page->url() ?>">
 
 <head>
