@@ -54,60 +54,70 @@ if ($jsFile) {
               const hasMouseControls = /\bmouseX\b|\bmouseY\b/i.test(code);
               
               // Transform global mode code to instance mode
+              // Use 'sketch' as instance variable name to avoid conflicts with function parameters named 'p'
               // Only replace standalone function calls, not method calls (e.g., wordList.push stays as-is)
               let modifiedCode = code
-                .replace(/function\s+setup\s*\(\)/g, 'p.setup = function()')
-                .replace(/function\s+draw\s*\(\)/g, 'p.draw = function()')
+                .replace(/function\s+setup\s*\(\)/g, 'sketch.setup = function()')
+                .replace(/function\s+draw\s*\(\)/g, 'sketch.draw = function()')
+                // p5.js functions - transform BEFORE variables to avoid conflicts
+                // Using (^|[^.\w]) pattern to match start of line or non-word character before the function
+                .replace(/(^|[^.\w])\bnoiseSeed\s*\(/g, '$1sketch.noiseSeed(')
+                .replace(/(^|[^.\w])\bnoise\s*\(/g, '$1sketch.noise(')
+                .replace(/(^|[^.\w])\bcreateCanvas\s*\(/g, '$1sketch.createCanvas(')
+                .replace(/(^|[^.\w])\bpixelDensity\s*\(/g, '$1sketch.pixelDensity(')
+                .replace(/(^|[^.\w])\bframeRate\s*\(/g, '$1sketch.frameRate(')
+                .replace(/(^|[^.\w])\bloadFont\s*\(/g, '$1sketch.loadFont(')
+                .replace(/(^|[^.\w])\bbackground\s*\(/g, '$1sketch.background(')
+                .replace(/(^|[^.\w])\btextFont\s*\(/g, '$1sketch.textFont(')
+                .replace(/(^|[^.\w])\bpush\s*\(/g, '$1sketch.push(')
+                .replace(/(^|[^.\w])\bpop\s*\(/g, '$1sketch.pop(')
+                .replace(/(^|[^.\w])\btranslate\s*\(/g, '$1sketch.translate(')
+                .replace(/(^|[^.\w])\bscale\s*\(/g, '$1sketch.scale(')
+                .replace(/(^|[^.\w])\bmap\s*\(/g, '$1sketch.map(')
+                .replace(/(^|[^.\w])\bradians\s*\(/g, '$1sketch.radians(')
+                .replace(/(^|[^.\w])\bdegrees\s*\(/g, '$1sketch.degrees(')
+                .replace(/(^|[^.\w])\bsin\s*\(/g, '$1sketch.sin(')
+                .replace(/(^|[^.\w])\bcos\s*\(/g, '$1sketch.cos(')
+                .replace(/(^|[^.\w])\btan\s*\(/g, '$1sketch.tan(')
+                .replace(/(^|[^.\w])\basin\s*\(/g, '$1sketch.asin(')
+                .replace(/(^|[^.\w])\bacos\s*\(/g, '$1sketch.acos(')
+                .replace(/(^|[^.\w])\batan\s*\(/g, '$1sketch.atan(')
+                .replace(/(^|[^.\w])\batan2\s*\(/g, '$1sketch.atan2(')
+                .replace(/(^|[^.\w])\brotate\s*\(/g, '$1sketch.rotate(')
+                .replace(/(^|[^.\w])\brotateY\s*\(/g, '$1sketch.rotateY(')
+                .replace(/(^|[^.\w])\brotateX\s*\(/g, '$1sketch.rotateX(')
+                .replace(/(^|[^.\w])\brectMode\s*\(/g, '$1sketch.rectMode(')
+                .replace(/(^|[^.\w])\btextAlign\s*\(/g, '$1sketch.textAlign(')
+                .replace(/(^|[^.\w])\btextSize\s*\(/g, '$1sketch.textSize(')
+                .replace(/(^|[^.\w])\btextWidth\s*\(/g, '$1sketch.textWidth(')
+                .replace(/(^|[^.\w])\bfill\s*\(/g, '$1sketch.fill(')
+                .replace(/(^|[^.\w])\bnoFill\s*\(/g, '$1sketch.noFill(')
+                .replace(/(^|[^.\w])\bstroke\s*\(/g, '$1sketch.stroke(')
+                .replace(/(^|[^.\w])\bnoStroke\s*\(/g, '$1sketch.noStroke(')
+                .replace(/(^|[^.\w])\bstrokeWeight\s*\(/g, '$1sketch.strokeWeight(')
+                .replace(/(^|[^.\w])\brect\s*\(/g, '$1sketch.rect(')
+                .replace(/(^|[^.\w])\bsquare\s*\(/g, '$1sketch.square(')
+                .replace(/(^|[^.\w])\bellipse\s*\(/g, '$1sketch.ellipse(')
+                .replace(/(^|[^.\w])\btriangle\s*\(/g, '$1sketch.triangle(')
+                .replace(/(^|[^.\w])\barc\s*\(/g, '$1sketch.arc(')
+                .replace(/(^|[^.\w])\btext\s*\(/g, '$1sketch.text(')
+                .replace(/(^|[^.\w])\brandom\s*\(/g, '$1sketch.random(')
+                .replace(/(^|[^.\w])\bcreateVector\s*\(/g, '$1sketch.createVector(')
+                .replace(/(^|[^.\w])\bsqrt\s*\(/g, '$1sketch.sqrt(')
+                .replace(/(^|[^.\w])\bpow\s*\(/g, '$1sketch.pow(')
                 // Replace width, height, mouseX, mouseY, frameCount only when used as standalone variables (not properties/methods)
-                .replace(/\bwidth\b(?![.\(])/g, 'p.width')
-                .replace(/\bheight\b(?![.\(])/g, 'p.height')
-                .replace(/\bmouseX\b(?![.\(])/g, 'p.mouseX')
-                .replace(/\bmouseY\b(?![.\(])/g, 'p.mouseY')
-                .replace(/\bframeCount\b(?![.\(])/g, 'p.frameCount')
+                // Must come AFTER function replacements to avoid conflicts
+                .replace(/\bwidth\b(?![.\w\(])/g, 'sketch.width')
+                .replace(/\bheight\b(?![.\w\(])/g, 'sketch.height')
+                .replace(/\bmouseX\b(?![.\w\(])/g, 'sketch.mouseX')
+                .replace(/\bmouseY\b(?![.\w\(])/g, 'sketch.mouseY')
+                .replace(/\bframeCount\b(?![.\w\(])/g, 'sketch.frameCount')
                 // Constants - only when standalone
-                .replace(/\bWEBGL\b(?![.\(])/g, 'p.WEBGL')
-                .replace(/\bCENTER\b(?![.\(])/g, 'p.CENTER')
-                .replace(/\bCORNER\b(?![.\(])/g, 'p.CORNER')
-                // p5.js functions - only replace when NOT preceded by a dot (to avoid replacing method calls)
-                // Using (^|[^.]) pattern to match start of line or non-dot character before the function
-                .replace(/(^|[^.])\bcreateCanvas\s*\(/g, '$1p.createCanvas(')
-                .replace(/(^|[^.])\bpixelDensity\s*\(/g, '$1p.pixelDensity(')
-                .replace(/(^|[^.])\bframeRate\s*\(/g, '$1p.frameRate(')
-                .replace(/(^|[^.])\bloadFont\s*\(/g, '$1p.loadFont(')
-                .replace(/(^|[^.])\bbackground\s*\(/g, '$1p.background(')
-                .replace(/(^|[^.])\btextFont\s*\(/g, '$1p.textFont(')
-                .replace(/(^|[^.])\bpush\s*\(/g, '$1p.push(')
-                .replace(/(^|[^.])\bpop\s*\(/g, '$1p.pop(')
-                .replace(/(^|[^.])\btranslate\s*\(/g, '$1p.translate(')
-                .replace(/(^|[^.])\bscale\s*\(/g, '$1p.scale(')
-                .replace(/(^|[^.])\bmap\s*\(/g, '$1p.map(')
-                .replace(/(^|[^.])\bradians\s*\(/g, '$1p.radians(')
-                .replace(/(^|[^.])\bdegrees\s*\(/g, '$1p.degrees(')
-                .replace(/(^|[^.])\bsin\s*\(/g, '$1p.sin(')
-                .replace(/(^|[^.])\bcos\s*\(/g, '$1p.cos(')
-                .replace(/(^|[^.])\btan\s*\(/g, '$1p.tan(')
-                .replace(/(^|[^.])\basin\s*\(/g, '$1p.asin(')
-                .replace(/(^|[^.])\bacos\s*\(/g, '$1p.acos(')
-                .replace(/(^|[^.])\batan\s*\(/g, '$1p.atan(')
-                .replace(/(^|[^.])\batan2\s*\(/g, '$1p.atan2(')
-                .replace(/(^|[^.])\brotate\s*\(/g, '$1p.rotate(')
-                .replace(/(^|[^.])\brotateY\s*\(/g, '$1p.rotateY(')
-                .replace(/(^|[^.])\brotateX\s*\(/g, '$1p.rotateX(')
-                .replace(/(^|[^.])\brectMode\s*\(/g, '$1p.rectMode(')
-                .replace(/(^|[^.])\btextAlign\s*\(/g, '$1p.textAlign(')
-                .replace(/(^|[^.])\btextSize\s*\(/g, '$1p.textSize(')
-                .replace(/(^|[^.])\btextWidth\s*\(/g, '$1p.textWidth(')
-                .replace(/(^|[^.])\bfill\s*\(/g, '$1p.fill(')
-                .replace(/(^|[^.])\bnoFill\s*\(/g, '$1p.noFill(')
-                .replace(/(^|[^.])\bstroke\s*\(/g, '$1p.stroke(')
-                .replace(/(^|[^.])\bnoStroke\s*\(/g, '$1p.noStroke(')
-                .replace(/(^|[^.])\bstrokeWeight\s*\(/g, '$1p.strokeWeight(')
-                .replace(/(^|[^.])\brect\s*\(/g, '$1p.rect(')
-                .replace(/(^|[^.])\bsquare\s*\(/g, '$1p.square(')
-                .replace(/(^|[^.])\bellipse\s*\(/g, '$1p.ellipse(')
-                .replace(/(^|[^.])\btriangle\s*\(/g, '$1p.triangle(')
-                .replace(/(^|[^.])\btext\s*\(/g, '$1p.text(')
-                .replace(/(^|[^.])\brandom\s*\(/g, '$1p.random(');
+                .replace(/\bWEBGL\b(?![.\w\(])/g, 'sketch.WEBGL')
+                .replace(/\bCENTER\b(?![.\w\(])/g, 'sketch.CENTER')
+                .replace(/\bCORNER\b(?![.\w\(])/g, 'sketch.CORNER')
+                .replace(/\bTWO_PI\b(?![.\w\(])/g, 'sketch.TWO_PI')
+                .replace(/\bPI\b(?![.\w\(])/g, 'sketch.PI');
               
               // Only set up mouse wrapper if sketch uses mouse controls
               let finalCode = modifiedCode;
@@ -127,8 +137,8 @@ if ($jsFile) {
                 
                 // Replace mouseX/mouseY in code with wrapper functions
                 let codeWithMouseWrapper = modifiedCode
-                  .replace(/\bp\.mouseX\b/g, 'window["' + getMouseXKey + '"]()')
-                  .replace(/\bp\.mouseY\b/g, 'window["' + getMouseYKey + '"]()');
+                  .replace(/\bsketch\.mouseX\b/g, 'window["' + getMouseXKey + '"]()')
+                  .replace(/\bsketch\.mouseY\b/g, 'window["' + getMouseYKey + '"]()');
                 
                 // Wrap code with mouse interceptor functions
                 // When disabled, always return center values (width/2) for neutral rotation
@@ -139,25 +149,25 @@ if ($jsFile) {
                 finalCode = 
                   'window["' + getMouseXKey + '"] = function() { ' +
                   '  if (window["' + mouseStateKey + '"]) { ' +
-                  '    const mx = p.mouseX; ' +
+                  '    const mx = sketch.mouseX; ' +
                   '    if (mx === 0 || mx === undefined) { ' +
-                  '      return p.width / 2; ' +
+                  '      return sketch.width / 2; ' +
                   '    } ' +
                   '    window["' + lastMouseXKey + '"] = mx; ' +
                   '    return mx; ' +
                   '  } ' +
-                  '  return p.width / 2; ' +
+                  '  return sketch.width / 2; ' +
                   '}; ' +
                   'window["' + getMouseYKey + '"] = function() { ' +
                   '  if (window["' + mouseStateKey + '"]) { ' +
-                  '    const my = p.mouseY; ' +
+                  '    const my = sketch.mouseY; ' +
                   '    if (my === 0 || my === undefined) { ' +
-                  '      return p.width / 2; ' +
+                  '      return sketch.width / 2; ' +
                   '    } ' +
                   '    window["' + lastMouseYKey + '"] = my; ' +
                   '    return my; ' +
                   '  } ' +
-                  '  return p.width / 2; ' +
+                  '  return sketch.width / 2; ' +
                   '}; ' +
                   codeWithMouseWrapper;
               }
@@ -170,12 +180,12 @@ if ($jsFile) {
                   return;
                 }
                 
-                new p5(function(p) {
+                new p5(function(sketch) {
                   try {
                     // Replace createCanvas calls to use container width dynamically
                     const modifiedWrappedCode = finalCode.replace(
-                      /p\.createCanvas\((\d+),\s*(\d+)/g,
-                      `p.createCanvas(${containerWidth}, ${containerWidth}`
+                      /sketch\.createCanvas\((\d+),\s*(\d+)/g,
+                      `sketch.createCanvas(${containerWidth}, ${containerWidth}`
                     );
                     
                     eval(modifiedWrappedCode);
@@ -186,8 +196,8 @@ if ($jsFile) {
                       clearTimeout(resizeTimeout);
                       resizeTimeout = setTimeout(() => {
                         const newWidth = container.offsetWidth || containerWidth;
-                        if (p.width !== newWidth && newWidth > 0) {
-                          p.resizeCanvas(newWidth, newWidth);
+                        if (sketch.width !== newWidth && newWidth > 0) {
+                          sketch.resizeCanvas(newWidth, newWidth);
                         }
                       }, 100);
                     };
@@ -214,7 +224,7 @@ if ($jsFile) {
                           });
                         }
                       }, 0);
-                    })(containerId, '<?= $canvasId ?>_mouseEnabled', p);
+                    })(containerId, '<?= $canvasId ?>_mouseEnabled', sketch);
                     <?php endif ?>
                   } catch (error) {
                     console.error('Sketch loading error:', error);

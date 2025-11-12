@@ -1,5 +1,5 @@
 let bg = '#f1f1f1';
-let fg = 'rgb(254, 255, 92)';
+let fg = '#cccccc';
 
 let txt = "«Vera Molnar is one of the very few artists who had the conviction and perseverance to make computer-based visual art at a time when it was not taken seriously as an art form, with critics denouncing the emergent form since they did not believe that the artist’s hand was evident in the work,» Michael Bouhanna, the global head of digital art at Sotheby’s, wrote in an email.";
 let words;
