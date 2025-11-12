@@ -1,4 +1,4 @@
-let palette = ['#f1f1f1', '#cccccc', '#777777', '#3e3e3e'];
+let palette = ['#f1f1f1', '#000000', '#292929', '#3e3e3e'];
 let numFrames = 70;
 
 function setup() {

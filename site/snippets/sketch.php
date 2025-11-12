@@ -10,7 +10,7 @@ $canvasId = 'sketch-' . $sketch->slug();
 $hasMouseControls = false;
 if ($jsFile) {
   $sketchContent = $jsFile->read();
-  $hasMouseControls = preg_match('/\bmouseX\b|\bmouseY\b/i', $sketchContent) === 1;
+  $hasMouseControls = preg_match('/\bmouseX\b|\bmouseY\b|\bmouseIsPressed\b/i', $sketchContent) === 1;
 }
 
 ?>
@@ -51,7 +51,7 @@ if ($jsFile) {
             })
             .then(code => {
               // Check if code uses mouse controls
-              const hasMouseControls = /\bmouseX\b|\bmouseY\b/i.test(code);
+              const hasMouseControls = /\bmouseX\b|\bmouseY\b|\bmouseIsPressed\b/i.test(code);
               
               // Transform global mode code to instance mode
               // Use 'sketch' as instance variable name to avoid conflicts with function parameters named 'p'
@@ -105,12 +105,17 @@ if ($jsFile) {
                 .replace(/(^|[^.\w])\bcreateVector\s*\(/g, '$1sketch.createVector(')
                 .replace(/(^|[^.\w])\bsqrt\s*\(/g, '$1sketch.sqrt(')
                 .replace(/(^|[^.\w])\bpow\s*\(/g, '$1sketch.pow(')
+                .replace(/(^|[^.\w])\blerp\s*\(/g, '$1sketch.lerp(')
+                .replace(/(^|[^.\w])\bfloor\s*\(/g, '$1sketch.floor(')
+                .replace(/(^|[^.\w])\bpoint\s*\(/g, '$1sketch.point(')
+                .replace(/(^|[^.\w])\brandomSeed\s*\(/g, '$1sketch.randomSeed(')
                 // Replace width, height, mouseX, mouseY, frameCount only when used as standalone variables (not properties/methods)
                 // Must come AFTER function replacements to avoid conflicts
                 .replace(/\bwidth\b(?![.\w\(])/g, 'sketch.width')
                 .replace(/\bheight\b(?![.\w\(])/g, 'sketch.height')
                 .replace(/\bmouseX\b(?![.\w\(])/g, 'sketch.mouseX')
                 .replace(/\bmouseY\b(?![.\w\(])/g, 'sketch.mouseY')
+                .replace(/\bmouseIsPressed\b(?![.\w\(])/g, 'sketch.mouseIsPressed')
                 .replace(/\bframeCount\b(?![.\w\(])/g, 'sketch.frameCount')
                 // Constants - only when standalone
                 .replace(/\bWEBGL\b(?![.\w\(])/g, 'sketch.WEBGL')
@@ -135,10 +140,12 @@ if ($jsFile) {
                 window[lastMouseXKey] = null; // Store last mouse position before disabling
                 window[lastMouseYKey] = null;
                 
-                // Replace mouseX/mouseY in code with wrapper functions
+                // Replace mouseX/mouseY/mouseIsPressed in code with wrapper functions
+                const getMouseIsPressedKey = containerId + '_getMouseIsPressed';
                 let codeWithMouseWrapper = modifiedCode
                   .replace(/\bsketch\.mouseX\b/g, 'window["' + getMouseXKey + '"]()')
-                  .replace(/\bsketch\.mouseY\b/g, 'window["' + getMouseYKey + '"]()');
+                  .replace(/\bsketch\.mouseY\b/g, 'window["' + getMouseYKey + '"]()')
+                  .replace(/\bsketch\.mouseIsPressed\b/g, 'window["' + getMouseIsPressedKey + '"]()');
                 
                 // Wrap code with mouse interceptor functions
                 // When disabled, always return center values (width/2) for neutral rotation
@@ -168,6 +175,9 @@ if ($jsFile) {
                   '    return my; ' +
                   '  } ' +
                   '  return sketch.width / 2; ' +
+                  '}; ' +
+                  'window["' + getMouseIsPressedKey + '"] = function() { ' +
+                  '  return window["' + mouseStateKey + '"] ? sketch.mouseIsPressed : false; ' +
                   '}; ' +
                   codeWithMouseWrapper;
               }

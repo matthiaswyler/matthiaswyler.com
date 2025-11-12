@@ -1,4 +1,4 @@
-let fg= '#292929';
+let fg= '#000000';
 let bg='#f1f1f1';
 
 function setup() {
