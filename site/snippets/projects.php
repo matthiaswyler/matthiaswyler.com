@@ -1,5 +1,5 @@
 <?php foreach (page('projects')->children()->listed() as $project) : ?>
-  <div class="project columns">
+  <div class="project columns" data-tags="<?= html($project->tags()->isNotEmpty() ? implode(',', $project->tags()->split()) : '') ?>">
     <?php foreach ($project->matter()->toLayouts() as $layout) : ?>
       <?php foreach ($layout->columns() as $column) : ?>
         <div class="<?= $layout->attrs()->class() ?> column" style="--span:<?= $column->span() ?>">

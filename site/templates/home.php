@@ -1,6 +1,7 @@
 <?php snippet('layout', slots: true) ?>
 
 <section class="projects" style="--span: 8;">
+  <?php snippet('sorting'); ?>
   <?php snippet('projects'); ?>
 </section>
 
