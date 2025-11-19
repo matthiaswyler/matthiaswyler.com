@@ -2,7 +2,7 @@ Title: Kathrin Simmen Architekt:innen
 
 ----
 
-Matter: [{"attrs":{"class":"website","id":""},"columns":[{"blocks":[{"content":{"text":"<p>Webdeveloment</p>"},"id":"2c1ad356-46aa-439b-a6d0-79364ecb305a","isHidden":false,"type":"text"}],"id":"6ecb8c02-9dd9-4bce-b146-e48ef11366f1","width":"1/4"},{"blocks":[{"content":{"text":"<p><a href=\"https://www.kathrinsimmen.ch\">Kathrin Simmen</a></p>"},"id":"2a22dc68-63a7-400f-927d-2ae27274e71e","isHidden":false,"type":"text"}],"id":"5ca7a646-3221-498d-934e-2eb7b8fe0762","width":"3/4"}],"id":"a3689d6b-a218-45fb-8732-284da40682a1"}]
+Matter: [{"attrs":{"class":"website","id":""},"columns":[{"blocks":[{"content":{"text":"<p>Develoment</p>"},"id":"2c1ad356-46aa-439b-a6d0-79364ecb305a","isHidden":false,"type":"text"}],"id":"6ecb8c02-9dd9-4bce-b146-e48ef11366f1","width":"1/4"},{"blocks":[{"content":{"text":"<p><a href=\"https://www.kathrinsimmen.ch\" target=\"_blank\" title=\"Kathrin Simmen Studio Website\">Kathrin Simmen</a></p>"},"id":"2a22dc68-63a7-400f-927d-2ae27274e71e","isHidden":false,"type":"text"}],"id":"5ca7a646-3221-498d-934e-2eb7b8fe0762","width":"3/4"}],"id":"a3689d6b-a218-45fb-8732-284da40682a1"}]
 
 ----
 
