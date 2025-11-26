@@ -17,9 +17,6 @@
   <div class="text" style="--span: 1;">
     <a href="https://oeff.space">öff.space</a>
   </div>
-  <!-- <div class="text" style="--span: 1;">
-    <a href="mailto:mail@matthiaswyler.com">email</a>
-  </div> -->
 
   <button class="info" type="button" aria-label="Toggle information">
     <p>Info</p>

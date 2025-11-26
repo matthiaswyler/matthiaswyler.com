@@ -1,7 +1,7 @@
 <!--
 
-  Made by Matthias Wyler.
-  Say hello ~ matthiaswyler.com
+  Made by Studio Matthias Wyler
+  Say hello ~ mail@matthiaswyler.com
 
 -->
 <!DOCTYPE html>
