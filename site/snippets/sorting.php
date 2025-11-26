@@ -18,6 +18,11 @@ sort($allTags);
 	<button class="sorting-button" data-tag="all" aria-pressed="false" aria-label="Show all projects">
 		All
 	</button>
+	<?php if ($p5Page = page('p5')) : ?>
+		<a href="<?= $p5Page->url() ?>" class="sorting-button" aria-label="Go to p5.js sketches">
+			p5.js
+		</a>
+	<?php endif ?>
 	<?php foreach ($allTags as $tag) : ?>
 		<button class="sorting-button" data-tag="<?= html($tag) ?>" aria-pressed="false" aria-label="Filter projects by <?= html($tag) ?>">
 			<?= html($tag) ?>
@@ -79,6 +84,9 @@ sort($allTags);
 
 			// Set up click handlers
 			sortingButtons.forEach(button => {
+				// Skip if it's a link (p5.js button)
+				if (button.tagName === 'A') return;
+
 				button.addEventListener('click', function() {
 					const selectedTag = this.getAttribute('data-tag');
 					filterByTag(selectedTag, this);
@@ -93,10 +101,11 @@ sort($allTags);
 				});
 			});
 
-			// Randomly select a tag on page load
-			const availableTags = Array.from(sortingButtons).map(btn => btn.getAttribute('data-tag'));
+			// Randomly select a tag on page load (exclude p5.js link)
+			const filterButtons = Array.from(sortingButtons).filter(btn => btn.tagName === 'BUTTON');
+			const availableTags = filterButtons.map(btn => btn.getAttribute('data-tag'));
 			const randomTag = availableTags[Math.floor(Math.random() * availableTags.length)];
-			const randomButton = Array.from(sortingButtons).find(btn => btn.getAttribute('data-tag') === randomTag);
+			const randomButton = filterButtons.find(btn => btn.getAttribute('data-tag') === randomTag);
 			filterByTag(randomTag, randomButton);
 		}
 
