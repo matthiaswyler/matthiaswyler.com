@@ -12,21 +12,37 @@ foreach ($projects as $project) {
 
 $allTags = array_unique($allTags);
 sort($allTags);
+
+// Check if we're on the p5 page
+$isP5Page = $page->id() === 'p5';
+$homePage = page('home');
 ?>
 
 <nav class="sorting" aria-label="Filter projects by tag">
-	<button class="sorting-button" data-tag="all" aria-pressed="false" aria-label="Show all projects">
-		All
-	</button>
+	<?php if ($isP5Page) : ?>
+		<a href="<?= $homePage->url() ?>" class="sorting-button" aria-label="Show all projects">
+			All
+		</a>
+	<?php else : ?>
+		<button class="sorting-button" data-tag="all" aria-pressed="false" aria-label="Show all projects">
+			All
+		</button>
+	<?php endif ?>
 	<?php if ($p5Page = page('p5')) : ?>
-		<a href="<?= $p5Page->url() ?>" class="sorting-button" aria-label="Go to p5.js sketches">
+		<a href="<?= $p5Page->url() ?>" class="sorting-button<?= $isP5Page ? ' active' : '' ?>" aria-label="Go to p5.js sketches"<?= $isP5Page ? ' aria-current="page"' : '' ?>>
 			p5.js
 		</a>
 	<?php endif ?>
 	<?php foreach ($allTags as $tag) : ?>
-		<button class="sorting-button" data-tag="<?= html($tag) ?>" aria-pressed="false" aria-label="Filter projects by <?= html($tag) ?>">
-			<?= html($tag) ?>
-		</button>
+		<?php if ($isP5Page) : ?>
+			<a href="<?= $homePage->url() ?>#<?= html($tag) ?>" class="sorting-button" aria-label="Filter projects by <?= html($tag) ?>">
+				<?= html($tag) ?>
+			</a>
+		<?php else : ?>
+			<button class="sorting-button" data-tag="<?= html($tag) ?>" aria-pressed="false" aria-label="Filter projects by <?= html($tag) ?>">
+				<?= html($tag) ?>
+			</button>
+		<?php endif ?>
 	<?php endforeach ?>
 </nav>
 <div class="sorting-status sr-only" aria-live="polite" aria-atomic="true" role="status"></div>
@@ -51,6 +67,13 @@ sort($allTags);
 				if (buttonElement) {
 					buttonElement.classList.add('active');
 					buttonElement.setAttribute('aria-pressed', 'true');
+				}
+
+				// Update URL hash (remove hash for "all")
+				if (selectedTag === 'all') {
+					window.history.replaceState(null, '', window.location.pathname);
+				} else {
+					window.history.replaceState(null, '', `#${selectedTag}`);
 				}
 
 				// Filter projects and count visible
@@ -101,12 +124,46 @@ sort($allTags);
 				});
 			});
 
-			// Randomly select a tag on page load (exclude p5.js link)
-			const filterButtons = Array.from(sortingButtons).filter(btn => btn.tagName === 'BUTTON');
-			const availableTags = filterButtons.map(btn => btn.getAttribute('data-tag'));
-			const randomTag = availableTags[Math.floor(Math.random() * availableTags.length)];
-			const randomButton = filterButtons.find(btn => btn.getAttribute('data-tag') === randomTag);
-			filterByTag(randomTag, randomButton);
+			// Check for hash in URL and apply filter, otherwise randomly select a tag
+			const p5Link = document.querySelector('.sorting-button[href*="p5"]');
+			const isP5Page = p5Link && p5Link.classList.contains('active');
+			
+			if (!isP5Page) {
+				const filterButtons = Array.from(sortingButtons).filter(btn => btn.tagName === 'BUTTON');
+				const hash = window.location.hash.slice(1); // Remove #
+				
+				if (hash && hash !== '') {
+					// Apply filter from URL hash
+					const hashButton = filterButtons.find(btn => btn.getAttribute('data-tag') === hash);
+					if (hashButton) {
+						filterByTag(hash, hashButton);
+					} else if (hash === 'all') {
+						// Handle "all" case
+						const allButton = filterButtons.find(btn => btn.getAttribute('data-tag') === 'all');
+						if (allButton) {
+							filterByTag('all', allButton);
+						} else {
+							// Fallback to random if "all" button not found
+							const availableTags = filterButtons.map(btn => btn.getAttribute('data-tag'));
+							const randomTag = availableTags[Math.floor(Math.random() * availableTags.length)];
+							const randomButton = filterButtons.find(btn => btn.getAttribute('data-tag') === randomTag);
+							filterByTag(randomTag, randomButton);
+						}
+					} else {
+						// Invalid hash, apply random filter
+						const availableTags = filterButtons.map(btn => btn.getAttribute('data-tag'));
+						const randomTag = availableTags[Math.floor(Math.random() * availableTags.length)];
+						const randomButton = filterButtons.find(btn => btn.getAttribute('data-tag') === randomTag);
+						filterByTag(randomTag, randomButton);
+					}
+				} else {
+					// No hash, randomly select a tag
+					const availableTags = filterButtons.map(btn => btn.getAttribute('data-tag'));
+					const randomTag = availableTags[Math.floor(Math.random() * availableTags.length)];
+					const randomButton = filterButtons.find(btn => btn.getAttribute('data-tag') === randomTag);
+					filterByTag(randomTag, randomButton);
+				}
+			}
 		}
 
 		if (document.readyState === 'loading') {

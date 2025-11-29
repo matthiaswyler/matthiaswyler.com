@@ -1,10 +1,11 @@
 User-agent: *
-Allow: /
 Disallow: /panel/
 Disallow: /kirby/
 Disallow: /site/
+Disallow: /vendor/
+Disallow: /content/
 
-# Prevent access to media files with these extensions
+# Block common config and data files
 Disallow: /*.json$
 Disallow: /*.txt$
 Disallow: /*.yml$
