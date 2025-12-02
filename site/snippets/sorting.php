@@ -58,7 +58,7 @@ $homePage = page('home');
 			const statusElement = document.querySelector('.sorting-status');
 			
 			// Extract filtering logic into reusable function
-			function filterByTag(selectedTag, buttonElement) {
+			function filterByTag(selectedTag, buttonElement, updateUrl = true) {
 				// Update button states
 				sortingButtons.forEach(btn => {
 					btn.classList.remove('active');
@@ -70,10 +70,12 @@ $homePage = page('home');
 				}
 
 				// Update URL hash (remove hash for "all")
-				if (selectedTag === 'all') {
-					window.history.replaceState(null, '', window.location.pathname);
-				} else {
-					window.history.replaceState(null, '', `#${selectedTag}`);
+				if (updateUrl) {
+					if (selectedTag === 'all') {
+						window.history.replaceState(null, '', window.location.pathname);
+					} else {
+						window.history.replaceState(null, '', `#${selectedTag}`);
+					}
 				}
 
 				// Filter projects and count visible
@@ -133,35 +135,37 @@ $homePage = page('home');
 				const hash = window.location.hash.slice(1); // Remove #
 				
 				if (hash && hash !== '') {
-					// Apply filter from URL hash
+					// Apply filter from URL hash (without updating URL)
 					const hashButton = filterButtons.find(btn => btn.getAttribute('data-tag') === hash);
 					if (hashButton) {
-						filterByTag(hash, hashButton);
+						filterByTag(hash, hashButton, false);
 					} else if (hash === 'all') {
 						// Handle "all" case
 						const allButton = filterButtons.find(btn => btn.getAttribute('data-tag') === 'all');
 						if (allButton) {
-							filterByTag('all', allButton);
+							filterByTag('all', allButton, false);
 						} else {
 							// Fallback to random if "all" button not found
 							const availableTags = filterButtons.map(btn => btn.getAttribute('data-tag'));
 							const randomTag = availableTags[Math.floor(Math.random() * availableTags.length)];
 							const randomButton = filterButtons.find(btn => btn.getAttribute('data-tag') === randomTag);
-							filterByTag(randomTag, randomButton);
+							filterByTag(randomTag, randomButton, false);
 						}
 					} else {
 						// Invalid hash, apply random filter
 						const availableTags = filterButtons.map(btn => btn.getAttribute('data-tag'));
 						const randomTag = availableTags[Math.floor(Math.random() * availableTags.length)];
 						const randomButton = filterButtons.find(btn => btn.getAttribute('data-tag') === randomTag);
-						filterByTag(randomTag, randomButton);
+						filterByTag(randomTag, randomButton, false);
 					}
+					// Clean URL hash after applying filter
+					window.history.replaceState(null, '', window.location.pathname);
 				} else {
 					// No hash, randomly select a tag
 					const availableTags = filterButtons.map(btn => btn.getAttribute('data-tag'));
 					const randomTag = availableTags[Math.floor(Math.random() * availableTags.length)];
 					const randomButton = filterButtons.find(btn => btn.getAttribute('data-tag') === randomTag);
-					filterByTag(randomTag, randomButton);
+					filterByTag(randomTag, randomButton, false);
 				}
 			}
 		}
