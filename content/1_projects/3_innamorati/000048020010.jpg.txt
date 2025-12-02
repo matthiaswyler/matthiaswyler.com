@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: 
+
+----
+
+Uuid: ipwgxsee64plg4sf
+
+----
+
+Template: blocks/image
