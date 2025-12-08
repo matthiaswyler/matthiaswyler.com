@@ -4,8 +4,8 @@
   Say hello ~ mail@matthiaswyler.com
 
 -->
-<!DOCTYPE html>
-<html lang="en" prefix="og: <?= $page->url() ?>">
+<!doctype html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">

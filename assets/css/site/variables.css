@@ -30,9 +30,9 @@
 	--logo-size: 72px;
 
 	/* Fonts */
-	--font-sans: helvetica neue, sans-serif;
-	--font-studio: "Studio", helvetica neue, sans-serif;
-	--font-system: "System", helvetica neue, sans-serif;
+	--font-sans: 'Helvetica Neue', sans-serif;
+	--font-studio: "Studio", 'Helvetica Neue', sans-serif;
+	--font-system: "System", 'Helvetica Neue', sans-serif;
 	--font-thin: 300;
 	--font-thin: 300;
 	--font-normal: 400;

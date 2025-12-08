@@ -1,11 +1,8 @@
 .life {
 	padding-bottom: var(--spacing-16);
 	scroll-padding-bottom: var(--spacing-16);
-	background-image: url('/assets/files/life-bg-texture.png');
 	overflow: auto;
     min-height: 100vh;
-    background-size: 1300px;
-    background-repeat: repeat;
 }
 
 
