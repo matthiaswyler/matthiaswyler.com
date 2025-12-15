@@ -109,6 +109,12 @@ if ($jsFile) {
                 .replace(/(^|[^.\w])\bfloor\s*\(/g, '$1sketch.floor(')
                 .replace(/(^|[^.\w])\bpoint\s*\(/g, '$1sketch.point(')
                 .replace(/(^|[^.\w])\brandomSeed\s*\(/g, '$1sketch.randomSeed(')
+                .replace(/(^|[^.\w])\bbeginShape\s*\(/g, '$1sketch.beginShape(')
+                .replace(/(^|[^.\w])\bendShape\s*\(/g, '$1sketch.endShape(')
+                .replace(/(^|[^.\w])\bvertex\s*\(/g, '$1sketch.vertex(')
+                .replace(/(^|[^.\w])\bdist\s*\(/g, '$1sketch.dist(')
+                .replace(/(^|[^.\w])\bmax\s*\(/g, '$1sketch.max(')
+                .replace(/(^|[^.\w])\bmin\s*\(/g, '$1sketch.min(')
                 // Replace width, height, mouseX, mouseY, frameCount only when used as standalone variables (not properties/methods)
                 // Must come AFTER function replacements to avoid conflicts
                 .replace(/\bwidth\b(?![.\w\(])/g, 'sketch.width')
@@ -122,7 +128,8 @@ if ($jsFile) {
                 .replace(/\bCENTER\b(?![.\w\(])/g, 'sketch.CENTER')
                 .replace(/\bCORNER\b(?![.\w\(])/g, 'sketch.CORNER')
                 .replace(/\bTWO_PI\b(?![.\w\(])/g, 'sketch.TWO_PI')
-                .replace(/\bPI\b(?![.\w\(])/g, 'sketch.PI');
+                .replace(/\bPI\b(?![.\w\(])/g, 'sketch.PI')
+                .replace(/\bCLOSE\b(?![.\w\(])/g, 'sketch.CLOSE');
               
               // Only set up mouse wrapper if sketch uses mouse controls
               let finalCode = modifiedCode;

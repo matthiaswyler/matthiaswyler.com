@@ -1,9 +1,3 @@
-<!--
-
-  Made by Studio Matthias Wyler
-  Say hello ~ mail@matthiaswyler.com
-
--->
 <!doctype html>
 <html lang="en">
 
@@ -26,6 +20,10 @@
     <?= css(['assets/css/index.css']) ?>
 
     <?php snippet('plausible'); ?>
+
+    <script>
+        console.log('%cMade by Studio Matthias Wyler\n%cSay hello ~ %cmail@matthiaswyler.com', 'color: #666; font-size: 12px; line-height: 1.5;', 'color: #666; font-size: 12px; line-height: 1.5;', 'color: #666; font-size: 12px; line-height: 1.5; text-decoration: underline;');
+    </script>
 </head>
 
 <body data-url="/<?= $page->uri() ?>">
