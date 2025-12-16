@@ -15,7 +15,7 @@
         "getkirby/cms": "^5.2.0",
         "getkirby/cli": "^1.9",
         "tobimori/kirby-seo": "^2.0.0-alpha.1",
-        "floriankarsten/kirby-plausible": "*",
+        "johannschopplich/kirby-plausible": "^1.0",
         "distantnative/retour-for-kirby": "^5.5.0",
         "medienbaecker/kirby-alter": "^1.7.0"
     },

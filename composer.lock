@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6c596a25662897dec28d643e7e843ec9",
+    "content-hash": "bd96886addbcae31b5612ea9948d7be6",
     "packages": [
         {
             "name": "christian-riesen/base32",
@@ -313,41 +313,6 @@
                 }
             ],
             "time": "2025-08-08T12:00:00+00:00"
-        },
-        {
-            "name": "floriankarsten/kirby-plausible",
-            "version": "0.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/floriankarsten/kirby-plausible.git",
-                "reference": "4a44e792e55da23a2420570362fe0add09f94840"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/floriankarsten/kirby-plausible/zipball/4a44e792e55da23a2420570362fe0add09f94840",
-                "reference": "4a44e792e55da23a2420570362fe0add09f94840",
-                "shasum": ""
-            },
-            "require": {
-                "getkirby/cms": "^4.0 || ^5.0",
-                "getkirby/composer-installer": "^1.1"
-            },
-            "type": "kirby-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Florian Karsten",
-                    "email": "code@floriankarsten.com"
-                }
-            ],
-            "support": {
-                "issues": "https://github.com/floriankarsten/kirby-plausible/issues",
-                "source": "https://github.com/floriankarsten/kirby-plausible/tree/0.3.0"
-            },
-            "time": "2025-05-29T10:23:28+00:00"
         },
         {
             "name": "getkirby/cli",
@@ -886,6 +851,55 @@
                 }
             ],
             "time": "2025-08-23T21:21:41+00:00"
+        },
+        {
+            "name": "johannschopplich/kirby-plausible",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johannschopplich/kirby-plausible.git",
+                "reference": "bfd8738efd1b0d6302916ee559324b9805d580a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johannschopplich/kirby-plausible/zipball/bfd8738efd1b0d6302916ee559324b9805d580a9",
+                "reference": "bfd8738efd1b0d6302916ee559324b9805d580a9",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.2"
+            },
+            "require-dev": {
+                "getkirby/cms": "^5"
+            },
+            "type": "kirby-plugin",
+            "extra": {
+                "kirby-cms-path": false
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Johann Schopplich",
+                    "email": "hello@johannschopplich.com",
+                    "homepage": "https://johannschopplich.com"
+                }
+            ],
+            "description": "Plausible integration for Kirby CMS",
+            "homepage": "https://github.com/johannschopplich/kirby-plausible#readme",
+            "keywords": [
+                "analytics",
+                "getkirby",
+                "kirby",
+                "kirby-cms",
+                "plausible"
+            ],
+            "support": {
+                "source": "https://github.com/johannschopplich/kirby-plausible/tree/v1.0.3"
+            },
+            "time": "2025-07-04T11:41:15+00:00"
         },
         {
             "name": "laminas/laminas-escaper",
