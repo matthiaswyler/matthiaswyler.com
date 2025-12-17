@@ -2,18 +2,8 @@ Title: Now
 
 ----
 
-Text:
-
-01.10.2025  08:56:03 (GMT+2)
-— 
-At present – and doesn't that phrase always suggest a certain precarity, a sense that by the time you've finished reading this sentence the present will have already slipped into something else entirely? I find myself engaged in three acts of transmission, three small pedagogies that have, without my quite meaning them to, become the organizing principle of my days.
-
-The first involves my daughter, who is little still, and together we are building a (link: https://rosawyler.com text: Rosa's Website). The second is more solitary: I'm reading (link: https://en.wikipedia.org/wiki/Martyr!#:~:text=Martyr!%20is%20the%202024%20debut,with%20the%20idea%20of%20martyrdom. text: Kaveh Akbar's Martyr!), and it's very good—almost done now, in that bittersweet way where you're racing toward the end because you need to know what happens but also parceling out the remaining pages because you're not ready for it to be over. This is what good books do to us, isn't it? They make us ridiculous.
-
-And the third: I'm preparing a small course for graphic design students, teaching them (link: https://processing.org text: Processing), which means I'm about to attempt to explain to a roomful of people who think primarily in images how to think in code, how to make the computer sing in shapes and colors and movements. It's a kind of translation, really—from the visual to the syntactical and back again—and I suspect it will humble me in ways I haven't quite anticipated.
-
-All of which is to say: I'm doing what everyone does, I suppose. Trying to pass things on before they slip away.
+Template: now
 
 ----
 
-Uuid: ZQ3UW9HhJrp9rh2F
+Status: listed

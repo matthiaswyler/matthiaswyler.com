@@ -1,0 +1,29 @@
+Title: 17.12.25
+
+----
+
+Text:
+
+## What I'm doing now
+
+Updated December 2025, from my atelier on Langstrasse in Zürich.
+
+## Almost Christmas, almost no winter
+
+It's nearly Christmas but the winters keep getting warmer. Walking to work through Seefeld, it feels strange – no snow, just mild grey days. The kids don't seem to mind though. They're buzzing with excitement about the holidays.
+
+## Reading Adichie
+
+Currently reading [*Dream Count* by Chimamanda Ngozi Adichie](https://www.amazon.com/Dream-Count-Chimamanda-Ngozi-Adichie/dp/0593802721). Her clarity cuts through everything.
+
+## Publishing web projects
+
+Launching several client websites – architecture firms, cultural institutions, the usual mix. Each one built with Kirby CMS, everything multilingual, everything accessible. That sweet spot where design and code meet is where I live.
+
+----
+
+Date: 2025-12-17 08:55:00
+
+----
+
+Uuid: 7exmglfqk1rnrfzx

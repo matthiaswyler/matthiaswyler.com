@@ -1,6 +1,6 @@
 title: Note
 num: date
-icon: note
+icon: file-document
 
 status:
   draft:
@@ -16,7 +16,6 @@ columns:
       text:
         type: textarea
         size: large
-
   - width: 1/3
     sections:
       meta:
@@ -26,12 +25,6 @@ columns:
             type: date
             time: true
             default: now
-          cover:
-            type: files
-            max: 1
-            image:
-              cover: true
-            template: cover
       gallery:
         headline:
           en: All Images

@@ -1,17 +1,22 @@
 title: Notes
-icon: notes
+icon: folder
 
 columns:
   - width: 1/2
     sections:
-      drafts:
-        extends: sections/notes
-        headline: Drafts
-        status: draft
-        limit: 50
-  - width: 1/2
-    sections:
       listed:
         extends: sections/notes
-        headline: Published
+        headline: 
+          en: Published
+          de: Veröffentlicht
+          fr: Publié
         status: listed
+  - width: 1/2
+    sections:
+      drafts:
+        extends: sections/notes
+        headline: 
+          en: Archive
+          de: Archiv
+          fr: Archive
+        status: draft
